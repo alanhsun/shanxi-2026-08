@@ -2,7 +2,7 @@ schema_version: 1
 trip_id: "shanxi-2026-08"
 title: "东莞出发山西九日家庭自由行"
 timezone: Asia/Shanghai
-stage: detailed_review
+stage: approved
 publish: false
 start_date: "2026-08-15"
 end_date: "2026-08-23"
@@ -56,5 +56,5 @@ constraints:
   - "正餐尽量不辣"
   - "不自驾；城市间优先高铁，悬空寺至应县木塔及平遥至壶口等低效路段可包车"
   - "尽量不走回头路；主方案北进南出，接受最多3次换酒店"
-  - "人民币24000至36000元为路线评审阶段宽幅估算，不是消费上限"
-last_verified_at: "2026-07-31T23:10+08:00"
+  - "人民币24000至36000元为已批准的宽幅规划预算，不是消费上限；动态票价和房价以下单页为准"
+last_verified_at: "2026-07-31T23:22+08:00"

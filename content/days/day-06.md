@@ -64,8 +64,12 @@
 - 碗托默认可能加辣椒、蒜泥，必须要求酱汁分开。
 - 洪武记页面有游客反馈店方可做不辣版本，仍需下单时逐菜确认。
 
+## 近期游客避坑规则
+
+两篇近期平遥负面实录反复提到主动揽客的导游、三轮/电瓶车，以及拍照、拓印、按摩、纪念品等低价引流后加项。它们是个体经验，不否定古城本身，但足以形成统一规则：不回应未经邀请的揽客；城内核心点靠步行；需要车辆只选官方或明码标价渠道；任何体验在开始前问清**4人总价、包含项目、时长、成品能否带走**。不因“99元3件”等口号当场购买。
+
 ## 体力与替代方案
 
 全天预计步行6–7公里，分成上午和傍晚两段。若气温过高，城墙直接取消；降雨时优先票号、县衙和室内展馆。午休往返的两次打车已计入住宿节省后的交通余量。
 
-来源：`attraction-pingyao-unesco`、`attraction-pingyao-sites`、`pingyao-official`、`food-pingyao-hongwuji`、`food-pingyao-list`、`social-pingyao-cart`。
+来源：`attraction-pingyao-unesco`、`attraction-pingyao-sites`、`pingyao-official`、`food-pingyao-hongwuji`、`food-pingyao-list`、`social-pingyao-cart`、`xhs-pingyao-negative-20260717`、`xhs-pingyao-pitfall-20260617`、`dp-pingyao-food-20250502`。

@@ -21,3 +21,4 @@
 | 2026-08-01 | approved | 授权把公开脱敏版发布到GitHub Pages，并启用publish开关 | 用户明确要求使用其GitHub账户发布；发布仓库为alanhsun/shanxi-2026-08，仍不包含姓名、证件、订单凭证或账户信息 | trip.yaml；decisions.md；.github/workflows/pages.yml | 用户 |
 | 2026-08-01 | approved | 提出万信至格、宜尚PLUS、陌上轻奢、吉县汉庭组成的生活区住宿组合，暂不覆盖原首选 | 当前登录价8晚约4944元，扣除新增网约车后仍预计净省3600至3800元；平遥大床和大同1.2米双床等取舍需一次确认 | content/overview.md；data/accommodation.csv；data/sources.csv | 维护者，待用户确认具体酒店 |
 | 2026-08-01 | approved | 确认所有酒店大床和双床均可，并正式采用万信至格、宜尚PLUS、陌上轻奢、吉县汉庭组合 | 用户解除床型限制；该组合在评分和取消条件可接受时8晚约4944元，净节省足以覆盖新增网约车 | trip.yaml；content/overview.md；content/days；data/accommodation.csv；data/bookings.csv；data/budget.csv；data/transport.csv | 用户 |
+| 2026-08-01 | published | GitHub Pages公开脱敏版已上线 | GitHub Actions主分支部署成功，并实际访问核验标题、日期和行程正文；正式网址为https://alanhsun.github.io/shanxi-2026-08/ | trip.yaml；decisions.md；.github/workflows/pages.yml | 维护者 |

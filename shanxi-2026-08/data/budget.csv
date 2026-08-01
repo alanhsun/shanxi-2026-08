@@ -1,5 +1,5 @@
 category,item,planned_low_cny,planned_high_cny,actual_cny,status,source_id,notes
-往返大交通,东莞接驳及深圳大同与运城深圳开口程机票,10000,12000,,estimate,flight-szx-dat-0815,当前机票快照约10600元；出票前按含税行李和退改复核
+往返大交通,东莞接驳及深圳大同与运城深圳开口程机票,10000,12000,,estimate,flight-szx-dat-0815,两段主航班折合约10060元；加东莞机场接驳约800元；出票前按人民币含税价行李和退改复核
 住宿,4地8晚两间中高档客房,6400,9600,,estimate,,大同太原平遥吉县各2晚
 当地交通,高铁包车景交与市内交通,3500,5500,,estimate,route-north-south,D3和D7包车是主要成本
 门票讲解,核心景区门票讲解与预约服务,1600,2600,,estimate,yungang-2026,老人儿童优待以证件和景区当天政策为准

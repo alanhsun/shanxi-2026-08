@@ -18,3 +18,4 @@
 | 2026-08-01 | approved | 记录4地酒店登录价快照；暂不自动替换吉县首选 | 大同、太原、平遥均有可执行房型；吉州宾馆指定日期未显示可订房型，而同区域汉庭高级双床2间2晚约1356元且可取消；切换具体酒店仍等待用户确认 | content/overview.md；data/accommodation.csv；data/bookings.csv；data/sources.csv | 维护者，待用户确认吉县换店 |
 | 2026-08-01 | approved | 住宿不要求景区位置；允许优先城市生活区或古城外的高性价比酒店 | 用户明确表示非景区酒店性价比更高；后续比较将把新增打车费用和时间一并计入 | trip.yaml；content/overview.md；data/accommodation.csv；data/sources.csv | 用户 |
 | 2026-08-01 | approved | 提出万信至格、宜尚PLUS、陌上轻奢、吉县汉庭组成的生活区住宿组合，暂不覆盖原首选 | 当前登录价8晚约4944元，扣除新增网约车后仍预计净省3600至3800元；平遥大床和大同1.2米双床等取舍需一次确认 | content/overview.md；data/accommodation.csv；data/sources.csv | 维护者，待用户确认具体酒店 |
+| 2026-08-01 | approved | 确认所有酒店大床和双床均可，并正式采用万信至格、宜尚PLUS、陌上轻奢、吉县汉庭组合 | 用户解除床型限制；该组合在评分和取消条件可接受时8晚约4944元，净节省足以覆盖新增网约车 | trip.yaml；content/overview.md；content/days；data/accommodation.csv；data/bookings.csv；data/budget.csv；data/transport.csv | 用户 |

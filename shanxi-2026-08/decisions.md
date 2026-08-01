@@ -13,3 +13,5 @@
 | 2026-07-31 | detailed_review | 住宿首选定为大同宥庆、太原温德姆（山西博物院店）、又见文华、吉州宾馆，并保留同区域备选 | 兼顾接送、石板路、老人儿童休息与D9南向离境；具体房态和含税价仍需下单前复核 | content/overview.md；data/accommodation.csv；data/bookings.csv | 维护者，待用户详细定稿确认 |
 | 2026-07-31 | approved | 接受4家首选酒店、人民币24,000至36,000元宽幅预算及悬空寺不凌晨排线下票的执行原则 | 用户持续目标为“全部按推荐”；详细方案和近期验证均无须改变北进南出主线 | trip.yaml；content/overview.md；data/accommodation.csv；data/bookings.csv；research/social-validation.md | 用户 |
 | 2026-08-01 | approved | 所有外币票价统一按每1美元约6.80元人民币折算，并只用人民币展示比较 | 用户要求所有货币转换为人民币；统一汇率避免不同页面和旧汇率造成误判 | content/overview.md；content/days；data/transport.csv；data/bookings.csv；data/budget.csv；data/sources.csv | 用户 |
+| 2026-08-01 | approved | T-14复查后仍保留8月15日深圳直飞大同、8月23日运城直飞深圳主线 | 去程4人可见总价已涨至约8160元；晚一天出发、广州中转和太原进虽便宜约2920至3170元，但分别损失完整旅行日、要求凌晨出发或增加北向折返，均不同时满足“至少省2000元且门到门仅多不超过2小时”的替换条件 | content/overview.md；content/days/day-01.md；data/transport.csv；data/bookings.csv；data/budget.csv；data/sources.csv | 维护者 |
+| 2026-08-01 | approved | 在不改变24000至36000元总预算的前提下提高往返大交通分类上限，并将云冈预约改为可执行 | 两段主航班与东莞接驳现约12750元；8月16日云冈场次已进入官方15日预约期 | data/budget.csv；data/bookings.csv；content/overview.md | 维护者 |

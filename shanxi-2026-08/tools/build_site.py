@@ -66,10 +66,15 @@ def money(value: str | float | int | None) -> str:
 
 def markdown_html(path: Path) -> str:
     text = path.read_text(encoding="utf-8")
-    return markdown.markdown(
+    rendered = markdown.markdown(
         html.escape(text, quote=False),
         extensions=("extra", "sane_lists"),
         output_format="html5",
+    )
+    # Markdown tables need their own scroll container on narrow screens; without
+    # it, a wide itinerary table expands the entire page past the viewport.
+    return rendered.replace("<table>", '<div class="table-wrap"><table>').replace(
+        "</table>", "</table></div>"
     )
 
 

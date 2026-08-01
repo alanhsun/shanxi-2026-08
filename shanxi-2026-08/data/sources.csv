@@ -50,3 +50,14 @@ food-pingyao-tianyuankui,commercial,天元奎餐厅平遥古城南街店,https:/
 food-pingyao-list,commercial,Trip.com平遥餐厅榜单2026年7月,https://www.trip.com/restaurant/Pingyao-365/,,2026-08-01,2026-08-14,平遥餐厅备选,medium,榜单显示人在北方菜馆和胡记碗秃等近期仍有营业信息；当天以地图和电话为准
 food-wangjia-list,commercial,Trip.com灵石餐厅榜单2026年,https://www.trip.com/restaurant/lingshi-3011/,,2026-08-01,2026-08-14,D7王家大院午餐,medium,榜单包含王家味道王家大院店和崇宁堡温泉酒店餐厅；选王家味道以减少转场
 food-jixian-jizhou,commercial,吉州宾馆及二楼餐厅近期住客线索,https://hotels.ctrip.com/hotels/480783.html,,2026-08-01,2026-08-20,吉县县城用餐,low,住客评价提到二楼餐厅和早餐；并非餐厅正式营业公告；T-1由汉庭前台或电话确认是否接待非住客
+attraction-datong-ancient,official,大同古城历史与棋盘式格局,https://www.dt.gov.cn/english/placestovisit/202501/7016d8d1ad904f0bbca71a7d6ec9a01c.shtml,2026-03-25,2026-08-01,,大同古城与鼓楼背景,high,大同市政府介绍明洪武五年在历代旧城基础上增筑以及棋盘式街道格局
+attraction-yungang-unesco,official,UNESCO云冈石窟世界遗产说明,https://whc.unesco.org/en/list/1039/,,2026-08-01,,云冈石窟背景,high,252个洞窟和约51000尊造像；代表公元5至6世纪中国佛教石窟艺术
+attraction-datong-huayan,official,大同市政府华严寺介绍,https://www.dt.gov.cn/english/placestovisit/202501/ed041cbc2944459891140a2e12429c7d.shtml,2025-01-01,2026-08-01,,华严寺背景,high,用于大雄宝殿、薄伽教藏殿和辽代彩塑背景
+attraction-datong-shanhua,official,平城区政府善化寺介绍,https://www.pingcheng.gov.cn/pcqrmzfz/sqglcyjj/202009/914428d5ff3544d5b089166caa96ffd7.shtml,2020-09-01,2026-08-01,,善化寺背景,high,天王殿山门三圣殿大雄宝殿普贤阁为辽金建筑遗存
+attraction-xuankong-background,official,人民日报海外版悬空寺建筑介绍,https://paper.people.com.cn/rmrbhwb/page/2013-12/17/08/hwblytdc17c.pdf,2013-12-17,2026-08-01,,悬空寺背景,high,介绍传统创建年代与依崖架构的建筑特征；现存构件经历后世维修
+attraction-yingxian-background,official,中国数字科技馆应县木塔科普,https://www.cdstm.cn/museum/zphc/hxzg2017x/art/2017/art_47e4f5a92fd24944b0757e46969df732.html,2017-01-01,2026-08-01,,应县木塔背景,high,建于1056年；八角形外观五层夹四层暗层；通高67.31米
+attraction-jinci-background,official,晋祠古建筑与三绝三宝介绍,https://scjg.hebei.gov.cn/info/111090,,2026-08-01,,晋祠背景,medium,用于圣母殿鱼沼飞梁难老泉与古树亮点；开放规则仍以晋祠官网为准
+attraction-pingyao-unesco,official,UNESCO平遥古城世界遗产说明,https://whc.unesco.org/en/list/812/,,2026-08-01,,平遥古城与双林寺背景,high,遗产由古城及双林寺镇国寺组成；保存14至20世纪汉族城市特征
+attraction-pingyao-sites,official,平遥古城景点与日升昌文庙介绍,https://www.eco.gov.cn/news_info/40332.html,,2026-08-01,,平遥城墙县衙日升昌文庙城隍庙背景,medium,补充古城内代表性衙署票号和礼制建筑背景；开放点仍以景区当日公告为准
+attraction-wang-cctv,official,央视王家大院高家崖红门堡介绍,https://www.cctv.com/geography/special/C15699/20060516/102177.shtml,2006-05-16,2026-08-01,,王家大院背景,high,开放区域以高家崖红门堡和宗祠为核心；重点观察院落等级秩序与三雕
+attraction-hukou-geology,official,国家林草局壶口瀑布地貌介绍,https://www.forestry.gov.cn/c/www/dfdt/557042.jhtml,,2026-08-01,,壶口瀑布背景,high,黄河河面由数百米收束至约50米后跌入石槽形成壶口景观

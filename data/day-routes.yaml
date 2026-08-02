@@ -1,16 +1,16 @@
 schema_version: 1
 routes:
   - day_id: day-01
-    title: D1 东莞—深圳—大同
+    title: D1 东莞—广州—大同
     note: 跨省抵达日；东莞节点仅保留城市级描述，不公开具体住址。
     stops:
       - label: 东莞住处
-        detail: 06:10预约车出发
-      - label: 深圳宝安机场
-        detail: 值机、安检
-        url: https://uri.amap.com/search?keyword=深圳宝安国际机场&city=深圳
+        detail: 02:10预约车出发
+      - label: 广州白云机场T3
+        detail: 值机、安检、早餐补给
+        url: https://uri.amap.com/search?keyword=广州白云国际机场T3航站楼&city=广州
       - label: 大同云冈机场
-        detail: 13:20落地，取车验车
+        detail: 11:55落地，取车验车
         url: https://uri.amap.com/search?keyword=大同云冈国际机场&city=大同
       - label: 万信至格酒店
         detail: 入住、午休
@@ -19,11 +19,11 @@ routes:
         detail: 晚餐、慢走
         url: https://uri.amap.com/search?keyword=大同古城鼓楼&city=大同
       - label: 酒店
-        detail: 20:40前返回
+        detail: 20:30前返回
     segments:
-      - 预约车 · 约2小时
-      - 直飞 · 3小时15分
-      - 取车+自驾 · 约1小时20分
+      - 预约车 · 约2小时10分
+      - 同航班号经停武汉 · 5小时15分
+      - 取车+自驾 · 约1小时25分
       - 网约车 · 约20分
       - 网约车 · 约20分
 

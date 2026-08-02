@@ -28,3 +28,4 @@
 | 2026-08-02 | published | 为D1至D9增加默认折叠的SVG路线示意图及公开地点高德导航入口 | 用户同意采用路线示意图；矢量图比生成式图片更能保持中文地名、顺序和交通时间准确，且无需公开地图API密钥 | data/day-routes.yaml；tools/build_site.py；tools/site.css；content/version-tracking.md | 用户、维护者 |
 | 2026-08-02 | published | 为生成网页引用的样式文件增加基于核验时间的版本标识 | 线上检查发现旧浏览器缓存会让新SVG路线图缺少配色；版本化URL保证发布后立即加载当前样式 | tools/build_site.py；content/version-tracking.md | 维护者 |
 | 2026-08-02 | published | 增加小红书与大众点评餐饮研究比重并更正具体分店和点菜规则；不改变主路线 | 用户要求提高真实笔记和评论研究比重；新增阅读12篇小红书餐饮实吃并在正确目的地核对大众点评计划分店；聚合评分不冒充完整评论正文 | research/social-validation.md；content/dining-guide.md；content/days；data/sources.csv；data/day-routes.yaml | 用户、维护者 |
+| 2026-08-02 | published | 将山西省内交通改为大同机场取车、运城机场异地还车的租车自驾，并按驾驶与停车条件调整逐日安排 | 用户明确要求省内改为租车自驾；北进南出城市顺序无需改变，D5取消高铁换乘，D9提前出发并增加加油还车缓冲；总预算同步调整为人民币28000至41000元 | trip.yaml；content/overview.md；content/days；data/transport.csv；data/bookings.csv；data/budget.csv；data/day-routes.yaml | 用户、维护者 |

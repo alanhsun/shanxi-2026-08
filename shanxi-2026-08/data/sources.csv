@@ -15,9 +15,9 @@ hukou-official,official,山西黄河壶口瀑布旅游区开放信息,https://en
 datong-city,official,大同古城与云冈暑期文旅信息,https://www.dt.gov.cn/dt12345/rxdt1/202605/b1c6865c8c614f9e9b182e37c07242ee.shtml,2026-05-08,2026-07-31,2026-08-14,大同古城活动,medium,用于古城慢游背景；具体寺庙开放时间另行复核
 jin-temple,official,晋祠博物馆官方网站,https://www.jinci.com/,,2026-07-31,2026-08-14,晋祠,medium,路线确认后复核暑期开放时间门票和优待政策
 wang-courtyard,commercial,王家大院2026门票信息汇总,https://jz.bendibao.com/tour/jingdianbao/,,2026-07-31,2026-08-14,王家大院,medium,仅作路线评审；预订级定稿需替换为景区官方来源
-route-north-south,commercial,山西北中南成熟路线参考,https://daoyou.wutaishanlvyou.com/1780204605125151.html,,2026-07-31,2026-08-14,D3北向南包车串联,medium,用于验证悬空寺应县木塔太原的常见串联逻辑；车程需司机复核
+route-north-south,commercial,山西北中南成熟路线参考,https://daoyou.wutaishanlvyou.com/1780204605125151.html,,2026-07-31,2026-08-14,D3北向南自驾串联,medium,用于验证悬空寺应县木塔太原的常见串联逻辑；具体道路和车程需出发前用实时导航复核
 route-pingyao-hukou,commercial,平遥王家大院壶口成熟路线参考,https://www.uhutrip.com/showtccg.asp?ID=1383,,2026-07-31,2026-08-14,D7南向转场,medium,用于验证平遥经王家大院至壶口的常见串联逻辑
-route-hukou-ycu,commercial,壶口至运城约200公里车程参考,https://www.0755cts.com/expired/domestic/xian/0131595R018.html,,2026-07-31,2026-08-20,D9吉县至运城机场,medium,旅行社线路记录运城至吉县约200公里约3.5小时；出发前需司机和地图双重复核
+route-hukou-ycu,commercial,壶口至运城约200公里车程参考,https://www.0755cts.com/expired/domestic/xian/0131595R018.html,,2026-07-31,2026-08-20,D9吉县至运城机场,medium,旅行社线路记录运城至吉县约200公里约3.5小时；D8晚需按天气施工和实时导航再次复核
 yingxian-ctrip,commercial,应县木塔开放与参观信息,https://you.ctrip.com/sight/yingcounty3006/74400.html,,2026-07-31,2026-08-16,应县木塔,medium,页面显示暑期08:00至18:00且17:45停止入园；目前只开放一层参观并不允许登塔；下单前以景区公告为准
 jinci-hours-2026,commercial,晋祠博物馆2026年旺季开放时间公告转载,https://cj.sina.com.cn/articles/view/5812119316/15a6de71402001eu2a?froms=ggmp,2026-03-31,2026-07-31,2026-08-17,晋祠开放时间,medium,转载信息称4月1日起08:30至17:30开放且17:00停止入馆；出发前用晋祠官网再次复核
 hotel-datong-youqing,commercial,大同宥庆酒店大同古城华严寺店,https://hotels.ctrip.com/hotels/134295018.html,,2026-08-01,2026-08-02,大同住宿,medium,登录后查询8月15至17日2间房：特惠双床每间夜约631元；标准双床约679元；入住当天18:00前可免费取消；价格以结算页为准
@@ -112,3 +112,9 @@ xhs-hukou-fish-negative-20260526,community,小红书：壶口景区公路餐馆�
 xhs-yingxian-liangfen-negative-20260723,community,小红书：应县木塔前凉粉店面食负面体验,https://www.xiaohongshu.com/explore/6a61f2b20000000001031412,2026-07-23,2026-08-02,2026-08-16,D3应县午餐避坑,medium,账号兔小昕；记录凉粉专门店刀削面份量小并有排队争议；用于不在凉粉店点正餐面条
 xhs-yingxian-ernv-20260710,community,小红书：应县二女凉粉实吃,https://www.xiaohongshu.com/explore/6a509e6c0000000021018b4a,2026-07-10,2026-08-02,2026-08-16,D3应县午餐,medium,账号issxi；认可滴溜和凉粉但认为面皮与肉夹馍普通；午餐有队但周转快且评论中存在油腻分歧
 food-jixian-jizhou-review,community,吉州宾馆住客中餐厅评价,https://sg.trip.com/hotels/ji-county-hotel-detail-480783/jizhou-hotel/,,2026-08-02,2026-08-20,D7至D8吉县用餐,low,住客评价提到中餐厅价格友好和炸苹果；是否接待非住客及营业时间T-1电话确认
+rental-shenzhou-datong,commercial,神州租车大同网点页,https://datong.zuche.com/,,2026-08-02,2026-08-14,D1大同机场取车,high,页面列出大同云冈机场自助点并标注24小时；指定日期7座车型库存和异地还车资格仍须订单页确认
+rental-shenzhou-yuncheng,commercial,神州租车运城网点页,https://yuncheng.zuche.com/,,2026-08-02,2026-08-14,D9运城机场还车,high,页面列出运城盐湖机场服务点并标注24小时；具体还车入口和接驳方式须T-1向门店确认
+rental-shenzhou-rules,commercial,神州租车官网租车说明与费用项目,https://www.zuche.com/,,2026-08-02,2026-08-14,全程租车预订与验车,high,官网说明取车需有效身份证和中国驾驶证；费用可能包含车辆租赁及服务费基础服务费车辆整备费和异地还车等可选项目；完整价格以订单页为准
+rental-industry-standard,official,汽车租赁服务规范团体标准,https://www.crta.org.cn/webfile/upload/2024/08-12/09-04-110310855242284.pdf,2024-08-12,2026-08-02,2026-08-14,租车合同核对,medium,中国道路运输协会团体标准要求合同明示租金异地还车超时超里程和增值服务等费用并核验有效驾驶证；属于团体标准不等同法律法规
+xuankong-selfdrive-parking,official,北岳恒山景区自驾停车与景交换乘说明,https://www.byhs.net.cn/Travel_Guide/12.html,,2026-08-02,2026-08-16,D3悬空寺自驾,high,景区说明悬空寺原停车场不足300位；自驾车停恒山游客中心免费停车场后统一乘20元每人景交进入
+pingyao-south-parking,commercial,高德地图平遥古城小南门停车场,https://ditu.amap.com/place/B0FFIDO7BC,,2026-08-02,2026-08-20,D5至D6平遥停车备选,medium,只作城外公共停车位置参考；主方案仍将车辆留酒店免费停车并打车入古城

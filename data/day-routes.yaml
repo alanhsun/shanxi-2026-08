@@ -68,9 +68,9 @@ routes:
       - label: 悬空寺
         detail: 寺下观景为保底
         url: https://uri.amap.com/search?keyword=悬空寺&city=大同
-      - label: 小媳妇凉粉
+      - label: 二女凉粉
         detail: 应县午餐
-        url: https://uri.amap.com/search?keyword=小媳妇凉粉应元街店&city=朔州
+        url: https://uri.amap.com/search?keyword=二女凉粉应县木塔&city=朔州
       - label: 应县木塔
         detail: 外观与首层
         url: https://uri.amap.com/search?keyword=应县木塔&city=朔州
@@ -97,9 +97,9 @@ routes:
       - label: 太原酒店
         detail: 06:50出发
         url: https://uri.amap.com/search?keyword=太原千峰南路山西博物院宜尚PLUS酒店&city=太原
-      - label: 清和元
+      - label: 并州饭店
         detail: 早餐
-        url: https://uri.amap.com/search?keyword=清和元千峰南路店&city=太原
+        url: https://uri.amap.com/search?keyword=并州饭店千峰南路店&city=太原
       - label: 山西博物院
         detail: 上午重点展
         url: https://uri.amap.com/search?keyword=山西博物院&city=太原

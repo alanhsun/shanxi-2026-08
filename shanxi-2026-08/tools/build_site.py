@@ -184,6 +184,75 @@ def render_images(rows: list[dict[str, str]]) -> str:
     )
 
 
+def render_route_map(route: dict) -> str:
+    """Render an accessible, not-to-scale SVG diagram for one travel day."""
+    stops = route.get("stops") or []
+    segments = route.get("segments") or []
+    if len(stops) < 2 or len(segments) != len(stops) - 1:
+        raise ValueError(
+            f"{route.get('day_id', 'unknown')}: route stops/segments do not match"
+        )
+
+    width = max(720, 110 + len(stops) * 155)
+    height = 235
+    points = [(70 + index * 155, 108) for index in range(len(stops))]
+    day_id = html.escape(str(route.get("day_id", "route")), quote=True)
+    title = html.escape(str(route.get("title", "当日路线")))
+    marker_id = f"arrow-{day_id}"
+
+    svg_parts = [
+        f'<svg class="route-diagram" viewBox="0 0 {width} {height}" '
+        f'width="{width}" height="{height}" role="img" aria-labelledby="{day_id}-title">',
+        f'<title id="{day_id}-title">{title}，非比例路线示意图</title>',
+        "<defs>",
+        f'<marker id="{marker_id}" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">',
+        '<path d="M0,0 L8,4 L0,8 Z" fill="#b84d2b"/></marker>',
+        "</defs>",
+    ]
+    for index, segment in enumerate(segments):
+        x1, y1 = points[index]
+        x2, y2 = points[index + 1]
+        svg_parts.append(
+            f'<line x1="{x1 + 13}" y1="{y1}" x2="{x2 - 15}" y2="{y2}" '
+            f'class="route-line" marker-end="url(#{marker_id})"/>'
+        )
+        midpoint = (x1 + x2) / 2
+        svg_parts.append(
+            f'<text x="{midpoint}" y="151" class="route-segment" text-anchor="middle">'
+            f'{html.escape(str(segment))}</text>'
+        )
+
+    nav_links = []
+    for index, stop in enumerate(stops, start=1):
+        x, y = points[index - 1]
+        label = html.escape(str(stop.get("label", "")))
+        detail = html.escape(str(stop.get("detail", "")))
+        svg_parts.extend([
+            f'<circle cx="{x}" cy="{y}" r="18" class="route-node"/>',
+            f'<text x="{x}" y="114" class="route-number" text-anchor="middle">{index}</text>',
+            f'<text x="{x}" y="48" class="route-stop" text-anchor="middle">{label}</text>',
+            f'<text x="{x}" y="70" class="route-detail" text-anchor="middle">{detail}</text>',
+        ])
+        url = str(stop.get("url", ""))
+        if urlparse(url).scheme in {"http", "https"}:
+            nav_links.append(
+                f'<a href="{html.escape(url, quote=True)}" target="_blank" '
+                f'rel="noopener noreferrer">高德 · {index} {label}</a>'
+            )
+    svg_parts.append("</svg>")
+    note = html.escape(str(route.get("note", "")))
+    links_html = "".join(nav_links)
+    return (
+        '<details class="route-map">'
+        f'<summary><span>查看当日路线示意图</span><small>{len(stops)}站 · 非比例</small></summary>'
+        '<div class="route-map-body">'
+        f'<div class="route-map-scroll">{"".join(svg_parts)}</div>'
+        f'<p class="route-note">{note}</p>'
+        f'<div class="route-nav" aria-label="当日高德导航入口">{links_html}</div>'
+        '</div></details>'
+    )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="构建静态行程网站")
     parser.add_argument("project_dir", nargs="?", default=".", type=Path)
@@ -205,10 +274,25 @@ def main() -> int:
     dining = markdown_html(project / "content" / "dining-guide.md")
     version_tracking = markdown_html(project / "content" / "version-tracking.md")
     decisions = markdown_html(project / "decisions.md")
-    days = [
-        markdown_html(path)
-        for path in sorted((project / "content" / "days").glob("day-*.md"))
-    ]
+    route_data = yaml.safe_load(
+        (project / "data" / "day-routes.yaml").read_text(encoding="utf-8")
+    ) or {}
+    routes = {
+        str(route.get("day_id")): route
+        for route in route_data.get("routes", [])
+        if route.get("day_id")
+    }
+    days = []
+    for path in sorted((project / "content" / "days").glob("day-*.md")):
+        day_html = markdown_html(path)
+        route = routes.get(path.stem)
+        if route is None:
+            raise ValueError(f"Missing route diagram data for {path.stem}")
+        anchor = "<h2>三餐与时间轴</h2>"
+        if anchor not in day_html:
+            raise ValueError(f"Missing timeline heading in {path.name}")
+        day_html = day_html.replace(anchor, render_route_map(route) + anchor, 1)
+        days.append(day_html)
     social = markdown_html(project / "research" / "social-validation.md")
     budget_table, budget_low, budget_high, budget_actual = render_budget(
         tables["budget.csv"], sources

@@ -25,3 +25,4 @@
 | 2026-08-01 | published | 将筛选后的小红书、大众点评与携程游客经验转化为逐日排队、接驳、点餐和避坑规则；不改变主路线 | 用户授权使用已登录小红书并要求以用户经验改进行程；14篇近期小红书实录和公开大众点评线索支持微调，双林寺千佛殿修缮另由官方来源复核 | research/social-validation.md；content/overview.md；content/days；data/sources.csv | 用户、维护者 |
 | 2026-08-02 | published | 将候选比较、核验过程和历次更改集中到版本追踪；正文只保留当前有效安排 | 用户要求最终呈现简洁清晰并集中展示更改内容；此调整不改变路线住宿和预算 | content/overview.md；content/version-tracking.md；tools/build_site.py；tools/site.css | 用户、维护者 |
 | 2026-08-02 | published | 新增独立用餐指南；按每天三餐提供2至3个选择及介绍、真实评价摘要和推荐菜 | 用户要求用餐推荐更细致；旅行日早班餐和机场餐因航站楼或营业动态，以2至3个稳妥执行方案替代虚构店名 | content/dining-guide.md；data/sources.csv；tools/build_site.py | 用户、维护者 |
+| 2026-08-02 | published | 为D1至D9增加默认折叠的SVG路线示意图及公开地点高德导航入口 | 用户同意采用路线示意图；矢量图比生成式图片更能保持中文地名、顺序和交通时间准确，且无需公开地图API密钥 | data/day-routes.yaml；tools/build_site.py；tools/site.css；content/version-tracking.md | 用户、维护者 |

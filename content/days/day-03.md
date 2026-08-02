@@ -53,6 +53,6 @@
 
 当天乘车约5小时，司机必须具备营运资质并提前确认儿童是否需要增高垫。悬空寺因天气停登时按时离开，不等待恢复；道路受强降雨影响则取消悬空寺/木塔并改大同高铁到太原。
 
-近期实录显示，不坐悬空寺景交还要走约1公里暴晒步道，现场补票也可能消耗数小时；因此官方景交和线上票是确定执行规则。应县木塔当前体验集中在外观、首层和广场图文，缩短20分钟不会损失核心内容，反而给南下太原增加缓冲。
+悬空寺使用官方景交并只接受线上登临票，不走暴晒步道、不排现场补票队。应县木塔以外观、首层和广场图文为核心，控制在约1小时30分，给南下太原增加缓冲。
 
 来源：`attraction-xuankong-background`、`attraction-yingxian-background`、`xuankong-ticket`、`yingxian-ctrip`、`food-yingxian-xiaoxifu`、`food-taiyuan-linxiangzhai`、`xhs-xuankong-afternoon-20260724`、`xhs-yingxian-xuankong-20260724`。

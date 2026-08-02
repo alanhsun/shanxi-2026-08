@@ -202,6 +202,9 @@ def main() -> int:
     }
     sources = source_links(tables["sources.csv"])
     overview = markdown_html(project / "content" / "overview.md")
+    dining = markdown_html(project / "content" / "dining-guide.md")
+    version_tracking = markdown_html(project / "content" / "version-tracking.md")
+    decisions = markdown_html(project / "decisions.md")
     days = [
         markdown_html(path)
         for path in sorted((project / "content" / "days").glob("day-*.md"))
@@ -211,15 +214,42 @@ def main() -> int:
         tables["budget.csv"], sources
     )
 
-    sections = []
-    for name in ("transport.csv", "accommodation.csv", "bookings.csv"):
-        title, labels = TABLE_LABELS[name]
-        sections.append(
-            f'<section id="{name[:-4]}"><h2>{title}</h2>'
-            + render_table(
-                tables[name], labels, sources, transport_links=name == "transport.csv"
-            )
-            + "</section>"
+    transport_labels = TABLE_LABELS["transport.csv"][1]
+    accommodation_labels = TABLE_LABELS["accommodation.csv"][1]
+    booking_labels = TABLE_LABELS["bookings.csv"][1]
+    active_transport = [row for row in tables["transport.csv"] if row.get("status") == "confirmed"]
+    alternative_transport = [row for row in tables["transport.csv"] if row.get("status") != "confirmed"]
+    active_accommodation = [row for row in tables["accommodation.csv"] if row.get("status") == "selected"]
+    alternative_accommodation = [row for row in tables["accommodation.csv"] if row.get("status") != "selected"]
+    active_bookings = [
+        row for row in tables["bookings.csv"]
+        if row.get("status") in {"ready", "monitor", "reserved"}
+    ]
+    inactive_bookings = [
+        row for row in tables["bookings.csv"]
+        if row.get("status") not in {"ready", "monitor", "reserved"}
+    ]
+    transport_table = render_table(
+        active_transport, transport_labels, sources, transport_links=True
+    )
+    accommodation_table = render_table(active_accommodation, accommodation_labels, sources)
+    booking_table = render_table(active_bookings, booking_labels, sources)
+
+    alternative_tables = ""
+    if alternative_transport:
+        alternative_tables += (
+            "<h3>未采用的交通方案</h3>"
+            + render_table(alternative_transport, transport_labels, sources, transport_links=True)
+        )
+    if alternative_accommodation:
+        alternative_tables += (
+            "<h3>住宿备选记录</h3>"
+            + render_table(alternative_accommodation, accommodation_labels, sources)
+        )
+    if inactive_bookings:
+        alternative_tables += (
+            "<h3>无需预约/非当前行动项</h3>"
+            + render_table(inactive_bookings, booking_labels, sources)
         )
     source_rows = []
     for row in tables["sources.csv"]:
@@ -237,7 +267,6 @@ def main() -> int:
         "source_id": "原文",
     }, sources)
     image_section = render_images(tables["images.csv"])
-    image_nav = '<a href="#images">图片署名</a>' if tables["images.csv"] else ""
 
     stage = STAGE_LABELS.get(data.get("stage"), data.get("stage", "未知"))
     verified = data.get("last_verified_at") or "尚未完成发布级核验"
@@ -263,28 +292,39 @@ def main() -> int:
     </div>
   </header>
   <nav class="nav" aria-label="页面导航">
-    <a href="#overview">总览</a><a href="#days">逐日</a><a href="#transport">交通</a>
-    <a href="#accommodation">住宿</a><a href="#bookings">预约</a>
-    <a href="#budget">预算</a><a href="#social">社交验证</a><a href="#sources">来源</a>{image_nav}
+    <a href="#overview">一页总览</a><a href="#days">每日行程</a><a href="#dining">用餐指南</a>
+    <a href="#logistics">交通住宿</a><a href="#actions">预约预算</a><a href="#versions">版本追踪</a>
   </nav>
   <main>
     <section id="overview">{overview}</section>
     <section id="days"><h2>逐日安排</h2>{''.join(f'<article class="day">{day}</article>' for day in days)}</section>
-    {''.join(sections)}
-    <section id="budget">
-      <h2>预算与实际花销</h2>
+    <section id="dining" class="meal-guide">{dining}</section>
+    <section id="logistics">
+      <h2>交通与住宿</h2>
+      <h3>当前住宿</h3>
+      {accommodation_table}
+      <details class="details-panel"><summary>查看完整点到点交通表（{len(active_transport)}段）</summary>{transport_table}</details>
+    </section>
+    <section id="actions">
+      <h2>预约与预算</h2>
+      <details class="details-panel"><summary>查看当前预约行动清单（{len(active_bookings)}项）</summary>{booking_table}</details>
       <div class="summary-grid">
         <div><strong>{money(budget_low)}</strong><span>计划低值</span></div>
         <div><strong>{money(budget_high)}</strong><span>计划高值</span></div>
         <div><strong>{money(budget_actual)}</strong><span>实际花销</span></div>
       </div>
-      {budget_table}
+      <details class="details-panel"><summary>查看预算分类明细</summary>{budget_table}</details>
     </section>
-    <section id="social">{social}</section>
-    <section id="sources"><h2>来源与核验时间</h2>{source_table}</section>
+    <section id="versions" class="version-section">
+      {version_tracking}
+      <details class="details-panel"><summary>查看未采用方案与非当前行动项</summary>{alternative_tables}</details>
+      <details class="details-panel"><summary>查看社交平台筛选与真实体验证据</summary><div class="details-body">{social}</div></details>
+      <details class="details-panel"><summary>查看完整决策记录</summary><div class="details-body">{decisions}</div></details>
+      <details class="details-panel"><summary>查看全部来源与核验时间</summary>{source_table}</details>
+    </section>
     {image_section}
   </main>
-  <footer>本页是公开脱敏的行程草案。票价、班次、开放时间和预约规则以出发前实时官方信息为准。</footer>
+  <footer>本页是公开脱敏的最终行程展示版。票价、班次、开放时间和预约规则仍以出发前实时官方信息为准。</footer>
 </body>
 </html>
 """

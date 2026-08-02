@@ -29,3 +29,6 @@
 | 2026-08-02 | published | 为生成网页引用的样式文件增加基于核验时间的版本标识 | 线上检查发现旧浏览器缓存会让新SVG路线图缺少配色；版本化URL保证发布后立即加载当前样式 | tools/build_site.py；content/version-tracking.md | 维护者 |
 | 2026-08-02 | published | 增加小红书与大众点评餐饮研究比重并更正具体分店和点菜规则；不改变主路线 | 用户要求提高真实笔记和评论研究比重；新增阅读12篇小红书餐饮实吃并在正确目的地核对大众点评计划分店；聚合评分不冒充完整评论正文 | research/social-validation.md；content/dining-guide.md；content/days；data/sources.csv；data/day-routes.yaml | 用户、维护者 |
 | 2026-08-02 | published | 将山西省内交通改为大同机场取车、运城机场异地还车的租车自驾，并按驾驶与停车条件调整逐日安排 | 用户明确要求省内改为租车自驾；北进南出城市顺序无需改变，D5取消高铁换乘，D9提前出发并增加加油还车缓冲；总预算同步调整为人民币28000至41000元 | trip.yaml；content/overview.md；content/days；data/transport.csv；data/bookings.csv；data/budget.csv；data/day-routes.yaml | 用户、维护者 |
+| 2026-08-02 | approved | 出行人数改为2名成人＋1名8岁儿童，取消原老人名额 | 用户明确更新同行人数；门票、餐饮、机票预算占位和预约数量均按3人重算 | trip.yaml；content/overview.md；content/days；data/transport.csv；data/bookings.csv；data/budget.csv | 用户、维护者 |
+| 2026-08-02 | approved | 全程住宿改为1间，优先家庭房或亲子房，其次为订单页明确允许3人同住的大床房 | 用户明确要求1间房并优先大床或家庭房；儿童入住人数、床型和加床政策须在下单页逐店确认 | trip.yaml；content/overview.md；content/days；data/accommodation.csv；data/bookings.csv；data/sources.csv | 用户、维护者 |
+| 2026-08-02 | published | 租车车型由7座改为5座燃油中型SUV或行李厢足够的舒适轿车，总预算调整为人民币22000至34000元 | 三人出行无需承担7座溢价，一间房也显著降低住宿成本；仍保留儿童增高坐垫、完整保障和异地还车预算 | trip.yaml；content/overview.md；content/days；data/transport.csv；data/bookings.csv；data/budget.csv；content/version-tracking.md | 维护者 |

@@ -26,10 +26,11 @@ hotel-taiyuan-wyndham,commercial,太原温德姆酒店山西博物院店,https:/
 hotel-pingyao-wenhua,commercial,又见平遥又见文华大酒店,https://hotels.ctrip.com/hotels/8869409.html,,2026-08-01,2026-08-02,平遥住宿,medium,登录后查询8月19至21日2间房：罗汉家庭套房每间夜约729元且含3份早餐；入住当天18:00前可免费取消；仅剩3间；普通双床未显示库存
 hotel-pingyao-xing,commercial,平遥行会馆古城南门店,https://hotels.ctrip.com/hotels/744459.html,,2026-07-31,2026-08-07,平遥住宿备选,medium,古院落氛围及接送评价较好；老宅房型可能存在气味和卫浴差异
 hotel-jixian-jizhou,commercial,吉县吉州宾馆,https://hotels.ctrip.com/hotels/480783.html,,2026-08-01,2026-08-02,吉县住宿,medium,查询8月21至23日2间房时页面未显示任何可订房型；不能据此断言永久售罄；近期评价仍认可县城位置和房间条件
-hotel-jixian-hanting,commercial,汉庭酒店吉县瀑布店,https://hotels.ctrip.com/hotels/83968561.html,,2026-08-01,2026-08-02,吉县住宿备选,medium,查询8月21至23日2间房：高级双床无早每间夜约339元；商务双床含早约379元；8月20日23:00前可免费取消；价格以结算页为准
-hotel-datong-wanxin,commercial,万信至格酒店大同百盛明堂公园店,https://hotels.ctrip.com/hotels/128739610.html,,2026-08-01,2026-08-02,大同非景区住宿候选,medium,登录后查询8月15至17日2间房：舒适双床无早每间夜约339元；含早约434元；无早价8月14日12:00前可免费取消；价格以结算页为准
-hotel-taiyuan-echarm-plus,commercial,太原千峰南路山西博物院宜尚PLUS酒店,https://hotels.ctrip.com/hotels/132007384.html,,2026-08-01,2026-08-02,太原非景区住宿候选,medium,登录后查询8月17至19日2间房：全智控商务双床每间夜约284元且免费取消；2间2晚约1136元；价格以结算页为准
-hotel-pingyao-moshang,commercial,平遥陌上轻奢酒店平遥古城站店,https://hotels.ctrip.com/hotels/118997771.html,,2026-08-01,2026-08-02,平遥古城外住宿候选,medium,列表显示4.9分1701条点评；大床房每间夜约274元且免费取消；2间2晚约1096元；双床库存未确认
+hotel-jixian-hanting,commercial,汉庭酒店吉县瀑布店,https://hotels.ctrip.com/hotels/83968561.html,,2026-08-02,2026-08-20,吉县1间家庭房,medium,近期携程住客记录豪华家庭房为两室两卫且一家三口入住宽裕；页面显示停车方便；指定日期家庭房库存价格和退改须结算页确认
+hotel-datong-wanxin,commercial,万信至格酒店大同百盛明堂公园店,https://hotels.ctrip.com/hotels/128739610.html,,2026-08-02,2026-08-14,大同1间家庭房,medium,8月2日公开页显示家庭房亲子特色和免费私人停车；住客记录隔开式亲子房带1.5米帐篷床；指定日期库存价格须结算页确认
+hotel-taiyuan-echarm-plus,commercial,太原千峰南路山西博物院宜尚PLUS酒店,https://hotels.ctrip.com/hotels/132007384.html,,2026-08-02,2026-08-14,太原1间大床房,medium,8月2日公开页在1间2成人1儿童条件下显示儿童免费入住和免费私人停车；未确认独立家庭房与指定日期大床房3人入住资格
+hotel-pingyao-moshang,commercial,平遥陌上轻奢酒店平遥古城站店,https://hotels.ctrip.com/hotels/118997771.html,,2026-08-02,2026-08-18,平遥1间亲子房,medium,近期携程住客记录亲子房空间大且有儿童帐篷；页面说明15岁及以下儿童使用现有床铺免费并显示停车方便；指定日期库存价格须结算页确认
+hotel-taiyuan-kaman-family,commercial,卡曼·观博设计师酒店,https://hotels.ctrip.com/hotels/128126988.html,,2026-08-02,2026-08-14,太原亲子房备选,medium,携程公开页可见亲子房标签且位置靠近山西博物院片区；指定日期1间2成人1儿童的库存价格床型停车和退改须结算页确认
 hotel-pingyao-xinhui,commercial,平遥新会馆平遥古城店,https://hotels.ctrip.com/hotels/39282342.html,,2026-08-01,2026-08-02,平遥古城外双床候选,medium,列表显示4.5分392条点评；高级标准房每间夜约254元含早餐且免费取消；2间2晚约1016元
 social-xuankong-queue,community,悬空寺登临票游客问答与排队经验,https://you.ctrip.com/asks/3026/16392630.html,2026-06-02,2026-07-31,2026-08-10,悬空寺现场策略,low,游客称线上票紧张且现场票需很早排队；个体经验仅用于判断不值得全家凌晨抢票
 social-xuankong-visitor,community,悬空寺近期游客评价,https://you.ctrip.com/sight/hunyuan3026/15960.html,,2026-07-31,2026-08-10,悬空寺现场策略,low,2026年6月游客记录凌晨早起排队；与官方限量规则方向一致但不作为票务规则来源
@@ -112,7 +113,7 @@ xhs-hukou-fish-negative-20260526,community,小红书：壶口景区公路餐馆�
 xhs-yingxian-liangfen-negative-20260723,community,小红书：应县木塔前凉粉店面食负面体验,https://www.xiaohongshu.com/explore/6a61f2b20000000001031412,2026-07-23,2026-08-02,2026-08-16,D3应县午餐避坑,medium,账号兔小昕；记录凉粉专门店刀削面份量小并有排队争议；用于不在凉粉店点正餐面条
 xhs-yingxian-ernv-20260710,community,小红书：应县二女凉粉实吃,https://www.xiaohongshu.com/explore/6a509e6c0000000021018b4a,2026-07-10,2026-08-02,2026-08-16,D3应县午餐,medium,账号issxi；认可滴溜和凉粉但认为面皮与肉夹馍普通；午餐有队但周转快且评论中存在油腻分歧
 food-jixian-jizhou-review,community,吉州宾馆住客中餐厅评价,https://sg.trip.com/hotels/ji-county-hotel-detail-480783/jizhou-hotel/,,2026-08-02,2026-08-20,D7至D8吉县用餐,low,住客评价提到中餐厅价格友好和炸苹果；是否接待非住客及营业时间T-1电话确认
-rental-shenzhou-datong,commercial,神州租车大同网点页,https://datong.zuche.com/,,2026-08-02,2026-08-14,D1大同机场取车,high,页面列出大同云冈机场自助点并标注24小时；指定日期7座车型库存和异地还车资格仍须订单页确认
+rental-shenzhou-datong,commercial,神州租车大同网点页,https://datong.zuche.com/,,2026-08-02,2026-08-14,D1大同机场取车,high,页面列出大同云冈机场自助点并标注24小时；指定日期5座车型库存和异地还车资格仍须订单页确认
 rental-shenzhou-yuncheng,commercial,神州租车运城网点页,https://yuncheng.zuche.com/,,2026-08-02,2026-08-14,D9运城机场还车,high,页面列出运城盐湖机场服务点并标注24小时；具体还车入口和接驳方式须T-1向门店确认
 rental-shenzhou-rules,commercial,神州租车官网租车说明与费用项目,https://www.zuche.com/,,2026-08-02,2026-08-14,全程租车预订与验车,high,官网说明取车需有效身份证和中国驾驶证；费用可能包含车辆租赁及服务费基础服务费车辆整备费和异地还车等可选项目；完整价格以订单页为准
 rental-industry-standard,official,汽车租赁服务规范团体标准,https://www.crta.org.cn/webfile/upload/2024/08-12/09-04-110310855242284.pdf,2024-08-12,2026-08-02,2026-08-14,租车合同核对,medium,中国道路运输协会团体标准要求合同明示租金异地还车超时超里程和增值服务等费用并核验有效驾驶证；属于团体标准不等同法律法规

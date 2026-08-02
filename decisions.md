@@ -26,3 +26,4 @@
 | 2026-08-02 | published | 将候选比较、核验过程和历次更改集中到版本追踪；正文只保留当前有效安排 | 用户要求最终呈现简洁清晰并集中展示更改内容；此调整不改变路线住宿和预算 | content/overview.md；content/version-tracking.md；tools/build_site.py；tools/site.css | 用户、维护者 |
 | 2026-08-02 | published | 新增独立用餐指南；按每天三餐提供2至3个选择及介绍、真实评价摘要和推荐菜 | 用户要求用餐推荐更细致；旅行日早班餐和机场餐因航站楼或营业动态，以2至3个稳妥执行方案替代虚构店名 | content/dining-guide.md；data/sources.csv；tools/build_site.py | 用户、维护者 |
 | 2026-08-02 | published | 为D1至D9增加默认折叠的SVG路线示意图及公开地点高德导航入口 | 用户同意采用路线示意图；矢量图比生成式图片更能保持中文地名、顺序和交通时间准确，且无需公开地图API密钥 | data/day-routes.yaml；tools/build_site.py；tools/site.css；content/version-tracking.md | 用户、维护者 |
+| 2026-08-02 | published | 为生成网页引用的样式文件增加基于核验时间的版本标识 | 线上检查发现旧浏览器缓存会让新SVG路线图缺少配色；版本化URL保证发布后立即加载当前样式 | tools/build_site.py；content/version-tracking.md | 维护者 |

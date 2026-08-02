@@ -354,6 +354,7 @@ def main() -> int:
 
     stage = STAGE_LABELS.get(data.get("stage"), data.get("stage", "未知"))
     verified = data.get("last_verified_at") or "尚未完成发布级核验"
+    asset_version = "".join(character for character in str(verified) if character.isalnum())
     destination_text = " · ".join(data.get("destinations") or [])
     published_badge = "允许发布" if data.get("publish") else "草稿 / 不发布"
     html_page = f"""<!doctype html>
@@ -363,7 +364,7 @@ def main() -> int:
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{html.escape(data.get('title', '行程'))}">
   <title>{html.escape(data.get('title', '行程'))}</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v={html.escape(asset_version, quote=True)}">
 </head>
 <body>
   <header class="hero">

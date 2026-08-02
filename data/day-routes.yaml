@@ -1,0 +1,268 @@
+schema_version: 1
+routes:
+  - day_id: day-01
+    title: D1 东莞—深圳—大同
+    note: 跨省抵达日；东莞节点仅保留城市级描述，不公开具体住址。
+    stops:
+      - label: 东莞住处
+        detail: 06:10预约车出发
+      - label: 深圳宝安机场
+        detail: 值机、安检
+        url: https://uri.amap.com/search?keyword=深圳宝安国际机场&city=深圳
+      - label: 大同云冈机场
+        detail: 13:20落地
+        url: https://uri.amap.com/search?keyword=大同云冈国际机场&city=大同
+      - label: 万信至格酒店
+        detail: 入住、午休
+        url: https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同
+      - label: 大同古城鼓楼
+        detail: 晚餐、慢走
+        url: https://uri.amap.com/search?keyword=大同古城鼓楼&city=大同
+      - label: 酒店
+        detail: 20:40前返回
+    segments:
+      - 预约车 · 约2小时
+      - 直飞 · 3小时15分
+      - 网约车 · 约40分
+      - 网约车 · 约20分
+      - 网约车 · 约20分
+
+  - day_id: day-02
+    title: D2 云冈石窟与大同古城
+    note: 上午石窟、午后回酒店休息，再进入古城；善化寺按体力决定。
+    stops:
+      - label: 万信至格酒店
+        detail: 07:20出发
+        url: https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同
+      - label: 云冈石窟
+        detail: 核心窟群
+        url: https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同
+      - label: 凯鸽酒楼
+        detail: 操场城店午餐
+        url: https://uri.amap.com/search?keyword=凯鸽酒楼操场城店&city=大同
+      - label: 酒店
+        detail: 午休约1小时45分
+      - label: 华严寺
+        detail: 善化寺可选
+        url: https://uri.amap.com/search?keyword=华严寺景区入口&city=大同
+      - label: 紫泥369
+        detail: 南环店晚餐
+        url: https://uri.amap.com/search?keyword=紫泥369粗粮季南环店&city=大同
+      - label: 酒店
+        detail: 20:30前返回
+    segments:
+      - 网约车 · 约45分
+      - 网约车 · 约45分
+      - 网约车 · 约20分
+      - 网约车 · 约20分
+      - 网约车 · 约15分
+      - 网约车 · 约10分
+
+  - day_id: day-03
+    title: D3 悬空寺—应县木塔—太原
+    note: 7座包车带行李北向南直达；途中至少一次正规服务点休息。
+    stops:
+      - label: 大同酒店
+        detail: 07:00装车出发
+        url: https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同
+      - label: 悬空寺
+        detail: 寺下观景为保底
+        url: https://uri.amap.com/search?keyword=悬空寺&city=大同
+      - label: 小媳妇凉粉
+        detail: 应县午餐
+        url: https://uri.amap.com/search?keyword=小媳妇凉粉应元街店&city=朔州
+      - label: 应县木塔
+        detail: 外观与首层
+        url: https://uri.amap.com/search?keyword=应县木塔&city=朔州
+      - label: 太原宜尚PLUS
+        detail: 入住、短休
+        url: https://uri.amap.com/search?keyword=太原千峰南路山西博物院宜尚PLUS酒店&city=太原
+      - label: 林香斋
+        detail: 千峰南路店
+        url: https://uri.amap.com/search?keyword=林香斋千峰南路店&city=太原
+      - label: 酒店
+        detail: 20:15前返回
+    segments:
+      - 包车 · 约1小时35分
+      - 包车 · 约1小时
+      - 步行 · 约10分
+      - 包车 · 约3小时30分
+      - 网约车 · 约15分
+      - 网约车 · 约10分
+
+  - day_id: day-04
+    title: D4 山西博物院与晋祠
+    note: 全天沿太原西侧向南移动；晚餐后直接回酒店，不折返东城。
+    stops:
+      - label: 太原酒店
+        detail: 06:50出发
+        url: https://uri.amap.com/search?keyword=太原千峰南路山西博物院宜尚PLUS酒店&city=太原
+      - label: 清和元
+        detail: 早餐
+        url: https://uri.amap.com/search?keyword=清和元千峰南路店&city=太原
+      - label: 山西博物院
+        detail: 上午重点展
+        url: https://uri.amap.com/search?keyword=山西博物院&city=太原
+      - label: 山西派
+        detail: 千峰南路午餐
+        url: https://uri.amap.com/search?keyword=山西派千峰南路店&city=太原
+      - label: 晋祠博物馆
+        detail: 下午核心区
+        url: https://uri.amap.com/search?keyword=晋祠博物馆游客中心&city=太原
+      - label: 滨河味道
+        detail: 南内环店晚餐
+        url: https://uri.amap.com/search?keyword=滨河味道南内环店&city=太原
+      - label: 酒店
+        detail: 20:00前返回
+    segments:
+      - 网约车 · 约10分
+      - 网约车 · 约20分
+      - 网约车 · 约20分
+      - 预约车 · 约50分
+      - 预约车 · 约55分
+      - 网约车 · 约20分
+
+  - day_id: day-05
+    title: D5 太原—平遥
+    note: 高铁到平遥后住古城外；下午双林寺，傍晚从南门进入古城。
+    stops:
+      - label: 太原酒店
+        detail: 08:15出发
+        url: https://uri.amap.com/search?keyword=太原千峰南路山西博物院宜尚PLUS酒店&city=太原
+      - label: 太原南站
+        detail: 安检、候车
+        url: https://uri.amap.com/search?keyword=太原南站&city=太原
+      - label: 平遥古城站
+        detail: 到站接驳
+        url: https://uri.amap.com/search?keyword=平遥古城站&city=晋中
+      - label: 陌上轻奢酒店
+        detail: 午餐、午休
+        url: https://uri.amap.com/search?keyword=平遥陌上轻奢酒店平遥古城站店&city=晋中
+      - label: 双林寺
+        detail: 下午彩塑
+        url: https://uri.amap.com/search?keyword=双林寺&city=晋中
+      - label: 酒店
+        detail: 洗漱、短休
+      - label: 平遥古城南门
+        detail: 晚餐、夜景
+        url: https://uri.amap.com/search?keyword=平遥古城南门&city=晋中
+      - label: 酒店
+        detail: 20:45前返回
+    segments:
+      - 网约车 · 约45分
+      - 高铁 · 约40分
+      - 接驳车 · 约20分
+      - 网约车 · 约20分
+      - 网约车 · 约20分
+      - 网约车 · 约15分
+      - 网约车 · 约15分
+
+  - day_id: day-06
+    title: D6 平遥古城完整一天
+    note: 清晨与傍晚两次入城，中午回城外酒店长休，避免高温连续暴走。
+    stops:
+      - label: 陌上轻奢酒店
+        detail: 07:40出发
+        url: https://uri.amap.com/search?keyword=平遥陌上轻奢酒店平遥古城站店&city=晋中
+      - label: 古城南门
+        detail: 城墙短段
+        url: https://uri.amap.com/search?keyword=平遥古城南门&city=晋中
+      - label: 县衙—日升昌
+        detail: 上午步行主线
+        url: https://uri.amap.com/search?keyword=平遥县衙&city=晋中
+      - label: 洪武记
+        detail: 南大街午餐
+        url: https://uri.amap.com/search?keyword=洪武记饭店南大街84号&city=晋中
+      - label: 酒店
+        detail: 午休2小时以上
+      - label: 古城城门
+        detail: 按项目选北/南门
+        url: https://uri.amap.com/search?keyword=平遥古城&city=晋中
+      - label: 文庙或城隍庙
+        detail: 晚餐、街巷
+        url: https://uri.amap.com/search?keyword=平遥文庙&city=晋中
+      - label: 酒店
+        detail: 20:45前返回
+    segments:
+      - 网约车 · 约15分
+      - 步行 · 约3–4公里
+      - 步行 · 约20分
+      - 网约车 · 约15分
+      - 网约车 · 约15分
+      - 步行 · 约2公里
+      - 网约车 · 约15分
+
+  - day_id: day-07
+    title: D7 平遥—王家大院—吉县
+    note: 包车带行李一路向南，不折返平遥或太原；长途段安排服务区休息。
+    stops:
+      - label: 平遥酒店
+        detail: 08:30出发
+        url: https://uri.amap.com/search?keyword=平遥陌上轻奢酒店平遥古城站店&city=晋中
+      - label: 王家大院
+        detail: 高家崖为主
+        url: https://uri.amap.com/search?keyword=王家大院&city=晋中
+      - label: 王家味道
+        detail: 景区旁午餐
+        url: https://uri.amap.com/search?keyword=王家味道王家大院店&city=晋中
+      - label: 吉县汉庭
+        detail: 入住、休息
+        url: https://uri.amap.com/search?keyword=汉庭酒店吉县瀑布店&city=临汾
+      - label: 吉州宾馆
+        detail: 二楼餐厅晚餐
+        url: https://uri.amap.com/search?keyword=吉州宾馆&city=临汾
+      - label: 汉庭
+        detail: 20:05前返回
+    segments:
+      - 包车 · 约1小时20分
+      - 步行 · 约5分
+      - 包车 · 约4小时
+      - 网约车 · 约15分
+      - 网约车 · 约15分
+
+  - day_id: day-08
+    title: D8 黄河壶口瀑布
+    note: 早场往返壶口，午后留在吉县休息、洗衣和整理行李。
+    stops:
+      - label: 吉县汉庭
+        detail: 07:25出发
+        url: https://uri.amap.com/search?keyword=汉庭酒店吉县瀑布店&city=临汾
+      - label: 壶口游客中心
+        detail: 换乘官方景交
+        url: https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾
+      - label: 壶口瀑布
+        detail: 护栏内游览
+        url: https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧&city=临汾
+      - label: 吉县汉庭
+        detail: 午餐、长休
+      - label: 县城超市
+        detail: 购买返程补给
+        url: https://uri.amap.com/search?keyword=超市&city=吉县
+      - label: 酒店
+        detail: 20:00前回房
+    segments:
+      - 预约车 · 约55分
+      - 官方景交
+      - 景交+包车 · 约75分
+      - 步行/短途车
+      - 步行/短途车
+
+  - day_id: day-09
+    title: D9 吉县—运城—深圳—东莞
+    note: 返程交通链；东莞节点只保留城市级描述，不公开具体住址。
+    stops:
+      - label: 吉县汉庭
+        detail: 06:10出发
+        url: https://uri.amap.com/search?keyword=汉庭酒店吉县瀑布店&city=临汾
+      - label: 运城盐湖机场
+        detail: 09:45前抵达
+        url: https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城
+      - label: 深圳宝安机场
+        detail: 14:55落地
+        url: https://uri.amap.com/search?keyword=深圳宝安国际机场&city=深圳
+      - label: 东莞住处
+        detail: 约18:00抵达
+    segments:
+      - 预约车 · 约3小时35分
+      - 直飞 · 2小时45分
+      - 预约车 · 约2小时20分

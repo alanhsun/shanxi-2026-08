@@ -2,7 +2,7 @@
 
 ## 今日目标
 
-清晨入城避开高温，上午完成日升昌、县衙、城墙三项中的两至三项；午餐后打车回酒店长休，傍晚再入城。最晚20:45回酒店。
+清晨入城避开高温，上午完成日升昌、县衙、城墙三项中的两至三项；租车全天留在酒店免费车位，午餐后打车回酒店长休，傍晚再入城。最晚20:45回酒店。
 
 ## 三餐与时间轴
 
@@ -70,6 +70,6 @@
 
 ## 体力与替代方案
 
-全天预计步行6–7公里，分成上午和傍晚两段。若气温过高，城墙直接取消；降雨时优先票号、县衙和室内展馆。午休往返的两次打车已计入住宿节省后的交通余量。
+全天预计步行6–7公里，分成上午和傍晚两段。若气温过高，城墙直接取消；降雨时优先票号、县衙和室内展馆。午休往返的两次打车已计入交通余量；古城核心区不为使用租车而额外找停车位，D7退房前再检查车辆。
 
 来源：`attraction-pingyao-unesco`、`attraction-pingyao-sites`、`pingyao-official`、`food-pingyao-hongwuji`、`dp-hongwuji-current`、`xhs-hongwuji-mixed-20260604`、`xhs-renzaibeifang-20260709`、`dp-dongji-current`、`food-pingyao-list`、`social-pingyao-cart`、`xhs-pingyao-negative-20260717`、`xhs-pingyao-pitfall-20260617`。

@@ -21,7 +21,7 @@
 | 16:25–16:45 | 双林寺 → 酒店 | 网约车约15–20分钟 | 25–40元 |
 | 16:45–17:55 | 洗漱、短休 | 换轻便鞋，只带随身小包入古城 | — |
 | 18:00–18:15 | 酒店 → 平遥古城南门 | 网约车在城门外下客。[南门导航](https://uri.amap.com/search?keyword=平遥古城南门&city=晋中) | 20–30元 |
-| 18:25–19:30 | **晚餐：天元奎餐厅（南街73号）** | 平遥牛肉、栲栳栳、家常菜；碗托辣汁分开，牛肉先点小份 | 240–360元 |
+| 18:25–19:30 | **晚餐：天元奎餐厅（南街73号）** | 两篇近期实吃评价冲突；首轮点老醋焖牛肉/牛肉汤、清淡时蔬和主食，长龙茄子与牛肉栲栳栳先不点 | 240–360元 |
 | 19:30–20:25 | 南大街夜景慢走 → 南门 | 步行约1.5公里，不进入偏僻支巷 | — |
 | 20:25–20:45 | 南门 → 酒店 | 网约车约15分钟 | 20–30元 |
 
@@ -51,11 +51,11 @@
 ## 用餐备选
 
 - D5午餐不指定网红店，是为了高铁时刻变化后仍能执行；以酒店周边实时地图为准。
-- 天元奎等位超过30分钟：改南大街洪武记或人在北方菜馆，点单原则不变。
+- 天元奎等位超过30分钟：改南大街洪武记或人在北方菜馆。大众点评热度高不代表每道菜稳定，按正反实吃交集先点软烂牛肉、汤和蔬菜。
 - 老醋焖牛肉、牛肉汤偏软，适合老人儿童；牛肉栲栳栳可能偏韧，只点一小份。可体验店内试醋，但不接受无需求的伴手礼推销。
 
 ## 预订与步行
 
 8月5日用12306锁定车次后，再把08:15酒店出发时间按“发车前至少45分钟到站”精确反推。全天预计步行4–5公里。
 
-来源：`rail-presale-current`、`attraction-pingyao-unesco`、`pingyao-official`、`shuanglin-repair-official`、`shuanglin-repair-news`、`xhs-shuanglin-repair-20260714`、`food-pingyao-tianyuankui`、`xhs-tianyuan-20260724`、`food-pingyao-list`。
+来源：`rail-presale-current`、`attraction-pingyao-unesco`、`pingyao-official`、`shuanglin-repair-official`、`shuanglin-repair-news`、`xhs-shuanglin-repair-20260714`、`food-pingyao-tianyuankui`、`dp-tianyuan-current`、`xhs-tianyuan-20260724`、`xhs-tianyuan-negative-20260418`、`food-pingyao-list`。

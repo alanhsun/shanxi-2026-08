@@ -19,8 +19,8 @@ T13,2026-08-15,万信至格酒店大同百盛明堂公园店,大同古城鼓楼,
 T14,2026-08-16,万信至格酒店大同百盛明堂公园店,云冈石窟游客中心,网约车,07:35,08:20,45,15,85,yungang-2026,https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同,,confirmed,暑期早场；让司机送到官方游客中心下客区
 T15,2026-08-16,云冈石窟游客中心,凯鸽酒楼操场城店,网约车,11:35,12:20,45,15,85,food-datong-kaige,https://uri.amap.com/search?keyword=凯鸽酒楼操场城店&city=大同,,confirmed,若排队超过30分钟则改古城北门附近家常菜
 T16,2026-08-16,万信至格酒店大同百盛明堂公园店,华严寺景区入口,网约车,15:30,15:50,20,10,25,datong-city,https://uri.amap.com/search?keyword=华严寺景区入口&city=大同,,confirmed,古城内步行；返程从善化寺或南门叫车
-T17,2026-08-18,太原千峰南路山西博物院宜尚PLUS酒店,清和元千峰南路店,网约车,06:50,07:00,10,10,15,food-taiyuan-qingheyuan,https://uri.amap.com/search?keyword=清和元千峰南路店&city=太原,,confirmed,早餐后继续网约车去山西博物院
-T18,2026-08-18,清和元千峰南路店,山西博物院,网约车,08:10,08:30,20,15,25,shanxi-museum,https://uri.amap.com/search?keyword=山西博物院&city=太原,,confirmed,预留安检与存包时间；按预约入口下车
+T17,2026-08-18,太原千峰南路山西博物院宜尚PLUS酒店,并州饭店千峰南路店,网约车,06:50,07:00,10,10,15,dp-bingzhou-qianfeng-current,https://uri.amap.com/search?keyword=并州饭店千峰南路店&city=太原,,candidate,T-1电话确认门店正常营业后执行；否则直接酒店早餐
+T18,2026-08-18,并州饭店千峰南路店,山西博物院,网约车,07:45,08:05,20,25,25,shanxi-museum,https://uri.amap.com/search?keyword=山西博物院&city=太原,,candidate,与T17联动；若酒店早餐则由酒店直接出发；08:30前到预约入口
 T19,2026-08-18,山西派千峰南路店,晋祠博物馆游客中心,网约车/包车,13:10,14:00,50,20,110,jin-temple,https://uri.amap.com/search?keyword=晋祠博物馆游客中心&city=太原,,confirmed,午后城市道路可能拥堵；以游客中心正规入口为终点
 T20,2026-08-18,晋祠博物馆游客中心,滨河味道南内环店,网约车/包车,17:30,18:25,55,20,120,food-taiyuan-binhewei,https://uri.amap.com/search?keyword=滨河味道南内环店&city=太原,,confirmed,若返城堵车则直接回酒店附近用餐
 T21,2026-08-19,太原千峰南路山西博物院宜尚PLUS酒店,太原南站,网约车,08:15,09:00,45,20,75,rail-presale-current,https://uri.amap.com/search?keyword=太原南站&city=太原,,confirmed,高铁时刻确定后按发车前至少45分钟到站反推

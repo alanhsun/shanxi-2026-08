@@ -1,22 +1,21 @@
 schema_version: 1
 routes:
   - day_id: day-01
-    title: D1 东莞—广州—大同
-    note: 跨省抵达日；取车后休息，傍晚只做古城轻逛。
+    title: D1 东莞—广州—宁波—大同
+    note: 已出票联程日；宁波约9小时停留不进城，大同落地后只取车入住。
     stops:
-      - {label: 东莞住处, detail: "02:10预约车出发"}
-      - {label: 广州白云机场T3, detail: "值机、安检、早餐", url: "https://uri.amap.com/search?keyword=广州白云国际机场T3航站楼&city=广州"}
-      - {label: 大同云冈机场, detail: "11:55落地、取车验车", url: "https://uri.amap.com/search?keyword=大同云冈国际机场&city=大同"}
-      - {label: 万信至格酒店, detail: "入住、午休", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
-      - {label: 大同古城鼓楼, detail: "晚餐、慢走", url: "https://uri.amap.com/search?keyword=大同古城鼓楼&city=大同"}
-      - {label: 酒店, detail: "20:30前返回"}
-    segments: ["预约车 · 约2小时10分", "同航班号经停武汉 · 5小时15分", "取车+自驾 · 约1小时25分", "网约车 · 约20分", "网约车 · 约20分"]
+      - {label: 东莞住处, detail: "04:30预约车出发"}
+      - {label: 广州白云机场, detail: "确认联程与行李直挂", url: "https://uri.amap.com/search?keyword=广州白云国际机场&city=广州"}
+      - {label: 宁波栎社机场, detail: "10:50–19:50用餐、休息、转机", url: "https://uri.amap.com/search?keyword=宁波栎社国际机场&city=宁波"}
+      - {label: 大同云冈机场, detail: "22:15落地、取车验车", url: "https://uri.amap.com/search?keyword=大同云冈国际机场&city=大同"}
+      - {label: 万信至格酒店, detail: "约23:55入住", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
+    segments: ["预约车 · 约2小时", "MU6949 · 2小时05分", "转机约9小时后MU6111 · 2小时25分", "取车+自驾 · 约1小时40分"]
 
   - day_id: day-02
     title: D2 云冈石窟与大同古城
     note: 上午石窟，午休后进入古城；车辆尽量停酒店。
     stops:
-      - {label: 大同酒店, detail: "07:20出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
+      - {label: 大同酒店, detail: "08:30出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
       - {label: 云冈石窟, detail: "核心窟群", url: "https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同"}
       - {label: 凯鸽酒楼, detail: "午餐", url: "https://uri.amap.com/search?keyword=凯鸽酒楼操场城店&city=大同"}
       - {label: 酒店, detail: "午休"}
@@ -83,22 +82,23 @@ routes:
     segments: ["网约车 · 约15分", "网约车回店+自驾 · 约1小时45分", "自驾+休息 · 约4小时15分", "步行/短途车"]
 
   - day_id: day-08
-    title: D8 黄河壶口瀑布
-    note: 早场往返壶口，停官方游客中心换景交；午后留在吉县休息。
+    title: D8 壶口瀑布—运城机场
+    note: 早场往返壶口；午饭后一路向南住机场对面，避免凌晨长途赶机。
     stops:
       - {label: 吉县汉庭, detail: "07:20出发", url: "https://uri.amap.com/search?keyword=汉庭酒店吉县瀑布店&city=临汾"}
       - {label: 壶口游客中心, detail: "换官方景交", url: "https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾"}
       - {label: 壶口瀑布, detail: "护栏内游览", url: "https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧&city=临汾"}
-      - {label: 吉县汉庭, detail: "午餐、长休"}
-      - {label: 县城补给, detail: "20:00前回房"}
-    segments: ["自驾 · 约1小时", "官方景交", "景交+自驾 · 约1小时20分", "步行/短途车"]
+      - {label: 吉县汉庭, detail: "退房、县城午餐"}
+      - {label: 运城机场片区, detail: "17:00前抵达、加油", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
+      - {label: 微源国际酒店, detail: "机场对面入住、20:15前休息", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
+    segments: ["自驾 · 约1小时", "官方景交", "景交+自驾 · 约1小时20分", "自驾+短休 · 约3小时40分", "短途车"]
 
   - day_id: day-09
-    title: D9 吉县—运城—深圳—东莞
+    title: D9 运城—广州—东莞
     note: 返程交通链；东莞节点不公开具体住址。
     stops:
-      - {label: 吉县汉庭, detail: "05:35出发", url: "https://uri.amap.com/search?keyword=汉庭酒店吉县瀑布店&city=临汾"}
-      - {label: 运城盐湖机场, detail: "09:30前还车完毕", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
-      - {label: 深圳宝安机场, detail: "14:55落地", url: "https://uri.amap.com/search?keyword=深圳宝安国际机场&city=深圳"}
-      - {label: 东莞住处, detail: "约18:00抵达"}
-    segments: ["自驾+加油还车 · 约3小时55分", "直飞 · 2小时45分", "预约车 · 约2小时20分"]
+      - {label: 微源国际酒店, detail: "04:50退房还车", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
+      - {label: 运城盐湖机场, detail: "05:30进航站楼", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
+      - {label: 广州白云机场, detail: "10:00落地", url: "https://uri.amap.com/search?keyword=广州白云国际机场&city=广州"}
+      - {label: 东莞住处, detail: "约13:30抵达"}
+    segments: ["还车+步行/接驳 · 约40分", "CZ5266 · 2小时40分", "预约车 · 约2小时30分"]

@@ -1,8 +1,10 @@
 segment_id,date,from,to,mode,depart_at,arrive_at,duration_minutes,buffer_minutes,planned_cost_cny,source_id,amap_url,baidu_url,status,notes
 T01,2026-08-15,东莞,广州白云国际机场,预约5座车/网约车,04:30,06:30,120,30,500,route-local-amap,https://uri.amap.com/search?keyword=广州白云国际机场&city=广州,,confirmed,航站楼以票面为准；T-1按实时导航反推且只能提前
 T02A,2026-08-15,广州白云国际机场,宁波栎社国际机场,飞机MU6949,08:45,10:50,125,120,0,flight-mu6949-0815,,,confirmed,已出票；公开时刻为规划基准；广州柜台确认行李能否直挂大同
-T02C,2026-08-15,宁波栎社国际机场,宁波南塘老街A区,网约车,11:25,12:00,35,10,70,ningbo-nantang-transfer,https://uri.amap.com/search?keyword=宁波南塘老街A区&city=宁波,,candidate,仅在行李直挂大同两段登机牌已出且MU6949正常落地时执行；若不满足则留机场
-T02D,2026-08-15,宁波月湖外围或南塘老街,宁波栎社国际机场T2航站楼,网约车,15:05,15:45,40,15,70,ningbo-nantang-transfer,https://uri.amap.com/search?keyword=宁波栎社国际机场T2航站楼&city=宁波,,candidate,15:05为城市端硬离开时间；强对流或拥堵预警时提前回机场
+T02C,2026-08-15,宁波栎社国际机场,云霞路站,地铁2号线（往清水浦方向）,11:40,12:10,30,15,20,ningbo-metro-line2-airport,https://uri.amap.com/search?keyword=宁波地铁云霞路站&city=宁波,,candidate,仅在行李直挂大同两段登机牌已出且MU6949正常落地时执行；2号线直达不换乘；票价和班次T-1按宁波地铁实时信息确认
+T02C1,2026-08-15,云霞路站,宁波南塘老街A区,步行,12:10,12:30,20,10,0,ningbo-nantang-nearest-metro,https://uri.amap.com/search?keyword=宁波南塘老街A区&city=宁波,,candidate,约1至1.2公里；下雨高温或儿童疲倦时站口短途网约车兜底
+T02D,2026-08-15,宁波南塘老街A区,云霞路站,步行,14:30,14:55,25,10,0,ningbo-nantang-nearest-metro,https://uri.amap.com/search?keyword=宁波地铁云霞路站&city=宁波,,candidate,14:55为城市端硬离开时间；强对流或体感不适时直接网约车回机场
+T02D1,2026-08-15,云霞路站,宁波栎社国际机场T2航站楼,地铁2号线（往栎社国际机场方向）,14:55,15:45,50,15,20,ningbo-metro-line2-airport,https://uri.amap.com/search?keyword=宁波栎社国际机场T2航站楼&city=宁波,,candidate,含等车出站和步行回航站楼；当日临时停运或等车超预期时留机场或网约车兜底
 T02B,2026-08-15,宁波栎社国际机场,大同云冈国际机场,飞机MU6111,19:50,22:15,145,120,0,flight-mu6111-0815,,,confirmed,已出票；15:45返场后办理未完成手续休息晚餐；票面时刻优先
 T12,2026-08-15,大同云冈国际机场,万信至格酒店大同百盛明堂公园店,机场取车后自驾,22:15,23:55,100,30,0,rental-shenzhou-datong,https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同,,confirmed,取行李验车后进城；驾驶员困倦则改网约车并次日取车
 T14,2026-08-16,万信至格酒店大同百盛明堂公园店,云冈石窟游客中心,租车自驾,08:30,09:20,50,15,0,yungang-2026,https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同,,confirmed,前夜近午夜入住因此延后出发

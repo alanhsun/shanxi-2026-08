@@ -2,16 +2,17 @@ schema_version: 1
 routes:
   - day_id: day-01
     title: D1 东莞—广州—宁波—大同
-    note: 已出票联程日；行李直挂与两段登机牌确认后，宁波去南塘老街/月湖外围半日游；大同落地后只取车入住。
+    note: 已出票联程日；行李直挂与两段登机牌确认后，宁波地铁2号线去南塘老街半日游；大同落地后只取车入住。
     stops:
       - {label: 东莞住处, detail: "04:30预约车出发"}
       - {label: 广州白云机场, detail: "确认联程与行李直挂", url: "https://uri.amap.com/search?keyword=广州白云国际机场&city=广州"}
       - {label: 宁波栎社机场, detail: "10:50落地，确认行李直挂后出站", url: "https://uri.amap.com/search?keyword=宁波栎社国际机场&city=宁波"}
-      - {label: 南塘老街—月湖外围, detail: "午餐、慢走；15:05硬离开", url: "https://uri.amap.com/search?keyword=宁波南塘老街A区&city=宁波"}
-      - {label: 宁波栎社机场, detail: "15:45返场，晚餐、候机", url: "https://uri.amap.com/search?keyword=宁波栎社国际机场T2航站楼&city=宁波"}
+      - {label: 云霞路站, detail: "地铁2号线直达；步行去南塘", url: "https://uri.amap.com/search?keyword=宁波地铁云霞路站&city=宁波"}
+      - {label: 南塘老街, detail: "午餐、慢走；14:55硬进站返程", url: "https://uri.amap.com/search?keyword=宁波南塘老街A区&city=宁波"}
+      - {label: 宁波栎社机场, detail: "地铁返场，晚餐、候机", url: "https://uri.amap.com/search?keyword=宁波栎社国际机场T2航站楼&city=宁波"}
       - {label: 大同云冈机场, detail: "22:15落地、取车验车", url: "https://uri.amap.com/search?keyword=大同云冈国际机场&city=大同"}
       - {label: 万信至格酒店, detail: "约23:55入住", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
-    segments: ["预约车 · 约2小时", "MU6949 · 2小时05分", "网约车 · 约35分", "网约车 · 约40分", "MU6111 · 2小时25分", "取车+自驾 · 约1小时40分"]
+    segments: ["预约车 · 约2小时", "MU6949 · 2小时05分", "地铁2号线 · 约30分", "步行 · 约20分", "步行+地铁2号线 · 约50分", "MU6111 · 2小时25分", "取车+自驾 · 约1小时40分"]
 
   - day_id: day-02
     title: D2 云冈石窟与大同古城

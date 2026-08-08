@@ -137,6 +137,8 @@ ceair-domestic-through,official,东航国内通程航班服务说明,https://glo
 ceair-airport-arrival,official,东航乘机指引,https://ecactivity.ceair.com/UI/BASIS135/app/index.html,,2026-08-08,2026-08-15,D1宁波返场缓冲,high,东航建议国内航班至少提前1个半小时到达机场；本计划15:45返场，为19:50起飞保留更长缓冲
 ningbo-nantang-official,official,海曙区政府南塘老街介绍,https://www.haishu.gov.cn/art/2018/4/11/art_1229829901_59036196.html,2018-04-11,2026-08-08,,D1宁波半日游,high,南塘河遗留历史街区属于宁波八个历史街区之一，位于古城南门外；用于历史背景，开放和商户以当日现场为准
 ningbo-nantang-transfer,commercial,宁波机场至南塘老街动态道路估算,https://uri.amap.com/search?keyword=宁波南塘老街A区&city=宁波,,2026-08-08,2026-08-14,D1宁波机场往返,medium,网约车单程按35至40分钟和50至80元规划；8月午后雷雨或拥堵时提前回场，T-1用实时导航刷新
+ningbo-metro-line2-airport,commercial,携程机场交通：宁波地铁2号线机场站及站点列表,https://flights.ctrip.com/booking/airport-ngb/jichangjiaotong.html,,2026-08-08,2026-08-14,D1宁波机场至云霞路,medium,页面列出栎社国际机场站和云霞路站均属2号线；仅用于直达关系，具体时刻票价和临时运营以宁波轨道交通当日通知为准
+ningbo-nantang-nearest-metro,commercial,Moovit：南塘老街最近地铁站,https://moovitapp.com/index/zh-cn/%E5%85%AC%E5%85%B1%E4%BA%A4%E9%80%9A-%E5%8D%97%E5%A1%98%E8%80%81%E8%A1%97-Ningbo-site_58726469-5387,,2026-08-08,2026-08-14,D1云霞路至南塘老街,medium,页面将云霞路列为南塘老街最近地铁站；站外步行距离和天气影响以当天导航为准
 xhs-nantang-transfer-20260215,community,小红书宁波机场3小时极限转机南塘老街逛吃,https://www.xiaohongshu.com/explore/6991caa6000000000a02f86f,2026-02-15,2026-08-08,2026-08-14,D1宁波半日游,medium,账号子牙；搜索结果显示以南塘老街为3小时紧凑转机逛吃目的地，点赞101；作为动线线索而非交通规则
 xhs-nantang-transfer-20260308,community,小红书宁波转机2小时极限逛吃南塘老街,https://www.xiaohongshu.com/explore/69ad87930000000022031782,2026-03-08,2026-08-08,2026-08-14,D1宁波半日游,medium,账号抹茶的逐梦潜旅家；搜索结果显示2小时极限逛吃选择南塘老街，点赞14；用于支持单片区不跨城的取舍
 xhs-ningbo-transfer-20250409,community,小红书宁波中转4小时打卡,https://www.xiaohongshu.com/explore/67f65401000000000903bc0a,2025-04-09,2026-08-08,2026-08-14,D1宁波半日游,medium,账号小虞子YUER；4小时中转打卡实录点赞688；与近期转机笔记共同支持给机场保留长缓冲

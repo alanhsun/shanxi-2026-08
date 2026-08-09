@@ -18,10 +18,10 @@ routes:
 
   - day_id: day-02
     title: D2 云冈石窟与大同古城
-    note: 上午石窟，午休后进入古城；车辆尽量停酒店。
+    note: 接近午饭时段进入石窟，午后休整后进入古城；车辆尽量停酒店。
     stops:
-      - {label: 大同酒店, detail: "06:50早场出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
-      - {label: 云冈石窟, detail: "07:45入园；5、6、20窟优先", url: "https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同"}
+      - {label: 大同酒店, detail: "10:10出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
+      - {label: 云冈石窟, detail: "11:05入园；5、6、20窟优先，排队跳看", url: "https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同"}
       - {label: 凯鸽酒楼, detail: "午餐", url: "https://uri.amap.com/search?keyword=凯鸽酒楼操场城店&city=大同"}
       - {label: 酒店, detail: "午休"}
       - {label: 华严寺, detail: "古城慢游", url: "https://uri.amap.com/search?keyword=华严寺景区入口&city=大同"}
@@ -41,7 +41,7 @@ routes:
 
   - day_id: day-04
     title: D4 代县—五台山核心寺院群
-    note: 有车约自驾进山；无车约停指定停车场换免费公交，午后只走台怀核心区。
+    note: 有车约自驾进山；无车约停指定停车场换免费公交，午后只走殊像寺—塔院寺—显通寺三座核心寺院。
     stops:
       - {label: 代县开普顿酒店, detail: "08:00出发", url: "https://uri.amap.com/search?keyword=开普顿连锁酒店代县精选店&city=忻州"}
       - {label: 五台山游客服务中心, detail: "人车核验或停车换乘", url: "https://uri.amap.com/search?keyword=五台山游客服务中心&city=忻州"}
@@ -53,15 +53,13 @@ routes:
 
   - day_id: day-05
     title: D5 五台山晨游—太原
-    note: 上午只补黛螺顶山脚视角或菩萨顶二选一；不徒步五台、不走1080级台阶。
+    note: D4已完成三座核心寺院；D5不再新增寺院，休整后直接南下太原。
     stops:
-      - {label: 妙隐居民宿, detail: "07:30轻装出发", url: "https://uri.amap.com/search?keyword=妙隐居民宿五台山&city=忻州"}
-      - {label: 五爷庙, detail: "早场错峰", url: "https://uri.amap.com/search?keyword=五台山五爷庙&city=忻州"}
-      - {label: 菩萨顶或黛螺顶山脚, detail: "二选一", url: "https://uri.amap.com/search?keyword=五台山菩萨顶&city=忻州"}
-      - {label: 民宿, detail: "午餐、取车退房"}
-      - {label: 太原宜尚PLUS, detail: "16:15入住休息", url: "https://uri.amap.com/search?keyword=太原千峰南路山西博物院宜尚PLUS酒店&city=太原"}
+      - {label: 妙隐居民宿, detail: "早餐、整理行李", url: "https://uri.amap.com/search?keyword=妙隐居民宿五台山&city=忻州"}
+      - {label: 台怀镇, detail: "10:45午餐、取车退房", url: "https://uri.amap.com/search?keyword=台怀镇&city=忻州"}
+      - {label: 太原宜尚PLUS, detail: "15:30入住休息", url: "https://uri.amap.com/search?keyword=太原千峰南路山西博物院宜尚PLUS酒店&city=太原"}
       - {label: 林香斋, detail: "晚餐", url: "https://uri.amap.com/search?keyword=林香斋千峰南路店&city=太原"}
-    segments: ["步行/短途车", "步行/景区公交", "短途车", "自驾+短休 · 约3小时45分", "网约车 · 约15分"]
+    segments: ["步行/短途车", "自驾+短休 · 约3小时45分", "网约车 · 约15分"]
 
   - day_id: day-06
     title: D6 山西博物院—双林寺—平遥夜游

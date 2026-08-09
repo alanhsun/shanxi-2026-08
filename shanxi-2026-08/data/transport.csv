@@ -7,9 +7,10 @@ T02C2,2026-08-15,月湖,宁波南塘老街A区,步行,13:05,13:25,20,10,0,ningbo
 T02D,2026-08-15,宁波南塘老街A区,云霞路站,步行,14:15,14:40,25,10,0,ningbo-nantang-nearest-metro,https://uri.amap.com/search?keyword=宁波地铁云霞路站&city=宁波,,candidate,14:40为城市端硬进站时间；强对流或体感不适时直接网约车回机场
 T02D1,2026-08-15,云霞路站,宁波栎社国际机场T2航站楼,地铁2号线（往栎社国际机场方向）,14:40,15:40,60,15,20,ningbo-metro-line2-airport,https://uri.amap.com/search?keyword=宁波栎社国际机场T2航站楼&city=宁波,,candidate,含等车出站和步行回航站楼；当日临时停运或等车超预期时留机场或网约车兜底
 T02B,2026-08-15,宁波栎社国际机场,大同云冈国际机场,飞机MU6111,19:50,22:15,145,120,0,flight-mu6111-0815,,,confirmed,已出票；15:45返场后办理未完成手续休息晚餐；票面时刻优先
-T12,2026-08-15,大同云冈国际机场,万信至格酒店大同百盛明堂公园店,机场取车后自驾,22:15,23:55,100,30,0,rental-shenzhou-datong,https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同,,confirmed,取行李验车后进城；驾驶员困倦则改网约车并次日取车
-T14,2026-08-16,万信至格酒店大同百盛明堂公园店,云冈石窟游客中心,租车自驾,10:10,11:05,55,15,0,yungang-summer-hours-20260809,https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同,,confirmed,用户指定接近午饭时段入园；近期社区线索不能保证低峰，现场队列超20分钟即跳看，午后仍保留休息
-T15,2026-08-16,云冈石窟游客中心,凯鸽酒楼操场城店,租车自驾,14:10,15:00,50,15,0,food-datong-kaige,https://uri.amap.com/search?keyword=凯鸽酒楼操场城店&city=大同,,confirmed,停车困难则改酒店生活区用餐
+T12,2026-08-15,大同云冈国际机场,万信至格酒店大同百盛明堂公园店,网约车,22:40,23:25,45,15,100,route-local-amap,https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同,,confirmed,D1不深夜取车；到店即休息，D2上午改古城服务点取车
+T13,2026-08-16,万信至格酒店大同百盛明堂公园店,神州租车大同古城服务点,网约车,08:40,08:55,15,10,30,user-shenzhou-datong-ancientcity-20260809,https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同,,confirmed,09:00取车；证件驾驶证与儿童增高坐垫需求随身带齐
+T14,2026-08-16,神州租车大同古城服务点,云冈石窟游客中心,租车自驾,09:35,10:30,55,15,0,user-shenzhou-datong-ancientcity-20260809,https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同,,confirmed,用户指定接近午饭时段入园；车辆既定09:00领取，直接自驾云冈避免额外市内折返；现场队列超20分钟即跳看
+T15,2026-08-16,云冈石窟游客中心,紫泥369粗粮季南环店或酒店生活区,租车自驾,14:10,15:00,50,15,0,food-datong-list,https://uri.amap.com/search?keyword=紫泥369粗粮季南环店&city=大同,,confirmed,凯鸽现有来源仅确认晚市，不作为15:00午餐主选；停车或等位困难即改酒店生活区热食
 T16,2026-08-16,万信至格酒店大同百盛明堂公园店,华严寺景区入口,网约车,17:30,17:50,20,10,25,datong-city,https://uri.amap.com/search?keyword=华严寺景区入口&city=大同,,confirmed,车辆午餐后停回酒店；华严寺当日最后入场与闭园时间T-1复核
 T03,2026-08-17,万信至格酒店大同百盛明堂公园店,恒山游客中心,租车自驾,06:35,08:20,105,20,0,xuankong-selfdrive-parking,https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同,,confirmed,停恒山游客中心后全员换乘官方景交
 T04,2026-08-17,恒山游客中心,应县木塔,租车自驾,10:25,11:45,80,20,0,route-north-south,https://uri.amap.com/search?keyword=应县木塔&city=朔州,,confirmed,含景交返回取车和停车缓冲
@@ -26,9 +27,8 @@ T24,2026-08-20,平遥陌上轻奢酒店平遥古城站店,平遥古城南门,网
 T25,2026-08-21,平遥陌上轻奢酒店平遥古城站店,平遥古城南门,网约车,07:40,07:55,15,10,25,pingyao-official,https://uri.amap.com/search?keyword=平遥古城南门&city=晋中,,confirmed,只完成城墙与县衙或日升昌之一；10:00前回酒店
 T07,2026-08-21,平遥陌上轻奢酒店平遥古城站店,王家大院,租车自驾,10:05,11:25,80,20,0,route-pingyao-hukou,https://uri.amap.com/search?keyword=王家大院&city=晋中,,confirmed,退房装车后直达景区；不折返
 T08,2026-08-21,王家大院,汉庭酒店吉县瀑布店,租车自驾,14:15,18:30,255,45,0,route-pingyao-hukou,https://uri.amap.com/search?keyword=汉庭酒店吉县瀑布店&city=临汾,,confirmed,至少一次正规服务区停车休息
-T26,2026-08-22,汉庭酒店吉县瀑布店,黄河壶口瀑布山西侧游客中心,租车自驾,07:20,08:20,60,15,0,hukou-official,https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾,,confirmed,以当日交通管制为准
-T27,2026-08-22,黄河壶口瀑布山西侧游客中心,汉庭酒店吉县瀑布店,租车自驾,10:45,11:50,65,20,0,hukou-official,https://uri.amap.com/search?keyword=汉庭酒店吉县瀑布店&city=临汾,,confirmed,含景交排队和取车缓冲
-T09,2026-08-22,汉庭酒店吉县瀑布店,微源国际酒店运城盐湖国际机场店,租车自驾,13:20,17:00,220,30,0,route-hukou-ycu,https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城,,confirmed,至少一次正规服务区休息；到机场片区后先按合同加油
+T26,2026-08-22,汉庭酒店吉县瀑布店,黄河壶口瀑布山西侧游客中心,租车自驾,07:20,08:20,60,15,0,hukou-official,https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾,,confirmed,退房后携全程行李直达；以当日交通管制为准
+T27,2026-08-22,黄河壶口瀑布山西侧游客中心,微源国际酒店运城盐湖国际机场店,租车自驾,11:15,16:15,300,30,0,route-hukou-ycu,https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城,,confirmed,含景交离场取车与一次正规服务区午餐休息；不返回吉县酒店或县城用餐；T-1按实时导航复核
 T28,2026-08-23,微源国际酒店运城盐湖国际机场店,运城盐湖国际机场,自驾还车后步行或接驳,04:50,05:30,40,20,0,rental-shenzhou-yuncheng,https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城,,confirmed,D8晚实地确认凌晨入口停车位钥匙交接与订单结束方式
 T10,2026-08-23,运城盐湖国际机场,广州白云国际机场,飞机CZ5266,07:20,10:00,160,120,0,flight-cz5266-0823,,,confirmed,已出票；公开时刻为规划基准；票面航站楼和航司通知优先
 T11,2026-08-23,广州白云国际机场,东莞,包车/网约车,11:00,13:30,150,30,500,route-local-amap,,,confirmed,含取行李和周日路况缓冲

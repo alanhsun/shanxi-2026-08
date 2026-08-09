@@ -4,8 +4,8 @@ routes:
     title: D1 东莞—广州—宁波—大同
     note: 已出票联程日；行李直挂，宁波地铁2号线鼓楼进、云霞路返，串联鼓楼—月湖—南塘；大同落地后只取车入住。
     stops:
-      - {label: 东莞住处, detail: "04:30预约车出发"}
-      - {label: 广州白云机场, detail: "确认联程与行李直挂", url: "https://uri.amap.com/search?keyword=广州白云国际机场&city=广州"}
+      - {label: 东莞住处, detail: "06:00预约送机出发"}
+      - {label: 广州白云机场T3, detail: "约07:10到达；直进安检和登机口", url: "https://uri.amap.com/search?keyword=广州白云国际机场T3航站楼&city=广州"}
       - {label: 宁波栎社机场, detail: "10:50落地，行李直挂直接出站", url: "https://uri.amap.com/search?keyword=宁波栎社国际机场&city=宁波"}
       - {label: 鼓楼站, detail: "地铁2号线直达；鼓楼短停", url: "https://uri.amap.com/search?keyword=宁波地铁鼓楼站&city=宁波"}
       - {label: 月湖, detail: "老城湖岸慢走", url: "https://uri.amap.com/search?keyword=宁波月湖公园&city=宁波"}
@@ -14,7 +14,7 @@ routes:
       - {label: 宁波栎社机场, detail: "15:40返场，晚餐、候机", url: "https://uri.amap.com/search?keyword=宁波栎社国际机场T2航站楼&city=宁波"}
       - {label: 大同云冈机场, detail: "22:15落地、取车验车", url: "https://uri.amap.com/search?keyword=大同云冈国际机场&city=大同"}
       - {label: 万信至格酒店, detail: "约23:55入住", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
-    segments: ["预约车 · 约2小时", "MU6949 · 2小时05分", "地铁2号线 · 约45分", "步行 · 约40分", "步行 · 约20分", "步行 · 约25分", "地铁2号线 · 约60分", "MU6111 · 2小时25分", "取车+自驾 · 约1小时40分"]
+    segments: ["预约送机 · 约1小时10分", "MU6949 · 2小时05分", "地铁2号线 · 约45分", "步行 · 约40分", "步行 · 约20分", "步行 · 约25分", "地铁2号线 · 约60分", "MU6111 · 2小时25分", "取车+自驾 · 约1小时40分"]
 
   - day_id: day-02
     title: D2 云冈石窟与大同古城

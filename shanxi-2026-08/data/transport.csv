@@ -1,5 +1,5 @@
 segment_id,date,from,to,mode,depart_at,arrive_at,duration_minutes,buffer_minutes,planned_cost_cny,source_id,amap_url,baidu_url,status,notes
-T01,2026-08-15,东莞,广州白云国际机场,预约5座车/网约车,04:30,06:30,120,30,500,route-local-amap,https://uri.amap.com/search?keyword=广州白云国际机场&city=广州,,confirmed,航站楼以票面为准；T-1按实时导航反推且只能提前
+T01,2026-08-15,东莞,广州白云国际机场T3,预约送机,06:00,07:10,70,15,192,user-can-t3-transfer-20260809,https://uri.amap.com/search?keyword=广州白云国际机场T3航站楼&city=广州,,confirmed,用户确认已预约送机且费用192元；行李直挂和两段登机牌已出，到T3后直接安检登机；T-1按实时导航复核
 T02A,2026-08-15,广州白云国际机场,宁波栎社国际机场,飞机MU6949,08:45,10:50,125,120,0,flight-mu6949-0815,,,confirmed,已出票；公开时刻为规划基准；广州柜台确认行李能否直挂大同
 T02C,2026-08-15,宁波栎社国际机场,鼓楼站,地铁2号线（往清水浦方向）,11:20,12:05,45,15,20,ningbo-metro-line2-airport,https://uri.amap.com/search?keyword=宁波地铁鼓楼站&city=宁波,,candidate,行李直挂大同且两段登机牌已出；2号线直达不换乘；票价和班次T-1按宁波地铁实时信息确认
 T02C1,2026-08-15,鼓楼站,月湖,步行,12:25,13:05,40,10,0,ningbo-citywalk-order,https://uri.amap.com/search?keyword=宁波月湖公园&city=宁波,,candidate,含鼓楼短停和古城步行；只走鼓楼至月湖的顺向线路

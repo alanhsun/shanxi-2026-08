@@ -1,0 +1,106 @@
+schema_version: 1
+routes:
+  - day_id: day-01
+    title: D1 东莞—广州—宁波—大同
+    note: 已出票联程日；行李直挂与两段登机牌确认后，宁波去南塘老街/月湖外围半日游；大同落地后只取车入住。
+    stops:
+      - {label: 东莞住处, detail: "04:30预约车出发"}
+      - {label: 广州白云机场, detail: "确认联程与行李直挂", url: "https://uri.amap.com/search?keyword=广州白云国际机场&city=广州"}
+      - {label: 宁波栎社机场, detail: "10:50落地，确认行李直挂后出站", url: "https://uri.amap.com/search?keyword=宁波栎社国际机场&city=宁波"}
+      - {label: 南塘老街—月湖外围, detail: "午餐、慢走；15:05硬离开", url: "https://uri.amap.com/search?keyword=宁波南塘老街A区&city=宁波"}
+      - {label: 宁波栎社机场, detail: "15:45返场，晚餐、候机", url: "https://uri.amap.com/search?keyword=宁波栎社国际机场T2航站楼&city=宁波"}
+      - {label: 大同云冈机场, detail: "22:15落地、取车验车", url: "https://uri.amap.com/search?keyword=大同云冈国际机场&city=大同"}
+      - {label: 万信至格酒店, detail: "约23:55入住", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
+    segments: ["预约车 · 约2小时", "MU6949 · 2小时05分", "网约车 · 约35分", "网约车 · 约40分", "MU6111 · 2小时25分", "取车+自驾 · 约1小时40分"]
+
+  - day_id: day-02
+    title: D2 云冈石窟与大同古城
+    note: 上午石窟，午休后进入古城；车辆尽量停酒店。
+    stops:
+      - {label: 大同酒店, detail: "08:30出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
+      - {label: 云冈石窟, detail: "核心窟群", url: "https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同"}
+      - {label: 凯鸽酒楼, detail: "午餐", url: "https://uri.amap.com/search?keyword=凯鸽酒楼操场城店&city=大同"}
+      - {label: 酒店, detail: "午休"}
+      - {label: 华严寺, detail: "古城慢游", url: "https://uri.amap.com/search?keyword=华严寺景区入口&city=大同"}
+      - {label: 酒店, detail: "20:30前返回"}
+    segments: ["自驾+停车 · 约55分", "自驾+停车 · 约1小时", "自驾 · 约20分", "网约车 · 约20分", "网约车 · 约20分"]
+
+  - day_id: day-03
+    title: D3 悬空寺—应县木塔—雁门关—代县
+    note: 全程顺路向南；雁门关北门进，县城住宿避免景区溢价。
+    stops:
+      - {label: 大同酒店, detail: "06:35装车出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
+      - {label: 恒山游客中心, detail: "换官方景交看悬空寺", url: "https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同"}
+      - {label: 应县木塔, detail: "午餐、外观与首层", url: "https://uri.amap.com/search?keyword=应县木塔&city=朔州"}
+      - {label: 雁门关北门, detail: "核心关城约2小时", url: "https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州"}
+      - {label: 开普顿酒店代县精选店, detail: "入住、县城晚餐", url: "https://uri.amap.com/search?keyword=开普顿连锁酒店代县精选店&city=忻州"}
+    segments: ["自驾 · 约1小时45分", "景交+自驾 · 约2小时", "自驾 · 约1小时30分", "自驾 · 约50分"]
+
+  - day_id: day-04
+    title: D4 代县—五台山核心寺院群
+    note: 有车约自驾进山；无车约停指定停车场换免费公交，午后只走台怀核心区。
+    stops:
+      - {label: 代县开普顿酒店, detail: "08:00出发", url: "https://uri.amap.com/search?keyword=开普顿连锁酒店代县精选店&city=忻州"}
+      - {label: 五台山游客服务中心, detail: "人车核验或停车换乘", url: "https://uri.amap.com/search?keyword=五台山游客服务中心&city=忻州"}
+      - {label: 妙隐居民宿, detail: "寄存行李、短休", url: "https://uri.amap.com/search?keyword=妙隐居民宿五台山&city=忻州"}
+      - {label: 殊像寺, detail: "文殊造像", url: "https://uri.amap.com/search?keyword=五台山殊像寺&city=忻州"}
+      - {label: 塔院寺—显通寺, detail: "白塔与核心寺院", url: "https://uri.amap.com/search?keyword=五台山塔院寺&city=忻州"}
+      - {label: 民宿, detail: "20:00前返回"}
+    segments: ["自驾 · 约2小时45分", "预约车或免费公交 · 约1小时", "步行/景区公交", "步行 · 约15分", "步行/短途车"]
+
+  - day_id: day-05
+    title: D5 五台山晨游—太原
+    note: 上午只补黛螺顶山脚视角或菩萨顶二选一；不徒步五台、不走1080级台阶。
+    stops:
+      - {label: 妙隐居民宿, detail: "07:30轻装出发", url: "https://uri.amap.com/search?keyword=妙隐居民宿五台山&city=忻州"}
+      - {label: 五爷庙, detail: "早场错峰", url: "https://uri.amap.com/search?keyword=五台山五爷庙&city=忻州"}
+      - {label: 菩萨顶或黛螺顶山脚, detail: "二选一", url: "https://uri.amap.com/search?keyword=五台山菩萨顶&city=忻州"}
+      - {label: 民宿, detail: "午餐、取车退房"}
+      - {label: 太原宜尚PLUS, detail: "16:15入住休息", url: "https://uri.amap.com/search?keyword=太原千峰南路山西博物院宜尚PLUS酒店&city=太原"}
+      - {label: 林香斋, detail: "晚餐", url: "https://uri.amap.com/search?keyword=林香斋千峰南路店&city=太原"}
+    segments: ["步行/短途车", "步行/景区公交", "短途车", "自驾+短休 · 约3小时45分", "网约车 · 约15分"]
+
+  - day_id: day-06
+    title: D6 山西博物院—双林寺—平遥夜游
+    note: 上午博物院建立历史框架，午后南下；平遥只住一晚，古城夜游不搬行李。
+    stops:
+      - {label: 太原宜尚PLUS, detail: "08:10出发", url: "https://uri.amap.com/search?keyword=太原千峰南路山西博物院宜尚PLUS酒店&city=太原"}
+      - {label: 山西博物院, detail: "09:00–11:30重点展", url: "https://uri.amap.com/search?keyword=山西博物院&city=太原"}
+      - {label: 平遥陌上轻奢, detail: "14:40停车寄存", url: "https://uri.amap.com/search?keyword=平遥陌上轻奢酒店平遥古城站店&city=晋中"}
+      - {label: 双林寺, detail: "彩塑约1小时20分", url: "https://uri.amap.com/search?keyword=双林寺&city=晋中"}
+      - {label: 平遥古城南门, detail: "晚餐、夜景", url: "https://uri.amap.com/search?keyword=平遥古城南门&city=晋中"}
+      - {label: 酒店, detail: "20:45前返回"}
+    segments: ["自驾+停车 · 约30分", "自驾+午餐 · 约3小时", "自驾 · 约25分", "自驾回店+网约车 · 约45分", "网约车 · 约15分"]
+
+  - day_id: day-07
+    title: D7 平遥早游—王家大院—吉县
+    note: 平遥压缩为清晨核心线；10:05离店后一路向南，不折返。
+    stops:
+      - {label: 平遥酒店, detail: "07:40打车出发", url: "https://uri.amap.com/search?keyword=平遥陌上轻奢酒店平遥古城站店&city=晋中"}
+      - {label: 古城南门—县衙/日升昌, detail: "二选一加城墙短段", url: "https://uri.amap.com/search?keyword=平遥古城南门&city=晋中"}
+      - {label: 王家大院, detail: "11:25到、核心约2小时", url: "https://uri.amap.com/search?keyword=王家大院&city=晋中"}
+      - {label: 吉县汉庭, detail: "18:30入住", url: "https://uri.amap.com/search?keyword=汉庭酒店吉县瀑布店&city=临汾"}
+      - {label: 县城晚餐, detail: "20:15前回店"}
+    segments: ["网约车 · 约15分", "网约车回店+自驾 · 约1小时45分", "自驾+休息 · 约4小时15分", "步行/短途车"]
+
+  - day_id: day-08
+    title: D8 壶口瀑布—运城机场
+    note: 早场往返壶口；午饭后一路向南住机场对面，避免凌晨长途赶机。
+    stops:
+      - {label: 吉县汉庭, detail: "07:20出发", url: "https://uri.amap.com/search?keyword=汉庭酒店吉县瀑布店&city=临汾"}
+      - {label: 壶口游客中心, detail: "换官方景交", url: "https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾"}
+      - {label: 壶口瀑布, detail: "护栏内游览", url: "https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧&city=临汾"}
+      - {label: 吉县汉庭, detail: "退房、县城午餐"}
+      - {label: 运城机场片区, detail: "17:00前抵达、加油", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
+      - {label: 微源国际酒店, detail: "机场对面入住、20:15前休息", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
+    segments: ["自驾 · 约1小时", "官方景交", "景交+自驾 · 约1小时20分", "自驾+短休 · 约3小时40分", "短途车"]
+
+  - day_id: day-09
+    title: D9 运城—广州—东莞
+    note: 返程交通链；东莞节点不公开具体住址。
+    stops:
+      - {label: 微源国际酒店, detail: "04:50退房还车", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
+      - {label: 运城盐湖机场, detail: "05:30进航站楼", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
+      - {label: 广州白云机场, detail: "10:00落地", url: "https://uri.amap.com/search?keyword=广州白云国际机场&city=广州"}
+      - {label: 东莞住处, detail: "约13:30抵达"}
+    segments: ["还车+步行/接驳 · 约40分", "CZ5266 · 2小时40分", "预约车 · 约2小时30分"]

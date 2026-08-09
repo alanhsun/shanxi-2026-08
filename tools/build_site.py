@@ -33,6 +33,7 @@ TABLE_LABELS = {
         "date": "日期", "from": "起点", "to": "终点", "mode": "方式",
         "depart_at": "出发", "arrive_at": "抵达", "duration_minutes": "分钟",
         "buffer_minutes": "缓冲", "planned_cost_cny": "预算", "status": "状态",
+        "notes": "说明（含规划公里数）",
     }),
     "accommodation.csv": ("住宿", {
         "check_in": "入住", "check_out": "退房", "city": "城市", "area": "区域",

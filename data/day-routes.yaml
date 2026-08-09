@@ -90,16 +90,16 @@ routes:
       - {label: 吉县汉庭, detail: "07:20退房带行李出发", url: "https://uri.amap.com/search?keyword=汉庭酒店吉县瀑布店&city=临汾"}
       - {label: 壶口游客中心, detail: "换官方景交", url: "https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾"}
       - {label: 壶口瀑布, detail: "护栏内游览", url: "https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧&city=临汾"}
-      - {label: 运城机场片区, detail: "约16:15抵达、加油", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
+      - {label: 运城机场神州租车服务点, detail: "约16:15抵达、加油还车", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
       - {label: 微源国际酒店, detail: "机场对面入住、20:15前休息", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
-    segments: ["自驾 · 约1小时", "官方景交", "景交+自驾+午餐休息 · 约5小时", "短途车"]
+    segments: ["自驾 · 约1小时 / 约55公里", "官方景交", "景交+自驾+午餐休息 · 约5小时 / 约260公里", "步行/短接驳 · 约20分"]
 
   - day_id: day-09
     title: D9 运城—广州—东莞
     note: 返程交通链；东莞节点不公开具体住址。
     stops:
-      - {label: 微源国际酒店, detail: "04:50退房还车", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
-      - {label: 运城盐湖机场, detail: "05:30进航站楼", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
+      - {label: 微源国际酒店, detail: "04:50退房步行/接驳", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
+      - {label: 运城盐湖机场, detail: "05:05进航站楼", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
       - {label: 广州白云机场, detail: "10:00落地", url: "https://uri.amap.com/search?keyword=广州白云国际机场&city=广州"}
       - {label: 东莞住处, detail: "约13:30抵达"}
-    segments: ["还车+步行/接驳 · 约40分", "CZ5266 · 2小时40分", "预约车 · 约2小时30分"]
+    segments: ["步行/酒店短接驳 · 约15分 / 约0.3公里", "CZ5266 · 2小时40分", "预约车 · 约2小时30分"]

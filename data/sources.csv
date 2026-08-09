@@ -1,5 +1,7 @@
 source_id,source_type,title,url,published_at,verified_at,expires_at,applies_to,confidence,notes
 route-local-amap,commercial,高德地图本地接驳路线规划,https://ditu.amap.com/,,2026-08-01,2026-08-14,T01/T11/T12/T13/T22本地接驳,medium,各段使用高德导航落点；当前时间和费用为规划估值；出发前一天按实时路况刷新
+user-can-t3-transfer-20260809,user,用户确认8月15日东莞预约送机至白云机场T3,https://uri.amap.com/search?keyword=广州白云国际机场T3航站楼&city=广州,,2026-08-09,,D1东莞至白云机场T3,high,用户确认06:00出发约07:10到达且送机费用192元；不记录住址或送机订单信息
+user-shenzhou-datong-ancientcity-20260809,user,用户确认神州租车大同古城服务点取车,https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同,,2026-08-09,,D2大同租车取车,high,用户指定在D2古城游览结束后于该服务点取车，计划约16:35；不记录租车订单号或取车凭证
 rail-presale-current,official,铁路12306当前预售期查询,https://mobile.12306.cn/weixin/wxcore/ysqcx,,2026-08-01,,历史高铁预售比较,high,8月1日页面显示互联网和车站渠道售至8月15日；当前方案已改租车自驾，仅留版本追踪，不作为当前票务事实
 flight-szx-dat-0815,commercial,8月1日深圳至大同航班历史快照,https://www.trip.com/flights/showfarefirst?dcity=szx&acity=dat&ddate=2026-08-15&triptype=ow&class=y&quantity=3&childqty=1,,2026-08-01,,D1原主航班历史比较,medium,只用于版本追踪；东海航空10:05至13:20直飞和4人约8160元均不是当前报价
 flight-szx-dat-0816,commercial,8月1日深圳至大同晚一天航班历史快照,https://www.trip.com/flights/showfarefirst?dcity=szx&acity=dat&ddate=2026-08-16&triptype=ow&class=y&quantity=3&childqty=1,,2026-08-01,,晚一天出发历史比较,medium,只用于版本追踪；09:50至15:10经停郑州和4人约5110元均不是当前报价
@@ -17,7 +19,7 @@ jin-temple,official,晋祠博物馆官方网站,https://www.jinci.com/,,2026-07-
 wang-courtyard,commercial,王家大院2026门票信息汇总,https://jz.bendibao.com/tour/jingdianbao/,,2026-07-31,2026-08-14,王家大院,medium,仅作路线评审；预订级定稿需替换为景区官方来源
 route-north-south,commercial,山西北中南成熟路线参考,https://daoyou.wutaishanlvyou.com/1780204605125151.html,,2026-07-31,2026-08-14,D3北向南自驾串联,medium,用于验证悬空寺应县木塔太原的常见串联逻辑；具体道路和车程需出发前用实时导航复核
 route-pingyao-hukou,commercial,平遥王家大院壶口成熟路线参考,https://www.uhutrip.com/showtccg.asp?ID=1383,,2026-07-31,2026-08-14,D7南向转场,medium,用于验证平遥经王家大院至壶口的常见串联逻辑
-route-hukou-ycu,commercial,壶口至运城约200公里车程参考,https://www.0755cts.com/expired/domestic/xian/0131595R018.html,,2026-07-31,2026-08-20,D9吉县至运城机场,medium,旅行社线路记录运城至吉县约200公里约3.5小时；D8晚需按天气施工和实时导航再次复核
+route-hukou-ycu,commercial,壶口至运城约200公里车程参考,https://www.0755cts.com/expired/domestic/xian/0131595R018.html,,2026-07-31,2026-08-20,D8壶口直达运城,medium,旅行社线路记录运城至吉县约200公里约3.5小时；本计划从壶口游客中心直达并额外计入景交离场和服务区午餐，按5小时安排；T-1以实时导航复核
 yingxian-ctrip,commercial,应县木塔开放与参观信息,https://you.ctrip.com/sight/yingcounty3006/74400.html,,2026-07-31,2026-08-16,应县木塔,medium,页面显示暑期08:00至18:00且17:45停止入园；目前只开放一层参观并不允许登塔；下单前以景区公告为准
 jinci-hours-2026,commercial,晋祠博物馆2026年旺季开放时间公告转载,https://cj.sina.com.cn/articles/view/5812119316/15a6de71402001eu2a?froms=ggmp,2026-03-31,2026-07-31,2026-08-17,晋祠开放时间,medium,转载信息称4月1日起08:30至17:30开放且17:00停止入馆；出发前用晋祠官网再次复核
 hotel-datong-youqing,commercial,8月1日大同宥庆酒店历史快照,https://hotels.ctrip.com/hotels/134295018.html,,2026-08-01,,大同住宿历史比较,medium,原2间房价格只用于版本追踪；当前为1间房口径且不使用旧价
@@ -109,7 +111,7 @@ xhs-tianyuan-negative-20260418,community,小红书：天元奎菜品负面实吃
 xhs-wangjia-food-20260227,community,小红书：王家味道王家大院店实吃,https://www.xiaohongshu.com/explore/699eead5000000002603ec3f,2026-02-27,2026-08-02,2026-08-20,D7王家味道点菜,medium,账号Courbis；确认景区店并记录豆腐软黄米饭野菜等；状元糕为油炸黄米点心建议4人只分享一份
 xhs-jixian-chengyuan-family-20260718,community,小红书：吉县诚源饭店亲子用餐,https://www.xiaohongshu.com/explore/6a5b809000000000110131ca,2026-07-18,2026-08-02,2026-08-20,D7至D8吉县正餐,medium,账号angela&j；带儿童家庭认可蒜香鲤鱼和性价比；店在小巷停车不便建议打车；笔记标题和定位用字不一致需T-1确认
 xhs-jixian-chengyuan-20260719,community,小红书：吉县诚源饭店回头客推荐,https://www.xiaohongshu.com/explore/6a5c6f17000000000100d013,2026-07-19,2026-08-02,2026-08-20,D7至D8吉县正餐,medium,账号yiyi；记录夫妻小店并推荐蒜香鲤鱼和白丸子；营业与店名定位仍需T-1核对
-xhs-hukou-fish-negative-20260526,community,小红书：壶口景区公路餐馆整鱼负面体验,https://www.xiaohongshu.com/explore/6a13ff9e00000000370341f5,2026-05-26,2026-08-02,2026-08-20,D8壶口用餐避坑,medium,账号携猫独闯G331；记录整鱼称重超预期且默认辣偏咸多刺；用于坚持回吉县和确认斤价重量做法
+xhs-hukou-fish-negative-20260526,community,小红书：壶口景区公路餐馆整鱼负面体验,https://www.xiaohongshu.com/explore/6a13ff9e00000000370341f5,2026-05-26,2026-08-02,2026-08-20,D8壶口用餐避坑,medium,账号携猫独闯G331；记录整鱼称重超预期且默认辣偏咸多刺；用于直达运城途中不点称重整鱼
 xhs-yingxian-liangfen-negative-20260723,community,小红书：应县木塔前凉粉店面食负面体验,https://www.xiaohongshu.com/explore/6a61f2b20000000001031412,2026-07-23,2026-08-02,2026-08-16,D3应县午餐避坑,medium,账号兔小昕；记录凉粉专门店刀削面份量小并有排队争议；用于不在凉粉店点正餐面条
 xhs-yingxian-ernv-20260710,community,小红书：应县二女凉粉实吃,https://www.xiaohongshu.com/explore/6a509e6c0000000021018b4a,2026-07-10,2026-08-02,2026-08-16,D3应县午餐,medium,账号issxi；认可滴溜和凉粉但认为面皮与肉夹馍普通；午餐有队但周转快且评论中存在油腻分歧
 food-jixian-jizhou-review,community,吉州宾馆住客中餐厅评价,https://sg.trip.com/hotels/ji-county-hotel-detail-480783/jizhou-hotel/,,2026-08-02,2026-08-20,D7至D8吉县用餐,low,住客评价提到中餐厅价格友好和炸苹果；是否接待非住客及营业时间T-1电话确认
@@ -133,10 +135,18 @@ flight-mu6949-0815,commercial,MU6949广州至宁波公开航班时刻,https://ww
 flight-mu6111-0815,commercial,东航浙江暑运宁波至大同航线时刻,https://news.sina.com.cn/zx/gj/2026-06-25/doc-inierihr7755288.shtml,2026-06-25,2026-08-05,2026-08-14,D1宁波至大同,high,东航浙江暑运信息显示7月1日至8月31日每日执飞；宁波19:50起飞大同22:15到达；用户已确认MU6111出票且票面优先
 flight-cz5266-0823,commercial,CZ5266运城至广州公开航班时刻,https://flights.ctrip.com/international/Schedule/YCU-CAN.html,,2026-08-05,2026-08-22,D9运城至广州,medium,公开时刻07:20至10:00；用户已确认航班号并出票；票面时间航站楼和航司通知优先
 hotel-yuncheng-weiyuan-20260805,commercial,微源国际酒店运城盐湖国际机场店指定日期核验,https://hotels.ctrip.com/hotels/114968689.html?checkIn=2026-08-22&checkOut=2026-08-23&adult=2&children=1&ages=8&crn=1,,2026-08-05,2026-08-21,D8运城机场住宿,medium,页面显示距机场约280米评分4.7共572条并有24小时前台免费停车接送机亲子房三人间；近期评论认可步行3至5分钟和房间大也有隔音一般反馈；指定日期房型价格区未加载故只设450元上限
+hotel-yuncheng-weiyuan-booked-20260809,user,用户确认微源国际酒店大床房已预订,https://hotels.ctrip.com/hotels/114968689.html?checkIn=2026-08-22&checkOut=2026-08-23&adult=2&children=1&ages=8&crn=1,2026-08-09,2026-08-09,,D8运城机场住宿,high,用户确认8月22日至23日大床房1间总价178元；不记录订单号确认码或支付信息
+yungang-summer-hours-20260809,commercial,云冈石窟2026暑期开放时间信息,https://www.sohu.com/a/1044920953_121124403,,2026-08-09,2026-08-16,D2云冈早场,medium,转引云冈研究院暑期公告称2026年7月11日至8月31日7:30至18:00开放且18:00停止检票；T-1再以云冈官方渠道复查
+xhs-yungang-early-queue-20260808,community,小红书：8月8日早上7:20云冈石窟门口排队情况,https://www.xiaohongshu.com/explore/6a767cad0000000025003b91,2026-08-08,2026-08-09,2026-08-16,D2云冈早场,medium,账号镜玥澜；搜索结果可见标题日期与作者，正文未展开；用于证明早场入口也可能排队而非无人的经验线索
+xhs-yungang-afternoon-crowd-20260730,community,小红书：云冈石窟下午巨多人,https://www.xiaohongshu.com/explore/6a6b0d6a000000002402fc04,2026-07-30,2026-08-09,2026-08-16,D2云冈晚场比较,medium,账号无情的粉色恶魔；搜索结果可见标题日期与作者，正文未展开；用于否定把下午当作当然避队时段
+xhs-yungang-late-crowd-20260726,community,小红书：5点过的云冈石窟被骗人多,https://www.xiaohongshu.com/explore/6a65d87a0000000005038a36,2026-07-26,2026-08-09,2026-08-16,D2云冈晚场比较,medium,账号小田下班了(备婚版)；搜索结果可见标题日期作者与点赞80，正文未展开；用于否定闭园前一小时必然人少的经验假设
 ceair-domestic-through,official,东航国内通程航班服务说明,https://global.ceair.com/global/static/Announcement/ScheduledGuidelines/OtherDetails/DomesticThroughFlightNotice/,,2026-08-08,2026-08-15,D1宁波中转行李与值机,high,通程航班可一次值机行李直挂；具体订单是否适用必须以广州柜台和票面为准，不能仅凭同航司航班号判断
 ceair-airport-arrival,official,东航乘机指引,https://ecactivity.ceair.com/UI/BASIS135/app/index.html,,2026-08-08,2026-08-15,D1宁波返场缓冲,high,东航建议国内航班至少提前1个半小时到达机场；本计划15:45返场，为19:50起飞保留更长缓冲
 ningbo-nantang-official,official,海曙区政府南塘老街介绍,https://www.haishu.gov.cn/art/2018/4/11/art_1229829901_59036196.html,2018-04-11,2026-08-08,,D1宁波半日游,high,南塘河遗留历史街区属于宁波八个历史街区之一，位于古城南门外；用于历史背景，开放和商户以当日现场为准
 ningbo-nantang-transfer,commercial,宁波机场至南塘老街动态道路估算,https://uri.amap.com/search?keyword=宁波南塘老街A区&city=宁波,,2026-08-08,2026-08-14,D1宁波机场往返,medium,网约车单程按35至40分钟和50至80元规划；8月午后雷雨或拥堵时提前回场，T-1用实时导航刷新
+ningbo-metro-line2-airport,commercial,携程机场交通：宁波地铁2号线机场站及站点列表,https://flights.ctrip.com/booking/airport-ngb/jichangjiaotong.html,,2026-08-08,2026-08-14,D1宁波机场至云霞路,medium,页面列出栎社国际机场站和云霞路站均属2号线；仅用于直达关系，具体时刻票价和临时运营以宁波轨道交通当日通知为准
+ningbo-nantang-nearest-metro,commercial,Moovit：南塘老街最近地铁站,https://moovitapp.com/index/zh-cn/%E5%85%AC%E5%85%B1%E4%BA%A4%E9%80%9A-%E5%8D%97%E5%A1%98%E8%80%81%E8%A1%97-Ningbo-site_58726469-5387,,2026-08-08,2026-08-14,D1云霞路至南塘老街,medium,页面将云霞路列为南塘老街最近地铁站；站外步行距离和天气影响以当天导航为准
+ningbo-citywalk-order,commercial,携程宁波一日游：鼓楼月湖南塘老街顺向线路,https://you.ctrip.com/travels/ningbo83/4152075.html,2024-06-15,2026-08-08,2026-08-14,D1鼓楼月湖南塘步行线,medium,成熟步行线将月湖和南塘老街连续安排；本计划压缩为鼓楼短停月湖北东侧和南塘午餐，不套用原文全部景点
 xhs-nantang-transfer-20260215,community,小红书宁波机场3小时极限转机南塘老街逛吃,https://www.xiaohongshu.com/explore/6991caa6000000000a02f86f,2026-02-15,2026-08-08,2026-08-14,D1宁波半日游,medium,账号子牙；搜索结果显示以南塘老街为3小时紧凑转机逛吃目的地，点赞101；作为动线线索而非交通规则
 xhs-nantang-transfer-20260308,community,小红书宁波转机2小时极限逛吃南塘老街,https://www.xiaohongshu.com/explore/69ad87930000000022031782,2026-03-08,2026-08-08,2026-08-14,D1宁波半日游,medium,账号抹茶的逐梦潜旅家；搜索结果显示2小时极限逛吃选择南塘老街，点赞14；用于支持单片区不跨城的取舍
 xhs-ningbo-transfer-20250409,community,小红书宁波中转4小时打卡,https://www.xiaohongshu.com/explore/67f65401000000000903bc0a,2025-04-09,2026-08-08,2026-08-14,D1宁波半日游,medium,账号小虞子YUER；4小时中转打卡实录点赞688；与近期转机笔记共同支持给机场保留长缓冲

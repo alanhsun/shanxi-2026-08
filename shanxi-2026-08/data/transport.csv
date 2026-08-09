@@ -8,10 +8,10 @@ T02D,2026-08-15,宁波南塘老街A区,云霞路站,步行,14:15,14:40,25,10,0,n
 T02D1,2026-08-15,云霞路站,宁波栎社国际机场T2航站楼,地铁2号线（往栎社国际机场方向）,14:40,15:40,60,15,20,ningbo-metro-line2-airport,https://uri.amap.com/search?keyword=宁波栎社国际机场T2航站楼&city=宁波,,candidate,含等车出站和步行回航站楼；当日临时停运或等车超预期时留机场或网约车兜底
 T02B,2026-08-15,宁波栎社国际机场,大同云冈国际机场,飞机MU6111,19:50,22:15,145,120,0,flight-mu6111-0815,,,confirmed,已出票；15:45返场后办理未完成手续休息晚餐；票面时刻优先
 T12,2026-08-15,大同云冈国际机场,万信至格酒店大同百盛明堂公园店,网约车,22:40,23:25,45,15,100,route-local-amap,https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同,,confirmed,D1不深夜取车；到店即休息，D2上午改古城服务点取车
-T13,2026-08-16,万信至格酒店大同百盛明堂公园店,神州租车大同古城服务点,网约车,08:40,08:55,15,10,30,user-shenzhou-datong-ancientcity-20260809,https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同,,confirmed,09:00取车；证件驾驶证与儿童增高坐垫需求随身带齐
-T14,2026-08-16,神州租车大同古城服务点,云冈石窟游客中心,租车自驾,09:35,10:30,55,15,0,user-shenzhou-datong-ancientcity-20260809,https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同,,confirmed,用户指定接近午饭时段入园；车辆既定09:00领取，直接自驾云冈避免额外市内折返；现场队列超20分钟即跳看
-T15,2026-08-16,云冈石窟游客中心,紫泥369粗粮季南环店或酒店生活区,租车自驾,14:10,15:00,50,15,0,food-datong-list,https://uri.amap.com/search?keyword=紫泥369粗粮季南环店&city=大同,,confirmed,凯鸽现有来源仅确认晚市，不作为15:00午餐主选；停车或等位困难即改酒店生活区热食
-T16,2026-08-16,万信至格酒店大同百盛明堂公园店,华严寺景区入口,网约车,17:30,17:50,20,10,25,datong-city,https://uri.amap.com/search?keyword=华严寺景区入口&city=大同,,confirmed,车辆午餐后停回酒店；华严寺当日最后入场与闭园时间T-1复核
+T13,2026-08-16,万信至格酒店大同百盛明堂公园店,云冈石窟游客中心,网约车,09:55,10:50,55,15,120,route-local-amap,https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同,,confirmed,先打车游览，保持酒店—云冈—古城单向链；现场队列超20分钟即跳看
+T14,2026-08-16,云冈石窟游客中心,华严寺景区入口,网约车,13:35,14:25,50,15,130,datong-city,https://uri.amap.com/search?keyword=华严寺景区入口&city=大同,,confirmed,不回酒店或服务点，直接进入古城下午游览；华严寺最后入场T-1复核
+T15,2026-08-16,华严寺/鼓楼片区,神州租车大同古城服务点,步行或短途网约车,16:20,16:35,15,10,30,user-shenzhou-datong-ancientcity-20260809,https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同,,confirmed,古城游览结束后再取车；证件驾驶证与儿童增高坐垫需求随身带齐
+T16,2026-08-16,神州租车大同古城服务点,万信至格酒店大同百盛明堂公园店,租车自驾,17:10,17:35,25,10,0,user-shenzhou-datong-ancientcity-20260809,https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同,,confirmed,取车验车后直接回酒店停车；D3清晨可直接出发
 T03,2026-08-17,万信至格酒店大同百盛明堂公园店,恒山游客中心,租车自驾,06:35,08:20,105,20,0,xuankong-selfdrive-parking,https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同,,confirmed,停恒山游客中心后全员换乘官方景交
 T04,2026-08-17,恒山游客中心,应县木塔,租车自驾,10:25,11:45,80,20,0,route-north-south,https://uri.amap.com/search?keyword=应县木塔&city=朔州,,confirmed,含景交返回取车和停车缓冲
 T05,2026-08-17,应县木塔,雁门关景区北门,租车自驾,13:45,15:15,90,20,0,yanmen-current,https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州,,confirmed,优先北门进入减少连续爬坡；T-1按实时导航和景区管制调整

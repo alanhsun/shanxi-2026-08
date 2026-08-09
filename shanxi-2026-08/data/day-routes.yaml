@@ -18,16 +18,14 @@ routes:
 
   - day_id: day-02
     title: D2 云冈石窟与大同古城
-    note: 接近午饭时段进入石窟，午后休整后进入古城；车辆尽量停酒店。
+    note: 约10:00打车至云冈，下午单向进入古城；游览结束才取车回酒店。
     stops:
-      - {label: 大同酒店, detail: "08:40打车前往服务点", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
-      - {label: 神州租车大同古城服务点, detail: "09:00取车验车", url: "https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同"}
+      - {label: 大同酒店, detail: "09:55打车出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
       - {label: 云冈石窟, detail: "11:05入园；5、6、20窟优先，排队跳看", url: "https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同"}
-      - {label: 紫泥369/酒店生活区, detail: "15:00迟午餐", url: "https://uri.amap.com/search?keyword=紫泥369粗粮季南环店&city=大同"}
-      - {label: 酒店, detail: "午休"}
-      - {label: 华严寺, detail: "古城慢游", url: "https://uri.amap.com/search?keyword=华严寺景区入口&city=大同"}
-      - {label: 酒店, detail: "20:30前返回"}
-    segments: ["网约车 · 约15分", "取车+自驾+停车 · 约1小时35分", "自驾+停车 · 约1小时", "自驾 · 约20分", "网约车 · 约20分", "网约车 · 约20分"]
+      - {label: 华严寺, detail: "下午核心慢游", url: "https://uri.amap.com/search?keyword=华严寺景区入口&city=大同"}
+      - {label: 神州租车大同古城服务点, detail: "约16:35取车验车", url: "https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同"}
+      - {label: 酒店, detail: "17:35停车、晚餐休息"}
+    segments: ["网约车 · 约55分", "网约车 · 约50分", "步行/短途车 · 约15分", "取车+自驾 · 约1小时"]
 
   - day_id: day-03
     title: D3 悬空寺—应县木塔—雁门关—代县

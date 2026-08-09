@@ -20,8 +20,8 @@ routes:
     title: D2 云冈石窟与大同古城
     note: 上午石窟，午休后进入古城；车辆尽量停酒店。
     stops:
-      - {label: 大同酒店, detail: "08:30出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
-      - {label: 云冈石窟, detail: "核心窟群", url: "https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同"}
+      - {label: 大同酒店, detail: "06:50早场出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
+      - {label: 云冈石窟, detail: "07:45入园；5、6、20窟优先", url: "https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同"}
       - {label: 凯鸽酒楼, detail: "午餐", url: "https://uri.amap.com/search?keyword=凯鸽酒楼操场城店&city=大同"}
       - {label: 酒店, detail: "午休"}
       - {label: 华严寺, detail: "古城慢游", url: "https://uri.amap.com/search?keyword=华严寺景区入口&city=大同"}

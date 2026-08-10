@@ -194,9 +194,13 @@ def render_route_map(route: dict) -> str:
             f"{route.get('day_id', 'unknown')}: route stops/segments do not match"
         )
 
-    width = max(720, 110 + len(stops) * 155)
-    height = 235
-    points = [(70 + index * 155, 108) for index in range(len(stops))]
+    # A vertical flow keeps long Chinese place names and distance labels legible
+    # on both desktop and mobile.  The previous horizontal layout became crowded
+    # once every segment gained a distance and duration.
+    width = 760
+    step = 142
+    height = max(310, 92 + (len(stops) - 1) * step)
+    points = [(62, 42 + index * step) for index in range(len(stops))]
     day_id = html.escape(str(route.get("day_id", "route")), quote=True)
     title = html.escape(str(route.get("title", "当日路线")))
     marker_id = f"arrow-{day_id}"
@@ -210,17 +214,40 @@ def render_route_map(route: dict) -> str:
         '<path d="M0,0 L8,4 L0,8 Z" fill="#b84d2b"/></marker>',
         "</defs>",
     ]
+    def wrap_text(value: str, width: int) -> list[str]:
+        return [value[index:index + width] for index in range(0, len(value), width)] or [""]
+
     for index, segment in enumerate(segments):
         x1, y1 = points[index]
         x2, y2 = points[index + 1]
         svg_parts.append(
-            f'<line x1="{x1 + 13}" y1="{y1}" x2="{x2 - 15}" y2="{y2}" '
+            f'<line x1="{x1}" y1="{y1 + 19}" x2="{x2}" y2="{y2 - 21}" '
             f'class="route-line" marker-end="url(#{marker_id})"/>'
         )
-        midpoint = (x1 + x2) / 2
+        segment_lines = [part.strip() for part in str(segment).split(" · ") if part.strip()]
+        if not segment_lines:
+            segment_lines = [str(segment)]
+        rendered_lines = []
+        for line in segment_lines:
+            rendered_lines.extend(wrap_text(line, 22))
+        box_height = 18 + len(rendered_lines) * 17
+        # Reserve the top half of each row for the stop name and detail, then
+        # place its travel card beneath it.  This avoids long details touching
+        # the following segment card.
+        box_y = y1 + 60
+        midpoint = box_y + box_height / 2
         svg_parts.append(
-            f'<text x="{midpoint}" y="151" class="route-segment" text-anchor="middle">'
-            f'{html.escape(str(segment))}</text>'
+            f'<rect x="260" y="{box_y:.1f}" width="430" height="{box_height}" '
+            f'ry="8" class="route-segment-box"/>'
+        )
+        text_y = midpoint - ((len(rendered_lines) - 1) * 8)
+        tspans = "".join(
+            f'<tspan x="280" dy="{0 if line_index == 0 else 17}">'
+            f'{html.escape(line)}</tspan>'
+            for line_index, line in enumerate(rendered_lines)
+        )
+        svg_parts.append(
+            f'<text x="280" y="{text_y:.1f}" class="route-segment">{tspans}</text>'
         )
 
     nav_links = []
@@ -228,11 +255,25 @@ def render_route_map(route: dict) -> str:
         x, y = points[index - 1]
         label = html.escape(str(stop.get("label", "")))
         detail = html.escape(str(stop.get("detail", "")))
+        label_lines = wrap_text(str(stop.get("label", "")), 10)
+        detail_lines = wrap_text(str(stop.get("detail", "")), 11)
+        label_y = y - 8 - (len(label_lines) - 1) * 8
+        label_tspans = "".join(
+            f'<tspan x="96" dy="{0 if line_index == 0 else 16}">'
+            f'{html.escape(line)}</tspan>'
+            for line_index, line in enumerate(label_lines)
+        )
+        detail_y = y + 19 + (len(label_lines) - 1) * 8
+        detail_tspans = "".join(
+            f'<tspan x="96" dy="{0 if line_index == 0 else 14}">'
+            f'{html.escape(line)}</tspan>'
+            for line_index, line in enumerate(detail_lines)
+        )
         svg_parts.extend([
             f'<circle cx="{x}" cy="{y}" r="18" class="route-node"/>',
-            f'<text x="{x}" y="114" class="route-number" text-anchor="middle">{index}</text>',
-            f'<text x="{x}" y="48" class="route-stop" text-anchor="middle">{label}</text>',
-            f'<text x="{x}" y="70" class="route-detail" text-anchor="middle">{detail}</text>',
+            f'<text x="{x}" y="{y + 6}" class="route-number" text-anchor="middle">{index}</text>',
+            f'<text x="96" y="{label_y}" class="route-stop">{label_tspans}</text>',
+            f'<text x="96" y="{detail_y}" class="route-detail">{detail_tspans}</text>',
         ])
         url = str(stop.get("url", ""))
         if urlparse(url).scheme in {"http", "https"}:

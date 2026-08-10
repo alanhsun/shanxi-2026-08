@@ -125,7 +125,8 @@ main section > p > img {
 .route-number { fill: #fff; font-size: 15px; font-weight: 800; }
 .route-stop { fill: #17211b; font-size: 15px; font-weight: 750; }
 .route-detail { fill: #5e6b63; font-size: 12px; }
-.route-segment { fill: #8f4028; font-size: 12px; font-weight: 650; }
+.route-segment-box { fill: #fffdf8; stroke: #d9b4a5; stroke-width: 1; }
+.route-segment { fill: #8f4028; font-size: 13px; font-weight: 700; }
 .route-note { margin: .55rem 0 .7rem; color: var(--muted); font-size: .9rem; }
 .route-nav { display: flex; flex-wrap: wrap; gap: .45rem; }
 .route-nav a {
@@ -182,13 +183,7 @@ footer { padding: 2rem 1rem 4rem; color: var(--muted); text-align: center; font-
   .route-map > summary { display: block; padding: .75rem .8rem; }
   .route-map > summary small { display: block; margin-top: .15rem; }
   .route-map-body { padding: .55rem .8rem .8rem; }
-  .route-map-scroll::after {
-    content: "左右滑动查看完整路线";
-    display: block;
-    color: var(--muted);
-    font-size: .76rem;
-    text-align: right;
-  }
+  .route-diagram { min-width: 620px; }
 }
 
 @media print {

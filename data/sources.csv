@@ -1,4 +1,8 @@
 source_id,source_type,title,url,published_at,verified_at,expires_at,applies_to,confidence,notes
+user-hotel-taiyuan-yilan-booked-20260810,user,用户确认颐兰酒店太原晋祠公园向曦门店已订,https://uri.amap.com/search?keyword=颐兰酒店太原晋祠公园向曦门店&city=太原,,2026-08-10,,D5-D6太原住宿,high,用户确认8月19日至20日住1晚285元；不记录订单号、房型或支付凭证；D6以实时导航核对酒店至晋祠入口
+user-hotel-pingyao-biechudujia-booked-20260810,user,用户确认平遥在别处度假客栈明清街县衙店已订,https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中,,2026-08-10,,D6-D7平遥住宿,high,用户确认8月20日至21日住1晚242元；古城内停车及行李进店以客栈当日指引为准；不记录订单号、房型或支付凭证
+user-hotel-jixian-zhaoshi-booked-20260810,user,用户确认吉县赵氏私房菜酒店黄河壶口风景区店已订,https://uri.amap.com/search?keyword=吉县赵氏私房菜酒店黄河壶口风景区店&city=临汾,,2026-08-10,,D7-D8壶口住宿,high,用户确认8月21日至22日住1晚160元；D8从景区附近早场出发；不记录订单号、房型或支付凭证
+user-rental-ev-booked-20260810,user,用户确认大同取运城还电动车租赁已订,https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同,,2026-08-10,,D2-D8电动车租赁,high,用户确认8月16日至22日租赁电动车总价1639元；车型电池容量续航及充电权益未提供，长途日按充电App和实时导航复核
 user-flight-cz5266-paid-20260810,user,用户确认CZ5266运城至广州3人实付总价,https://flights.ctrip.com/international/Schedule/YCU-CAN.html,,2026-08-10,,D9返程航班费用,high,用户确认CZ5266三人总价1780元；不记录票号、订单号或支付凭证；航班时刻和航站楼仍以票面与航司通知为准
 user-hotel-datong-shangkeyou-booked-20260810,user,用户确认尚客优精选山西大同云冈区吾悦广场店已订,https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同,,2026-08-10,,D1-D3大同住宿与接驳,high,用户确认8月15日至17日住2晚共630元；不记录订单号、房型或支付凭证；精确进出车路线T-1按实时导航复核
 user-hotel-daixian-xinwuxin-booked-20260810,user,用户确认代县鑫五鑫精品酒店已订,https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州,,2026-08-10,,D3-D4代县住宿与进山,high,用户确认8月17日至18日住1晚220元；不记录订单号、房型或支付凭证；D4按代县向北门方向进山，T-1按实时导航复核

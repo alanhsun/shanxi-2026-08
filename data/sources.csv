@@ -1,4 +1,7 @@
 source_id,source_type,title,url,published_at,verified_at,expires_at,applies_to,confidence,notes
+user-flight-cz5266-paid-20260810,user,用户确认CZ5266运城至广州3人实付总价,https://flights.ctrip.com/international/Schedule/YCU-CAN.html,,2026-08-10,,D9返程航班费用,high,用户确认CZ5266三人总价1780元；不记录票号、订单号或支付凭证；航班时刻和航站楼仍以票面与航司通知为准
+user-hotel-datong-shangkeyou-booked-20260810,user,用户确认尚客优精选山西大同云冈区吾悦广场店已订,https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同,,2026-08-10,,D1-D3大同住宿与接驳,high,用户确认8月15日至17日住2晚共630元；不记录订单号、房型或支付凭证；精确进出车路线T-1按实时导航复核
+user-hotel-daixian-xinwuxin-booked-20260810,user,用户确认代县鑫五鑫精品酒店已订,https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州,,2026-08-10,,D3-D4代县住宿与进山,high,用户确认8月17日至18日住1晚220元；不记录订单号、房型或支付凭证；D4按代县向北门方向进山，T-1按实时导航复核
 route-local-amap,commercial,高德地图本地接驳路线规划,https://ditu.amap.com/,,2026-08-01,2026-08-14,T01/T11/T12/T13/T22本地接驳,medium,各段使用高德导航落点；当前时间和费用为规划估值；出发前一天按实时路况刷新
 user-can-t3-transfer-20260809,user,用户确认8月15日东莞预约送机至白云机场T3,https://uri.amap.com/search?keyword=广州白云国际机场T3航站楼&city=广州,,2026-08-09,,D1东莞至白云机场T3,high,用户确认06:00出发约07:10到达且送机费用192元；不记录住址或送机订单信息
 user-shenzhou-datong-ancientcity-20260809,user,用户确认神州租车大同古城服务点取车,https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同,,2026-08-09,,D2大同租车取车,high,用户指定在D2古城游览结束后于该服务点取车，计划约16:35；不记录租车订单号或取车凭证

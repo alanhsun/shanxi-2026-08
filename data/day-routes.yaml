@@ -13,42 +13,42 @@ routes:
       - {label: 云霞路站, detail: "地铁2号线返机场", url: "https://uri.amap.com/search?keyword=宁波地铁云霞路站&city=宁波"}
       - {label: 宁波栎社机场, detail: "15:40返场，晚餐、候机", url: "https://uri.amap.com/search?keyword=宁波栎社国际机场T2航站楼&city=宁波"}
       - {label: 大同云冈机场, detail: "22:15落地、取行李", url: "https://uri.amap.com/search?keyword=大同云冈国际机场&city=大同"}
-      - {label: 万信至格酒店, detail: "约23:25网约车入住", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
-    segments: ["预约送机 · 约1小时10分", "MU6949 · 2小时05分", "地铁2号线 · 约45分", "步行 · 约40分", "步行 · 约20分", "步行 · 约25分", "地铁2号线 · 约60分", "MU6111 · 2小时25分", "网约车 · 约45分"]
+      - {label: 尚客优精选吾悦广场店, detail: "约23:15网约车入住", url: "https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同"}
+    segments: ["预约送机 · 约1小时10分", "MU6949 · 2小时05分", "地铁2号线 · 约45分", "步行 · 约40分", "步行 · 约20分", "步行 · 约25分", "地铁2号线 · 约60分", "MU6111 · 2小时25分", "网约车 · 约35分"]
 
   - day_id: day-02
     title: D2 云冈石窟与大同古城
     note: 约10:00打车至云冈，下午单向进入古城；游览结束才取车回酒店。
     stops:
-      - {label: 大同酒店, detail: "09:55打车出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
+      - {label: 尚客优精选吾悦广场店, detail: "09:55打车出发", url: "https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同"}
       - {label: 云冈石窟, detail: "11:05入园；5、6、20窟优先，排队跳看", url: "https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同"}
       - {label: 华严寺, detail: "下午核心慢游", url: "https://uri.amap.com/search?keyword=华严寺景区入口&city=大同"}
       - {label: 神州租车大同古城服务点, detail: "约16:35取车验车", url: "https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同"}
-      - {label: 酒店, detail: "17:35停车、晚餐休息"}
-    segments: ["网约车 · 约55分", "网约车 · 约50分", "步行/短途车 · 约15分", "取车+自驾 · 约1小时"]
+      - {label: 尚客优精选吾悦广场店, detail: "17:45停车、晚餐休息"}
+    segments: ["网约车 · 约40分", "网约车 · 约50分", "步行/短途车 · 约15分", "取车+自驾 · 约1小时10分"]
 
   - day_id: day-03
     title: D3 悬空寺—应县木塔—雁门关—代县
     note: 全程顺路向南；雁门关北门进，县城住宿避免景区溢价。
     stops:
-      - {label: 大同酒店, detail: "06:35装车出发", url: "https://uri.amap.com/search?keyword=万信至格酒店大同百盛明堂公园店&city=大同"}
+      - {label: 尚客优精选吾悦广场店, detail: "06:15装车出发", url: "https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同"}
       - {label: 恒山游客中心, detail: "换官方景交看悬空寺", url: "https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同"}
       - {label: 应县木塔, detail: "午餐、外观与首层", url: "https://uri.amap.com/search?keyword=应县木塔&city=朔州"}
       - {label: 雁门关北门, detail: "核心关城约2小时", url: "https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州"}
-      - {label: 开普顿酒店代县精选店, detail: "入住、县城晚餐", url: "https://uri.amap.com/search?keyword=开普顿连锁酒店代县精选店&city=忻州"}
-    segments: ["自驾 · 约1小时45分", "景交+自驾 · 约2小时", "自驾 · 约1小时30分", "自驾 · 约50分"]
+      - {label: 代县鑫五鑫精品酒店, detail: "入住、县城晚餐", url: "https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州"}
+    segments: ["自驾 · 约2小时", "景交+自驾 · 约2小时", "自驾 · 约1小时30分", "自驾 · 约50分"]
 
   - day_id: day-04
-    title: D4 代县—五台山核心寺院群
-    note: 有车约自驾进山；无车约停指定停车场换免费公交，午后只走殊像寺—塔院寺—显通寺三座核心寺院。
+    title: D4 代县—五台山北门—核心寺院群
+    note: 从代县向北门主线进山；有车约按官方允许路线进入，无车约停指定停车场换免费公交；西门仅在官方当天指引要求时启用，午后只走三座核心寺院。
     stops:
-      - {label: 代县开普顿酒店, detail: "08:00出发", url: "https://uri.amap.com/search?keyword=开普顿连锁酒店代县精选店&city=忻州"}
-      - {label: 五台山游客服务中心, detail: "人车核验或停车换乘", url: "https://uri.amap.com/search?keyword=五台山游客服务中心&city=忻州"}
+      - {label: 代县鑫五鑫精品酒店, detail: "07:15出发", url: "https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州"}
+      - {label: 五台山风景区北门, detail: "人车核验或停车换乘；西门仅按官方指引切换", url: "https://uri.amap.com/search?keyword=五台山风景区北门&city=忻州"}
       - {label: 妙隐居民宿, detail: "寄存行李、短休", url: "https://uri.amap.com/search?keyword=妙隐居民宿五台山&city=忻州"}
       - {label: 殊像寺, detail: "文殊造像", url: "https://uri.amap.com/search?keyword=五台山殊像寺&city=忻州"}
       - {label: 塔院寺—显通寺, detail: "白塔与核心寺院", url: "https://uri.amap.com/search?keyword=五台山塔院寺&city=忻州"}
       - {label: 民宿, detail: "20:00前返回"}
-    segments: ["自驾 · 约2小时45分", "预约车或免费公交 · 约1小时", "步行/景区公交", "步行 · 约15分", "步行/短途车"]
+    segments: ["自驾 · 约2小时30分 / 约135公里", "北门核验+预约车或免费公交 · 约1小时30分 / 约30公里", "步行/景区公交", "步行 · 约15分", "步行/短途车"]
 
   - day_id: day-05
     title: D5 五台山晨游—太原

@@ -41,10 +41,10 @@ hotel-taiyuan-echarm-plus,commercial,太原千峰南路山西博物院宜尚PLUS
 hotel-pingyao-moshang,commercial,平遥陌上轻奢酒店平遥古城站店,https://hotels.ctrip.com/hotels/118997771.html,,2026-08-02,2026-08-18,平遥1间亲子房,medium,近期携程住客记录亲子房空间大且有儿童帐篷；页面说明15岁及以下儿童使用现有床铺免费并显示停车方便；指定日期库存价格须结算页确认
 hotel-taiyuan-kaman-family,commercial,卡曼·观博设计师酒店,https://hotels.ctrip.com/hotels/128126988.html,,2026-08-02,2026-08-14,太原亲子房备选,medium,携程公开页可见亲子房标签且位置靠近山西博物院片区；指定日期1间2成人1儿童的库存价格床型停车和退改须结算页确认
 hotel-pingyao-xinhui,commercial,8月1日平遥新会馆历史快照,https://hotels.ctrip.com/hotels/39282342.html,,2026-08-01,,平遥住宿历史比较,medium,原2间房价格只用于版本追踪；当前不使用旧价
-social-xuankong-queue,community,悬空寺登临票游客问答与排队经验,https://you.ctrip.com/asks/3026/16392630.html,2026-06-02,2026-07-31,2026-08-10,悬空寺现场策略,low,游客称线上票紧张且现场票需很早排队；个体经验仅用于判断不值得全家凌晨抢票
-social-xuankong-visitor,community,悬空寺近期游客评价,https://you.ctrip.com/sight/hunyuan3026/15960.html,,2026-07-31,2026-08-10,悬空寺现场策略,low,2026年6月游客记录凌晨早起排队；与官方限量规则方向一致但不作为票务规则来源
-social-pingyao-cart,community,平遥古城近期游客评价与步行提示,https://you.ctrip.com/sight/pingyaocounty365/16561.html,,2026-07-31,2026-08-10,平遥步行与交通,low,游客反映古城石板路拖箱不便且电瓶车在窄街速度可能较快；用于提醒靠边步行并选择城外酒店
-social-hukou-summer,community,壶口瀑布近期游客评价与暑期体验,https://you.ctrip.com/sight/jicounty3038/11393.html,,2026-07-31,2026-08-10,壶口暑期现场,low,2026年6至7月游客反映日晒强和游客中心餐饮有限；另有龙洞施工说法未获官方确认不纳入硬安排
+social-xuankong-queue,community,悬空寺登临票游客问答与排队经验,https://you.ctrip.com/asks/3026/16392630.html,2026-06-02,2026-08-11,2026-08-16,悬空寺现场策略,low,8月11日复核可读5条回答：线上预约仍被多名游客认为紧张，另有游客建议7:20蹲票、无票才早到现场；个体经验仅用于维持“不为全家凌晨排现场票”的取舍，票务规则仍以官方为准
+social-xuankong-visitor,community,恒山与悬空寺联游近期游客评价,https://you.ctrip.com/sight/hunyuan3026/15960.html,,2026-08-11,2026-08-16,悬空寺现场策略,low,8月11日复核页面可见2026年7月25日游客记录：未抢到登临票后4时起床、7:30排到票；支持悬空寺登临不作为硬任务，官方限量与开放规则另行复核
+social-pingyao-cart,community,平遥古城游客评价与步行提示,https://you.ctrip.com/sight/pingyaocounty365/16561.html,,2026-08-11,2026-08-20,平遥步行与交通,low,8月11日复核页面仍可见游客提示：古城青石板路狭窄曲折，电瓶车在小巷穿梭较快；保留靠边步行、行李由客栈指引转运的规则，不把个体评论当管理规定
+social-hukou-summer,community,壶口瀑布近期游客评价与暑期体验,https://you.ctrip.com/sight/jicounty3038/11393.html,,2026-08-11,2026-08-21,壶口暑期现场,low,8月11日复核页面可见2026年8月3日及7月多条游客评价：夏季日晒强，应防晒补水；不再把未复核的游客中心餐饮或龙洞施工说法纳入安排，开放仍以官方当天公告为准
 hukou-summer-flood-2026,official,新华社：黄河壶口瀑布迎来夏汛,https://www.xinhuanet.com/politics/20260710/4f5725301c02413ca95e05b47d6430ed/c.html,2026-07-10,2026-08-01,2026-08-20,壶口水情与开放状态,high,报道时流量超过每秒1800立方米且景区正常接待游客；不代表8月22日必然开放
 shanxi-flood-risk-2026,official,山西进入七下八上防汛关键期地质灾害风险提示,https://www.dt.gov.cn/dtszf/sxyw/202607/560c54242b234119ad855f8c490221d8.shtml,2026-07-21,2026-08-01,2026-08-20,山西汛期道路与地质灾害风险,high,官方提示强降雨和地质灾害风险上升；壶口及平遥至吉县路段保留T-3与T-1动态复核
 fx-usd-cny-planning,official,人民币折算依据：中国银行外汇牌价,https://www.boc.cn/sourcedb/whpj/,2026-07-28,2026-08-01,,外币票价统一折算,high,最近可核验的中行折算价为100美元约679.28元人民币；项目为便于比较统一取每1美元约6.80元人民币并四舍五入到十元
@@ -143,6 +143,7 @@ flight-mu6111-0815,commercial,东航浙江暑运宁波至大同航线时刻,http
 flight-cz5266-0823,commercial,CZ5266运城至广州公开航班时刻,https://flights.ctrip.com/international/Schedule/YCU-CAN.html,,2026-08-05,2026-08-22,D9运城至广州,medium,公开时刻07:20至10:00；用户已确认航班号并出票；票面时间航站楼和航司通知优先
 hotel-yuncheng-weiyuan-20260805,commercial,微源国际酒店运城盐湖国际机场店指定日期核验,https://hotels.ctrip.com/hotels/114968689.html?checkIn=2026-08-22&checkOut=2026-08-23&adult=2&children=1&ages=8&crn=1,,2026-08-05,2026-08-21,D8运城机场住宿,medium,页面显示距机场约280米评分4.7共572条并有24小时前台免费停车接送机亲子房三人间；近期评论认可步行3至5分钟和房间大也有隔音一般反馈；指定日期房型价格区未加载故只设450元上限
 hotel-yuncheng-weiyuan-booked-20260809,user,用户确认微源国际酒店大床房已预订,https://hotels.ctrip.com/hotels/114968689.html?checkIn=2026-08-22&checkOut=2026-08-23&adult=2&children=1&ages=8&crn=1,2026-08-09,2026-08-09,,D8运城机场住宿,high,用户确认8月22日至23日大床房1间总价178元；不记录订单号确认码或支付信息
+user-hotel-wutai-zhijianshanxing-booked-20260811,user,用户确认知见山行民宿五台山风景区店已预订,https://www.ctrip.com/,2026-08-11,2026-08-11,,D4至D5五台山住宿,high,用户确认8月18日至19日1间1晚总价410元；不记录订单号确认码房型或支付信息；平台入口只作用户提供订单的非敏感定位，不替代订单凭证
 yungang-summer-hours-20260809,commercial,云冈石窟2026暑期开放时间信息,https://www.sohu.com/a/1044920953_121124403,,2026-08-09,2026-08-16,D2云冈早场,medium,转引云冈研究院暑期公告称2026年7月11日至8月31日7:30至18:00开放且18:00停止检票；T-1再以云冈官方渠道复查
 xhs-yungang-early-queue-20260808,community,小红书：8月8日早上7:20云冈石窟门口排队情况,https://www.xiaohongshu.com/explore/6a767cad0000000025003b91,2026-08-08,2026-08-09,2026-08-16,D2云冈早场,medium,账号镜玥澜；搜索结果可见标题日期与作者，正文未展开；用于证明早场入口也可能排队而非无人的经验线索
 xhs-yungang-afternoon-crowd-20260730,community,小红书：云冈石窟下午巨多人,https://www.xiaohongshu.com/explore/6a6b0d6a000000002402fc04,2026-07-30,2026-08-09,2026-08-16,D2云冈晚场比较,medium,账号无情的粉色恶魔；搜索结果可见标题日期与作者，正文未展开；用于否定把下午当作当然避队时段

@@ -17,8 +17,8 @@ T04,2026-08-17,恒山游客中心,应县木塔,租车自驾,10:25,11:45,80,20,0,
 T05,2026-08-17,应县木塔,雁门关景区北门,租车自驾,13:45,15:15,90,20,0,yanmen-current,https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州,,confirmed,约90公里；优先北门进入减少连续爬坡；T-1按实时导航和景区管制调整
 T21,2026-08-17,雁门关景区北门,代县鑫五鑫精品酒店,租车自驾,17:25,18:15,50,15,0,route-local-amap,https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州,,confirmed,约45公里；住代县县城不住景区；到店后车辆停酒店车位；T-1实时导航复核
 T17,2026-08-18,代县鑫五鑫精品酒店,五台山风景区北门,租车自驾,07:15,09:45,150,20,0,wutai-vehicle-20260723,https://uri.amap.com/search?keyword=五台山风景区北门&city=忻州,,confirmed,规划约135公里；从代县取北门方向进山，避免向西门横向绕行；车辆预约和入口管制以官方小程序当天指引为准
-T18,2026-08-18,五台山风景区北门,妙隐居民宿,预约车辆自驾或免费公交换乘,09:45,11:15,90,20,0,wutai-vehicle-20260723,https://uri.amap.com/search?keyword=妙隐居民宿五台山&city=忻州,,confirmed,北门核验后规划约30公里；有车约按允许路线入核心区，无车约按指定停车点换免费公交；T-1实时导航复核
-T19,2026-08-19,妙隐居民宿,颐兰酒店太原晋祠公园向曦门店,电动车自驾或公交换取车后自驾,11:45,16:15,270,30,0,user-hotel-taiyuan-yilan-booked-20260810,https://uri.amap.com/search?keyword=颐兰酒店太原晋祠公园向曦门店&city=太原,,confirmed,约180公里；至少一次直流快充和每90至120分钟正规休息；无车辆预约时先乘免费公交到停车点取车；T-1实时导航复核
+T18,2026-08-18,五台山风景区北门,知见山行民宿（五台山风景区店）,预约车辆自驾或免费公交换乘,09:45,11:15,90,20,0,wutai-vehicle-20260723,https://uri.amap.com/search?keyword=知见山行民宿五台山风景区店&city=忻州,,confirmed,北门核验后规划约30公里；有车约按允许路线入核心区，无车约按指定停车点换免费公交；民宿具体入口以用户订单和T-1导航复核
+T19,2026-08-19,知见山行民宿（五台山风景区店）,颐兰酒店太原晋祠公园向曦门店,电动车自驾或公交换取车后自驾,11:45,16:15,270,30,0,user-hotel-wutai-zhijianshanxing-booked-20260811,https://uri.amap.com/search?keyword=颐兰酒店太原晋祠公园向曦门店&city=太原,,confirmed,约180公里；至少一次直流快充和每90至120分钟正规休息；无车辆预约时先乘免费公交到停车点取车；T-1实时导航复核
 T20,2026-08-19,太原宜尚PLUS,林香斋千峰南路店,网约车,18:20,18:35,15,10,25,dp-linxiang-qianfeng-current,https://uri.amap.com/search?keyword=林香斋千峰南路店&city=太原,,candidate,到店晚则改酒店附近清淡餐
 T22,2026-08-20,颐兰酒店太原晋祠公园向曦门店,晋祠博物馆,电动车自驾,08:40,08:50,10,10,0,user-hotel-taiyuan-yilan-booked-20260810,https://uri.amap.com/search?keyword=晋祠博物馆&city=太原,,confirmed,约3公里；T-1实时导航复核
 T06,2026-08-20,晋祠博物馆,双林寺,电动车自驾,12:10,14:40,150,25,0,route-local-amap,https://uri.amap.com/search?keyword=双林寺&city=晋中,,confirmed,约130公里；先看双林寺再进平遥古城，避免古城内住宿后反复取车；T-1实时导航复核

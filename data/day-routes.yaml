@@ -44,7 +44,7 @@ routes:
     stops:
       - {label: 代县鑫五鑫精品酒店, detail: "07:15出发", url: "https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州"}
       - {label: 五台山风景区北门, detail: "人车核验或停车换乘；西门仅按官方指引切换", url: "https://uri.amap.com/search?keyword=五台山风景区北门&city=忻州"}
-      - {label: 妙隐居民宿, detail: "寄存行李、短休", url: "https://uri.amap.com/search?keyword=妙隐居民宿五台山&city=忻州"}
+      - {label: 知见山行民宿, detail: "寄存行李、短休", url: "https://uri.amap.com/search?keyword=知见山行民宿五台山风景区店&city=忻州"}
       - {label: 殊像寺, detail: "文殊造像", url: "https://uri.amap.com/search?keyword=五台山殊像寺&city=忻州"}
       - {label: 塔院寺—显通寺, detail: "白塔与核心寺院", url: "https://uri.amap.com/search?keyword=五台山塔院寺&city=忻州"}
       - {label: 民宿, detail: "20:00前返回"}
@@ -54,7 +54,7 @@ routes:
     title: D5 五台山晨游—晋祠公园
     note: D4已完成三座核心寺院；D5不再新增寺院，休整后直接南下太原。
     stops:
-      - {label: 妙隐居民宿, detail: "早餐、整理行李", url: "https://uri.amap.com/search?keyword=妙隐居民宿五台山&city=忻州"}
+      - {label: 知见山行民宿, detail: "早餐、整理行李", url: "https://uri.amap.com/search?keyword=知见山行民宿五台山风景区店&city=忻州"}
       - {label: 台怀镇, detail: "10:45午餐、取车退房", url: "https://uri.amap.com/search?keyword=台怀镇&city=忻州"}
       - {label: 颐兰酒店, detail: "16:15入住补能", url: "https://uri.amap.com/search?keyword=颐兰酒店太原晋祠公园向曦门店&city=太原"}
       - {label: 向曦门片区, detail: "晚餐", url: "https://uri.amap.com/search?keyword=晋祠公园向曦门&city=太原"}

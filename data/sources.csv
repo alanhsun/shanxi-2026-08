@@ -1,10 +1,10 @@
 source_id,source_type,title,url,published_at,verified_at,expires_at,applies_to,confidence,notes
-user-hotel-taiyuan-yilan-booked-20260810,user,用户确认颐兰酒店太原晋祠公园向曦门店已订,https://uri.amap.com/search?keyword=颐兰酒店太原晋祠公园向曦门店&city=太原,,2026-08-10,,D5-D6太原住宿,high,用户确认8月19日至20日住1晚285元；不记录订单号、房型或支付凭证；D6以实时导航核对酒店至晋祠入口
-user-hotel-pingyao-biechudujia-booked-20260810,user,用户确认平遥在别处度假客栈明清街县衙店已订,https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中,,2026-08-10,,D6-D7平遥住宿,high,用户确认8月20日至21日住1晚242元；古城内停车及行李进店以客栈当日指引为准；不记录订单号、房型或支付凭证
+user-hotel-taiyuan-yilan-booked-20260810,user,用户确认颐兰酒店太原晋祠公园向曦门店已订,https://uri.amap.com/search?keyword=颐兰酒店太原晋祠公园向曦门店&city=太原,,2026-08-11,,D5-D6太原住宿,high,用户确认8月19日至20日大床房1晚285元无早餐；不记录订单号或支付凭证；D6以实时导航核对酒店至晋祠入口
+user-hotel-pingyao-biechudujia-booked-20260810,user,用户确认平遥在别处度假客栈明清街县衙店已订,https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中,,2026-08-11,,D6-D7平遥住宿,high,用户确认8月20日至21日大床房1晚242元含早餐；古城内停车及行李进店以客栈当日指引为准；不记录订单号或支付凭证
 user-hotel-jixian-zhaoshi-booked-20260810,user,用户确认吉县赵氏私房菜酒店黄河壶口风景区店已订,https://uri.amap.com/search?keyword=吉县赵氏私房菜酒店黄河壶口风景区店&city=临汾,,2026-08-10,,D7-D8壶口住宿,high,用户确认8月21日至22日住1晚160元；D8从景区附近早场出发；不记录订单号、房型或支付凭证
-user-rental-ev-booked-20260810,user,用户确认大同取运城还电动车租赁已订,https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同,,2026-08-10,,D2-D8电动车租赁,high,用户确认8月16日至22日租赁电动车总价1639元；车型电池容量续航及充电权益未提供，长途日按充电App和实时导航复核
+user-rental-ev-booked-20260810,user,用户确认大同取运城还日产N7 58kWh已订,https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同,,2026-08-11,,D2-D8电动车租赁,high,用户确认8月16日至22日租赁日产N7 58kWh电动车总价1524元；续航和充电权益以订单与提车页为准，长途日按充电App和实时导航复核
 user-flight-cz5266-paid-20260810,user,用户确认CZ5266运城至广州3人实付总价,https://flights.ctrip.com/international/Schedule/YCU-CAN.html,,2026-08-10,,D9返程航班费用,high,用户确认CZ5266三人总价1780元；不记录票号、订单号或支付凭证；航班时刻和航站楼仍以票面与航司通知为准
-user-hotel-datong-shangkeyou-booked-20260810,user,用户确认尚客优精选山西大同云冈区吾悦广场店已订,https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同,,2026-08-10,,D1-D3大同住宿与接驳,high,用户确认8月15日至17日住2晚共630元；不记录订单号、房型或支付凭证；精确进出车路线T-1按实时导航复核
+user-hotel-datong-shangkeyou-booked-20260810,user,用户确认尚客优精选山西大同云冈区吾悦广场店已订,https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同,,2026-08-11,,D1-D3大同住宿与接驳,high,用户确认8月15日至17日大床房2晚共630元含早；不记录订单号或支付凭证；精确进出车路线T-1按实时导航复核
 user-hotel-daixian-xinwuxin-booked-20260810,user,用户确认代县鑫五鑫精品酒店已订,https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州,,2026-08-10,,D3-D4代县住宿与进山,high,用户确认8月17日至18日住1晚220元；不记录订单号、房型或支付凭证；D4按代县向北门方向进山，T-1按实时导航复核
 route-local-amap,commercial,高德地图本地接驳路线规划,https://ditu.amap.com/,,2026-08-01,2026-08-14,T01/T11/T12/T13/T22本地接驳,medium,各段使用高德导航落点；当前时间和费用为规划估值；出发前一天按实时路况刷新
 user-can-t3-transfer-20260809,user,用户确认8月15日东莞预约送机至白云机场T3,https://uri.amap.com/search?keyword=广州白云国际机场T3航站楼&city=广州,,2026-08-09,,D1东莞至白云机场T3,high,用户确认06:00出发约07:10到达且送机费用192元；不记录住址或送机订单信息
@@ -142,8 +142,8 @@ flight-mu6949-0815,commercial,MU6949广州至宁波公开航班时刻,https://ww
 flight-mu6111-0815,commercial,东航浙江暑运宁波至大同航线时刻,https://news.sina.com.cn/zx/gj/2026-06-25/doc-inierihr7755288.shtml,2026-06-25,2026-08-05,2026-08-14,D1宁波至大同,high,东航浙江暑运信息显示7月1日至8月31日每日执飞；宁波19:50起飞大同22:15到达；用户已确认MU6111出票且票面优先
 flight-cz5266-0823,commercial,CZ5266运城至广州公开航班时刻,https://flights.ctrip.com/international/Schedule/YCU-CAN.html,,2026-08-05,2026-08-22,D9运城至广州,medium,公开时刻07:20至10:00；用户已确认航班号并出票；票面时间航站楼和航司通知优先
 hotel-yuncheng-weiyuan-20260805,commercial,微源国际酒店运城盐湖国际机场店指定日期核验,https://hotels.ctrip.com/hotels/114968689.html?checkIn=2026-08-22&checkOut=2026-08-23&adult=2&children=1&ages=8&crn=1,,2026-08-05,2026-08-21,D8运城机场住宿,medium,页面显示距机场约280米评分4.7共572条并有24小时前台免费停车接送机亲子房三人间；近期评论认可步行3至5分钟和房间大也有隔音一般反馈；指定日期房型价格区未加载故只设450元上限
-hotel-yuncheng-weiyuan-booked-20260809,user,用户确认微源国际酒店大床房已预订,https://hotels.ctrip.com/hotels/114968689.html?checkIn=2026-08-22&checkOut=2026-08-23&adult=2&children=1&ages=8&crn=1,2026-08-09,2026-08-09,,D8运城机场住宿,high,用户确认8月22日至23日大床房1间总价178元；不记录订单号确认码或支付信息
-user-hotel-wutai-zhijianshanxing-booked-20260811,user,用户确认知见山行民宿五台山风景区店已预订,https://www.ctrip.com/,2026-08-11,2026-08-11,,D4至D5五台山住宿,high,用户确认8月18日至19日1间1晚总价410元；不记录订单号确认码房型或支付信息；平台入口只作用户提供订单的非敏感定位，不替代订单凭证
+hotel-yuncheng-weiyuan-booked-20260809,user,用户确认微源国际酒店大床房已预订,https://hotels.ctrip.com/hotels/114968689.html?checkIn=2026-08-22&checkOut=2026-08-23&adult=2&children=1&ages=8&crn=1,2026-08-09,2026-08-11,,D8运城机场住宿,high,用户确认8月22日至23日大床房1间总价178元含早餐；不记录订单号确认码或支付信息
+user-hotel-wutai-zhijianshanxing-booked-20260811,user,用户确认知见山行民宿五台山风景区店已预订,https://www.ctrip.com/,2026-08-11,2026-08-11,,D4至D5五台山住宿,high,用户确认8月18日至19日大床房1间1晚总价410元无早餐；不记录订单号确认码或支付信息；平台入口只作用户提供订单的非敏感定位，不替代订单凭证
 yungang-summer-hours-20260809,commercial,云冈石窟2026暑期开放时间信息,https://www.sohu.com/a/1044920953_121124403,,2026-08-09,2026-08-16,D2云冈早场,medium,转引云冈研究院暑期公告称2026年7月11日至8月31日7:30至18:00开放且18:00停止检票；T-1再以云冈官方渠道复查
 xhs-yungang-early-queue-20260808,community,小红书：8月8日早上7:20云冈石窟门口排队情况,https://www.xiaohongshu.com/explore/6a767cad0000000025003b91,2026-08-08,2026-08-09,2026-08-16,D2云冈早场,medium,账号镜玥澜；搜索结果可见标题日期与作者，正文未展开；用于证明早场入口也可能排队而非无人的经验线索
 xhs-yungang-afternoon-crowd-20260730,community,小红书：云冈石窟下午巨多人,https://www.xiaohongshu.com/explore/6a6b0d6a000000002402fc04,2026-07-30,2026-08-09,2026-08-16,D2云冈晚场比较,medium,账号无情的粉色恶魔；搜索结果可见标题日期与作者，正文未展开；用于否定把下午当作当然避队时段
@@ -166,6 +166,7 @@ xhs-datong-dining-20260706,community,小红书凯鸽与龙聚祥完整实吃,htt
 xhs-wutai-core-loop-20260810,community,小红书五台山核心寺院亲子近期建议,https://www.xiaohongshu.com/explore/6a792f930000000025016c47,2026-08-10,2026-08-11,2026-08-24,D4五台山,medium,账号momo；殊像寺塔院寺显通寺约2.5小时及评论中一天可完成仅为近期个体经验；维护和关闭T-1核对
 xhs-jinci-shitouhan-20260728,community,小红书晋祠后石头汉实吃与距离,https://www.xiaohongshu.com/explore/6a682b95000000000f02964a,2026-07-28,2026-08-11,2026-08-24,D6晋祠午餐,medium,账号喜欢吃桃子鸭；笔记称距晋祠约4公里10分钟并认可羊汤烤串；炒羊血偏酸辣不纳入菜单
 xhs-hukou-family-20260809,community,小红书壶口瀑布山西侧亲子自驾打卡,https://www.xiaohongshu.com/explore/6a7757710000000005028212,2026-08-09,2026-08-11,2026-08-24,D8壶口至运城,medium,账号玥瑶；早场体验和旅游公路施工为单次经历；用于优先高速和T-1实时导航而非固定道路结论
-user-hotel-hukou-suanzaoshu-selected-20260811,user,用户指定酸枣树酒店并确认1晚170元,https://mm.ctrip.com/html5/hotel/hoteldetail/112763299.html,,2026-08-11,,D7-D8陕西壶口住宿,high,用户指定8月21日至22日入住并补充价格170元；不记录订单号房型或支付凭证
+user-hotel-hukou-suanzaoshu-selected-20260811,user,用户指定酸枣树酒店并确认1晚170元,https://mm.ctrip.com/html5/hotel/hoteldetail/112763299.html,,2026-08-11,,D7-D8陕西壶口住宿,high,用户指定8月21日至22日大床房入住，170元无早餐；不记录订单号或支付凭证
 hotel-hukou-suanzaoshu-current-20260811,commercial,携程酸枣树酒店壶口瀑布店实时酒店页,https://mm.ctrip.com/html5/hotel/hoteldetail/112763299.html,,2026-08-11,2026-08-21,D7-D8陕西壶口住宿,high,页面地址为宜川壶口镇政府广场东南侧50米；近期公开住客信息称步行约200米到游客中心；营业停车儿童政策T-1复核
 hukou-cross-province-ticket-202606,official,中国旅游报壶口瀑布晋陕门票互通政策,https://www.ctnews.com.cn/dongtai/m/content/2026-06/03/content_188058.html,2026-06-03,2026-08-11,2026-08-21,D8壶口双侧,high,80元实名票两日内可分别进入晋陕两侧各一次；两侧景交开放和水情仍须T-1分别复核
+user-yungang-ticket-guide-booked-20260811,user,用户确认云冈石窟门票与讲解已预订,https://www.dt.gov.cn/dtszf/bmdt/202604/87ae16347ecf462488743c37ee9c06f0.shtml,,2026-08-11,,D2云冈预约,high,用户确认门票300元与讲解105元已预订；不记录订单号取票码或讲解员联系方式

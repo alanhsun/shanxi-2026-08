@@ -26,9 +26,10 @@ T23,2026-08-20,双林寺,平遥古城官方停车区,电动车自驾,16:00,16:25
 T24,2026-08-20,平遥古城官方停车区,在别处度假客栈明清街县衙店,步行或行李车,16:25,17:05,40,10,0,user-hotel-pingyao-biechudujia-booked-20260810,https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中,,confirmed,以客栈当天指引为准；不在公开页承诺古城内自驾进店
 T25,2026-08-21,在别处度假客栈明清街县衙店,平遥古城官方停车区,步行或行李车,09:15,09:50,35,10,0,user-hotel-pingyao-biechudujia-booked-20260810,https://uri.amap.com/search?keyword=平遥古城南门停车场&city=晋中,,confirmed,退房后按客栈指引携行李出城取车；确认电量≥90%
 T07,2026-08-21,平遥古城官方停车区,王家大院,电动车自驾,09:50,11:10,80,20,0,route-pingyao-hukou,https://uri.amap.com/search?keyword=王家大院&city=晋中,,confirmed,约70公里；不折返；T-1实时导航复核
-T08,2026-08-21,王家大院,吉县赵氏私房菜酒店黄河壶口风景区店,电动车自驾,13:45,19:00,315,45,0,user-hotel-jixian-zhaoshi-booked-20260810,https://uri.amap.com/search?keyword=吉县赵氏私房菜酒店黄河壶口风景区店&city=临汾,,confirmed,约290公里；含至少一次直流快充和服务区休息；不以酒店慢充作为唯一方案；T-1实时导航复核
-T26,2026-08-22,吉县赵氏私房菜酒店黄河壶口风景区店,黄河壶口瀑布山西侧游客中心,电动车自驾,07:40,07:50,10,10,0,user-hotel-jixian-zhaoshi-booked-20260810,https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾,,confirmed,规划约3公里；实际酒店至入口距离T-1实时导航复核
-T27,2026-08-22,黄河壶口瀑布山西侧游客中心,运城盐湖国际机场神州租车服务点,电动车自驾,10:45,16:15,330,30,0,user-rental-ev-booked-20260810,https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城,,confirmed,约260公里；含景交离场、一次直流快充和服务区简餐；不进吉县县城；按订单要求补足还车电量；T-1实时导航复核
+T08,2026-08-21,王家大院,酸枣树酒店壶口瀑布游客中心店,电动车自驾,13:45,19:10,325,45,0,user-hotel-hukou-suanzaoshu-selected-20260811,https://uri.amap.com/search?keyword=酸枣树酒店壶口瀑布店&city=延安,,confirmed,规划约300公里；含至少一次直流快充和服务区休息；终点为陕西宜川壶口镇；T-1实时导航复核
+T26,2026-08-22,酸枣树酒店壶口瀑布游客中心店,陕西黄河壶口瀑布游客中心,步行或短移车,07:20,07:30,10,10,0,hotel-hukou-suanzaoshu-current-20260811,https://uri.amap.com/search?keyword=陕西黄河壶口瀑布游客中心&city=延安,,confirmed,公开住客信息称步行约200米；停车和步行入口T-1按酒店及现场指引复核
+T29,2026-08-22,陕西黄河壶口瀑布游客中心,黄河壶口瀑布山西侧游客中心,电动车自驾（可选）,09:35,10:05,30,10,0,hukou-cross-province-ticket-202606,https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾,,confirmed,仅09:35门槛满足时执行；规划约15公里；经公路桥转场；实际道路与入口以实时导航为准
+T27,2026-08-22,陕西或山西壶口瀑布游客中心,运城盐湖国际机场神州租车服务点,电动车自驾,09:35或11:20,16:15,295,30,0,user-rental-ev-booked-20260810,https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城,,confirmed,规划约260至275公里；含一次直流快充和顺向服务区简餐；加游山西侧最晚11:20离场；T-1实时导航复核
 T28,2026-08-22,运城盐湖国际机场神州租车服务点,微源国际酒店运城盐湖国际机场店,步行或酒店短接驳,16:15,16:35,20,10,0,rental-shenzhou-yuncheng,https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城,,confirmed,约0.3公里；D8完成异地还车，酒店距机场约280米；以实际服务点位置为准
 T29,2026-08-23,微源国际酒店运城盐湖国际机场店,运城盐湖国际机场,步行或酒店短接驳,04:50,05:05,15,15,0,rental-shenzhou-yuncheng,https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城,,confirmed,约0.3公里；车辆已于D8归还，D9不再安排还车
 T10,2026-08-23,运城盐湖国际机场,广州白云国际机场,飞机CZ5266,07:20,10:00,160,120,1780,user-flight-cz5266-paid-20260810,,,confirmed,已出票；3人实付总价1780元；票面航站楼和航司通知优先

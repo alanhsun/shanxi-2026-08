@@ -74,26 +74,27 @@ routes:
     segments: ["电动车 · 约3公里 / 10分", "电动车 · 约4公里 / 10分", "电动车 · 约130公里 / 2小时30分", "电动车 · 约8公里 / 25分", "步行/行李车 · 约1公里 / 40分", "步行 · 约1公里 / 15分"]
 
   - day_id: day-07
-    title: D7 平遥早游—王家大院—壶口景区
-    note: 平遥清晨完成核心线；09:50取车后一路向南，不折返。
+    title: D7 平遥早游—王家大院—陕西壶口
+    note: 平遥清晨完成核心线；09:50取车后一路向南到宜川壶口，不先绕山西侧。
     stops:
       - {label: 在别处度假客栈, detail: "古城内步行早游", url: "https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中"}
       - {label: 县衙—城墙短段—出城, detail: "07:35–09:15；不增加日升昌", url: "https://uri.amap.com/search?keyword=平遥古县衙&city=晋中"}
-      - {label: 王家大院, detail: "11:25到、核心约2小时", url: "https://uri.amap.com/search?keyword=王家大院&city=晋中"}
-      - {label: 赵氏私房菜酒店, detail: "19:00入住", url: "https://uri.amap.com/search?keyword=吉县赵氏私房菜酒店黄河壶口风景区店&city=临汾"}
-      - {label: 酒店/景区晚餐, detail: "20:20前休息"}
-    segments: ["步行 · 约1公里 / 35分", "电动车 · 约70公里 / 1小时20分", "电动车+快充 · 约290公里 / 5小时15分", "步行/短途车 · 约1公里"]
+      - {label: 王家大院, detail: "11:10到、核心约2小时", url: "https://uri.amap.com/search?keyword=王家大院&city=晋中"}
+      - {label: 酸枣树酒店, detail: "19:10入住；陕西游客中心旁", url: "https://uri.amap.com/search?keyword=酸枣树酒店壶口瀑布店&city=延安"}
+      - {label: 酒店/游客中心晚餐, detail: "20:20前休息"}
+    segments: ["步行 · 约1公里 / 35分", "电动车 · 约70公里 / 1小时20分", "电动车+快充 · 约300公里 / 5小时25分", "步行/短途车 · 约1公里"]
 
   - day_id: day-08
-    title: D8 壶口瀑布—运城机场
-    note: 退房带行李直达壶口；景区结束即一路向南住机场对面，不回吉县酒店。
+    title: D8 陕西壶口—可选山西侧—运城机场
+    note: 陕西侧为主游；09:35门槛满足才跨河加游山西侧，最晚11:20离场，不回酒店或吉县县城。
     stops:
-      - {label: 赵氏私房菜酒店, detail: "07:40退房带行李出发", url: "https://uri.amap.com/search?keyword=吉县赵氏私房菜酒店黄河壶口风景区店&city=临汾"}
-      - {label: 壶口游客中心, detail: "换官方景交", url: "https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾"}
-      - {label: 壶口瀑布, detail: "护栏内游览", url: "https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧&city=临汾"}
+      - {label: 酸枣树酒店, detail: "07:20退房带行李出发", url: "https://uri.amap.com/search?keyword=酸枣树酒店壶口瀑布店&city=延安"}
+      - {label: 陕西游客中心, detail: "步行约200米；换官方景交", url: "https://uri.amap.com/search?keyword=陕西黄河壶口瀑布游客中心&city=延安"}
+      - {label: 陕西壶口主瀑, detail: "07:30–09:25主游", url: "https://uri.amap.com/search?keyword=陕西黄河壶口瀑布&city=延安"}
+      - {label: 山西壶口（可选）, detail: "09:35门槛满足才去；11:20硬离场", url: "https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾"}
       - {label: 运城机场神州租车服务点, detail: "约16:15抵达、补电还车", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
       - {label: 微源国际酒店, detail: "机场对面入住、20:15前休息", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
-    segments: ["电动车 · 约3公里 / 10分", "官方景交", "景交+电动车快充+午餐 · 约260公里 / 5小时30分", "步行/短接驳 · 约0.3公里 / 20分"]
+    segments: ["步行/短移车 · 约0.2公里 / 10分", "陕西官方景交 · 往返约2小时", "可选跨河转场 · 约15公里 / 30分", "电动车+快充+午餐 · 约260–275公里 / 4小时55分起", "步行/短接驳 · 约0.3公里 / 20分"]
 
   - day_id: day-09
     title: D9 运城—广州—东莞

@@ -292,6 +292,7 @@ def main() -> int:
     booking_table = render_table(active_bookings, booking_labels)
 
     verified = data.get("last_verified_at") or "尚未完成发布级核验"
+    verified_display = str(verified).split("T", 1)[0]
     asset_version = "".join(character for character in str(verified) if character.isalnum())
     destination_text = " · ".join(data.get("destinations") or [])
     day_links = "".join(
@@ -314,7 +315,7 @@ def main() -> int:
       <h1>{html.escape(data.get('title', '行程'))}</h1>
       <p>{html.escape(str(data.get('start_date', '')))} — {html.escape(str(data.get('end_date', '')))}</p>
       <p class="trip-meta">2成人＋1名8岁儿童 · 1间房 · 轻松自驾</p>
-      <p class="verified">信息核验至：{html.escape(str(verified))}</p>
+      <p class="verified">信息核验至：{html.escape(verified_display)}</p>
     </div>
   </header>
   <nav class="nav" aria-label="页面导航">

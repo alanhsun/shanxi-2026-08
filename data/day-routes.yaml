@@ -29,7 +29,7 @@ routes:
 
   - day_id: day-03
     title: D3 悬空寺—应县木塔—雁门关—代县
-    note: 全程顺路向南；雁门关北门进，县城住宿避免景区溢价。
+    note: 全程顺路向南；雁门关从北门进入，核心游览约2小时。
     stops:
       - {label: 尚客优精选吾悦广场店, detail: "06:15装车出发", url: "https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同"}
       - {label: 恒山游客中心, detail: "换官方景交看悬空寺", url: "https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同"}
@@ -51,8 +51,8 @@ routes:
     segments: ["自驾 · 约2小时30分 / 约135公里", "北门核验+预约车或免费公交 · 约1小时30分 / 约30公里", "步行/景区公交 · 约0.8公里", "步行 · 约0.6公里 / 15分", "步行/短途车 · 约0.8公里"]
 
   - day_id: day-05
-    title: D5 五台山晨游—晋祠公园
-    note: D4已完成三座核心寺院；D5不再新增寺院，休整后直接南下太原。
+    title: D5 五台山休整—太原晋祠公园
+    note: 早餐后休整、午餐，随后直接南下太原；途中按电量安排快充。
     stops:
       - {label: 知见山行民宿, detail: "早餐、整理行李", url: "https://uri.amap.com/search?keyword=知见山行民宿五台山风景区店&city=忻州"}
       - {label: 台怀镇, detail: "10:45午餐、取车退房", url: "https://uri.amap.com/search?keyword=台怀镇&city=忻州"}
@@ -62,19 +62,19 @@ routes:
 
   - day_id: day-06
     title: D6 晋祠—双林寺—平遥夜游
-    note: 取消山西博物院，改为太原南侧晋祠核心古建线；午后直接南下，平遥只住一晚，古城夜游不搬行李。
+    note: 上午走晋祠核心古建线；午后经双林寺南下平遥，车辆停古城外。
     stops:
       - {label: 颐兰酒店, detail: "08:40出发", url: "https://uri.amap.com/search?keyword=颐兰酒店太原晋祠公园向曦门店&city=太原"}
       - {label: 晋祠博物馆, detail: "08:50–11:10核心古建线；入口拥挤即压缩", url: "https://uri.amap.com/search?keyword=晋祠博物馆&city=太原"}
       - {label: 双林寺, detail: "彩塑约1小时20分", url: "https://uri.amap.com/search?keyword=双林寺&city=晋中"}
       - {label: 古城停车区/客栈, detail: "16:25停车，进城入住", url: "https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中"}
       - {label: 平遥古城南门, detail: "晚餐、夜景", url: "https://uri.amap.com/search?keyword=平遥古城南门&city=晋中"}
-      - {label: 酒店, detail: "20:45前返回"}
+      - {label: 客栈, detail: "20:45前返回"}
     segments: ["电动车 · 约3公里 / 10分", "电动车+午餐 · 约130公里 / 2小时30分", "电动车 · 约8公里 / 25分", "步行/行李车 · 约1公里 / 40分", "步行 · 约1公里 / 15分"]
 
   - day_id: day-07
     title: D7 平遥早游—王家大院—壶口景区
-    note: 平遥压缩为清晨核心线；10:05离店后一路向南，不折返。
+    note: 平遥清晨完成核心线；09:50取车后一路向南，不折返。
     stops:
       - {label: 在别处度假客栈, detail: "古城内步行早游", url: "https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中"}
       - {label: 古城南门—县衙/日升昌, detail: "二选一加城墙短段", url: "https://uri.amap.com/search?keyword=平遥古城南门&city=晋中"}
@@ -96,7 +96,7 @@ routes:
 
   - day_id: day-09
     title: D9 运城—广州—东莞
-    note: 返程交通链；东莞节点不公开具体住址。
+    note: 返程交通链；车辆已在D8归还，早晨直接进入机场。
     stops:
       - {label: 微源国际酒店, detail: "04:50退房步行/接驳", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
       - {label: 运城盐湖机场, detail: "05:05进航站楼", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}

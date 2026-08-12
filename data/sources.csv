@@ -1,4 +1,15 @@
 source_id,source_type,title,url,published_at,verified_at,expires_at,applies_to,confidence,notes
+xhs-datong-wuyue-food-20260721,community,小红书：大同吾悦广场小吃街逛吃攻略,https://www.xiaohongshu.com/explore/6a5ea9b9000000001c0133f9,2026-07-21,2026-08-12,2026-08-24,D2吾悦餐饮,low,账号郭十七；可确认吾悦餐饮活跃但正文没有足够门店菜品文字信息；只作商场餐饮营业线索
+dp-datong-wuyue-jiexiaozuo,commercial,大众点评街小坐闽南小排档大同吾悦广场店,https://m.dianping.com/shop/1932270168,,2026-08-12,2026-08-24,D2晚餐,medium,页面约4.0分4000余条并列出黑椒芥兰炒牛肉海蛎煎荔枝肉油淋空心菜等高频推荐；到店复核分店楼层与营业
+xhs-daixian-local-food-20260616,community,小红书：代县本地人餐饮与最新评论,https://www.xiaohongshu.com/explore/6a309aba000000001700934b,2026-06-16,2026-08-12,2026-08-24,D3代县晚餐,medium,账号大麟的向往；正文称本地常去且非广告；评论认可三分地与面老大具体菜并反复提醒偏咸；图中部分店名不清不采用
+xhs-daixian-sanfendi-20260502,community,小红书：代县三分地粗粮馆实吃,https://www.xiaohongshu.com/explore/69f5aef8000000003701df71,2026-05-02,2026-08-12,2026-08-24,D3代县晚餐,low,账号努力的小毓砸；搜索结果明确点名炒粉托和锅包肉；与本地评论交叉后采用炒粉托并要求少盐
+xhs-wutai-xiaobaijia-20260810,community,小红书：五台山吃饭这两个家可以,https://www.xiaohongshu.com/explore/6a78aa45000000003300b397,2026-08-10,2026-08-12,2026-08-24,D4至D5五台山餐饮,medium,账号momo；正文称两家未踩雷并计划再吃；评论明确小白家一碗好面便宜量大味道好且可能人多
+xhs-wutai-vegan-dicos-20260501,community,小红书：五台山纯素德克士实吃,https://www.xiaohongshu.com/explore/69f42a69000000001f00162b,2026-05-01,2026-08-12,2026-08-24,D4至D5五台山快餐,low,账号VC维C；与7月同类笔记共同确认纯素门店作为标准化快餐线索；营业T-1核对
+hotel-yilan-nearby-food,commercial,携程颐兰酒店晋祠景区古唐路店近期住客评论,https://m.ctrip.com/webapp/hotel/commentlist?id=6662300,,2026-08-12,2026-08-24,D5晚餐D6早餐,medium,真实住客提到酒店隔壁有餐厅且人均不贵；未提供可靠店名故正文标注到店核名
+food-jinci-jinweizhai-20260812,commercial,携程晋祠宾馆晋味斋餐厅,https://hk.trip.com/restaurant/china/taiyuan/detail/restaurant-42332613/,,2026-08-12,2026-08-24,D5晚餐D6午餐,medium,游客评价认可环境份量和清淡菜选择；具体营业与等位T-1核对
+xhs-hukou-shaanxi-food-20260802,community,小红书：陕西侧壶口瀑布自驾吃住游玩实录,https://www.xiaohongshu.com/explore/6a6b68520000000029031da8,2026-08-02,2026-08-12,2026-08-24,D7陕西壶口晚餐,medium,账号菲列杨；确认游客中心周边用餐线索；跨岸农家鱼府服务不错但鲤鱼肉软刺多鱼汤偏淡；不支持为鱼跨河
+hotel-yuncheng-weiyuan-food-20260812,commercial,微源国际酒店餐厅送餐及近期住客反馈,https://www.trip.com/hotels/v2/yuncheng-hotel-detail-114968689/weiyuan-international-hotel/,,2026-08-12,2026-08-24,D8运城机场晚餐,medium,页面确认酒店设餐厅客房送餐与便利店；住客称附近吃饭方便；晚餐营业到店即问
+food-yuncheng-airport-cafe-20260812,commercial,携程运城机场茶餐厅,https://gs.ctrip.com/html5/you/foods/fooddetail/397/22855763.html,,2026-08-12,2026-08-24,D8晚餐,medium,用户反馈有米饭面食和小吃且距机场站约167米；仅作酒店餐厅停餐后的步行保底
 user-hotel-taiyuan-yilan-booked-20260810,user,用户确认颐兰酒店太原晋祠公园向曦门店已订,https://uri.amap.com/search?keyword=颐兰酒店太原晋祠公园向曦门店&city=太原,,2026-08-11,,D5-D6太原住宿,high,用户确认8月19日至20日大床房1晚285元无早餐；不记录订单号或支付凭证；D6以实时导航核对酒店至晋祠入口
 user-hotel-pingyao-biechudujia-booked-20260810,user,用户确认平遥在别处度假客栈明清街县衙店已订,https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中,,2026-08-11,,D6-D7平遥住宿,high,用户确认8月20日至21日大床房1晚242元含早餐；古城内停车及行李进店以客栈当日指引为准；不记录订单号或支付凭证
 user-hotel-jixian-zhaoshi-booked-20260810,user,用户确认吉县赵氏私房菜酒店黄河壶口风景区店已订,https://uri.amap.com/search?keyword=吉县赵氏私房菜酒店黄河壶口风景区店&city=临汾,,2026-08-10,,D7-D8壶口住宿,high,用户确认8月21日至22日住1晚160元；D8从景区附近早场出发；不记录订单号、房型或支付凭证

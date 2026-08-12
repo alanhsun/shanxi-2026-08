@@ -204,6 +204,12 @@ footer { padding: 2rem 1rem 4rem; color: var(--muted); text-align: center; font-
   .route-map > summary small { display: block; margin-top: .15rem; }
   .route-map-body { padding: .55rem .8rem .8rem; }
   .route-diagram { min-width: 620px; }
+  .day-meals table { min-width: 680px; }
+  .day-meals .table-wrap {
+    margin-inline: -.15rem;
+    padding-bottom: .35rem;
+    overscroll-behavior-inline: contain;
+  }
 }
 
 @media print {

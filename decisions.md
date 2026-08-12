@@ -2,6 +2,7 @@
 
 | 时间 | 阶段 | 决定 | 原因 | 影响文件 | 确认角色 |
 |---|---|---|---|---|---|
+| 2026-08-12 | published | D2至D9当天美食按宁波段标准重做，逐餐写明具体主选、推荐菜、真实反馈共识/分歧与路线止损 | 用户要求每天均参考大众点评和小红书真实笔记；证据不足的机场、服务区和壶口酒店区不再虚构三家，改为少量可执行功能餐 | content/dining-guide.md；research/social-validation.md；data/sources.csv；trip.yaml | 用户、维护者 |
 | 2026-07-31 | intake | 新建2026年8月15日至23日山西旅行项目；六盘水项目停止更新 | 用户明确取消六盘水计划并改为山西旅行 | trip.yaml；content/overview.md；data/budget.csv | 用户 |
 | 2026-07-31 | intake | 暂时继承原项目的东莞出发、4人家庭、2间中高档房、轻松节奏与饮食限制 | 这些条件可能仍适用，但目的地与旅行时长已变化，需用户重新确认 | trip.yaml；content/overview.md | 维护者 |
 | 2026-07-31 | intake | 暂以人民币18,000至32,000元作为宽幅建档估算 | 用户尚未给出山西项目预算；该区间仅用于保持预算数据契约，不是消费上限 | trip.yaml；content/overview.md；data/budget.csv | 维护者 |

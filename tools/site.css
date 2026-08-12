@@ -181,15 +181,17 @@ th { color: var(--muted); font-size: .82rem; letter-spacing: .04em; white-space:
 .details-panel > .table-wrap,
 .details-panel > .details-body,
 .details-panel > h3 { margin: 1rem; }
-.meal-guide > h2 {
-  margin-top: 2.2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--line);
+.day-meals {
+  margin: 1.6rem 0 .25rem;
+  padding: 1rem;
+  border: 1px solid #d7c6ac;
+  border-radius: .85rem;
+  background: #fffaf0;
 }
-.meal-guide > h2:first-of-type { margin-top: 1rem; }
-.meal-guide h3 { margin-bottom: .45rem; color: var(--accent); }
-.meal-guide ol { margin-top: .35rem; padding-left: 1.35rem; }
-.meal-guide li { margin-bottom: .65rem; }
+.day-meals > h2 { margin-bottom: 1rem; color: var(--accent-2); font-size: 1.35rem; }
+.day-meals h3 { margin: 1rem 0 .45rem; color: var(--accent); font-size: 1.08rem; }
+.day-meals ol { margin-top: .35rem; padding-left: 1.35rem; }
+.day-meals li { margin-bottom: .65rem; }
 .empty { color: var(--muted); font-style: italic; }
 footer { padding: 2rem 1rem 4rem; color: var(--muted); text-align: center; font-size: .9rem; }
 

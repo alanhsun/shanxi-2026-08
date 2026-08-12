@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import html
+import re
 import shutil
 import sys
 from datetime import datetime
@@ -46,8 +47,7 @@ def money(value: str | float | int | None) -> str:
     return f"¥{amount:,.0f}" if amount.is_integer() else f"¥{amount:,.2f}"
 
 
-def markdown_html(path: Path) -> str:
-    text = path.read_text(encoding="utf-8")
+def markdown_text_html(text: str) -> str:
     rendered = markdown.markdown(
         html.escape(text, quote=False),
         extensions=("extra", "sane_lists"),
@@ -58,6 +58,22 @@ def markdown_html(path: Path) -> str:
     return rendered.replace("<table>", '<div class="table-wrap"><table>').replace(
         "</table>", "</table></div>"
     )
+
+
+def markdown_html(path: Path) -> str:
+    return markdown_text_html(path.read_text(encoding="utf-8"))
+
+
+def dining_by_day(path: Path) -> dict[str, str]:
+    """Split the dining guide into one rendered fragment per day."""
+    text = path.read_text(encoding="utf-8")
+    headings = list(re.finditer(r"^## D(\d+)\b[^\n]*\n", text, re.MULTILINE))
+    sections: dict[str, str] = {}
+    for index, heading in enumerate(headings):
+        end = headings[index + 1].start() if index + 1 < len(headings) else len(text)
+        day_id = f"day-{int(heading.group(1)):02d}"
+        sections[day_id] = markdown_text_html(text[heading.end():end].strip())
+    return sections
 
 
 def render_table(
@@ -244,7 +260,7 @@ def main() -> int:
         )
     }
     overview = markdown_html(project / "content" / "overview.md")
-    dining = markdown_html(project / "content" / "dining-guide.md")
+    dining_sections = dining_by_day(project / "content" / "dining-guide.md")
     route_data = yaml.safe_load(
         (project / "data" / "day-routes.yaml").read_text(encoding="utf-8")
     ) or {}
@@ -263,6 +279,13 @@ def main() -> int:
         if anchor not in day_html:
             raise ValueError(f"Missing timeline heading in {path.name}")
         day_html = day_html.replace(anchor, render_route_map(route) + anchor, 1)
+        dining_html = dining_sections.get(path.stem)
+        if dining_html is None:
+            raise ValueError(f"Missing dining guide section for {path.name}")
+        day_html += (
+            '<aside class="day-meals" aria-label="当天美食">'
+            '<h2>当天美食</h2>' + dining_html + '</aside>'
+        )
         days.append((path.stem, day_html))
     budget_table, budget_low, budget_high, budget_actual = render_budget(tables["budget.csv"])
 
@@ -319,13 +342,12 @@ def main() -> int:
     </div>
   </header>
   <nav class="nav" aria-label="页面导航">
-    <a href="#overview">总览</a><a href="#days">每日行程</a><a href="#dining">用餐</a>
+    <a href="#overview">总览</a><a href="#days">每日行程</a>
     <a href="#logistics">交通住宿</a><a href="#actions">预约预算</a>
   </nav>
   <main>
     <section id="overview">{overview}</section>
     <section id="days"><h2>每日行程</h2><div class="day-jump" aria-label="快速跳转每日行程">{day_links}</div>{''.join(f'<article class="day" id="{day_id}">{day}</article>' for day_id, day in days)}</section>
-    <section id="dining" class="meal-guide">{dining}</section>
     <section id="logistics">
       <h2>交通与住宿</h2>
       <h3>已订住宿</h3>

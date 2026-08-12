@@ -33,7 +33,8 @@ flight-ycu-szx-0822,commercial,8月1日提前返程航班历史快照,https://ww
 yungang-2026,official,云冈石窟景区预约周期延长至15日,https://www.dt.gov.cn/dtszf/bmdt/202604/87ae16347ecf462488743c37ee9c06f0.shtml,2026-04-19,2026-07-31,2026-08-15,云冈预约,high,60岁以上政策性免票人群同样需要实名预约
 xuankong-ticket,official,悬空寺景区登临票预约规则,https://www.byhs.net.cn/culture_detial/204.html,2026-03-15,2026-07-31,2026-08-16,悬空寺登临,high,自2026年4月1日起每日登临票2475张；线上1200张线下1275张；每天07:20至21:00可订7日内；70岁以上或身体不宜登高者不建议登临
 shanxi-museum,official,山西博物院首页及参观预约说明,https://shanximuseum.com.cn/sx/index/index.html,,2026-07-31,2026-08-14,山西博物院预约,high,提前3日实名预约；每个预约单最多3人；周一通常闭馆
-pingyao-official,commercial,平遥古城景区官网,https://pingyao888.cn/,,2026-07-31,2026-08-12,平遥古城与双林寺,medium,正式订票前复核2026暑期开放点联票和优待政策
+pingyao-official,commercial,平遥古城景区官网,https://pingyao888.cn/,,2026-08-13,2026-08-23,平遥古城与双林寺,medium,8月13日复核官网仍可访问但结构化开放时刻不可稳定读取；D7按现场检票时间执行，正式入园前再看公告和票页
+xhs-yingxian-current-20260812,community,小红书：8月12日应县木塔实游与北部山路天气,https://www.xiaohongshu.com/explore/6a7c4615000000002403e2e8,2026-08-12,2026-08-13,2026-08-24,D3应县木塔与D4北部山路,medium,账号lqq1204；全文及公开评论显示西停车场当次顺畅、木塔仅首层开放且拍照位略排队；五台山至应县方向雨雾山路约17度且弯道多，仅用于停车衣着和雨雾驾驶提示
 hukou-official,official,山西黄河壶口瀑布旅游区开放信息,https://en.hukouwaterfall.com/column/85/,,2026-07-31,2026-08-20,壶口瀑布,medium,4月至10月为旺季；开放范围受水情和安全管理影响
 datong-city,official,大同古城与云冈暑期文旅信息,https://www.dt.gov.cn/dt12345/rxdt1/202605/b1c6865c8c614f9e9b182e37c07242ee.shtml,2026-05-08,2026-07-31,2026-08-14,大同古城活动,medium,用于古城慢游背景；具体寺庙开放时间另行复核
 jin-temple,official,晋祠博物馆官方网站,https://www.jinci.com/,,2026-07-31,2026-08-14,晋祠,medium,路线确认后复核暑期开放时间门票和优待政策
@@ -146,6 +147,7 @@ pingyao-south-parking,commercial,高德地图平遥古城小南门停车场,http
 wutai-unesco,official,UNESCO世界遗产五台山,https://whc.unesco.org/en/list/1279,2009-06-26,2026-08-02,2027-08-02,D4至D5五台山背景,high,五台山作为佛教圣地及寺院建筑与山地景观共同构成文化景观；本行程看核心寺院群而非五台连穿
 wutai-ticket-official,official,五台山游客服务中心票务问答,https://www.wtsykfwzx.com/lyxx_show.aspx?id=3125,,2026-08-02,2026-08-17,D4五台山门票,high,成人进山门票135元；部分寺庙另收约10元小门票；儿童优待和实时预约窗口以官方小程序为准
 wutai-vehicle-20260723,official,五台山景区车辆预约与免费公交新规,https://news.cyol.com/gb/lvyou/articles/2026-07/23/content_qb7KgwtZbZ.html,2026-07-23,2026-08-02,2026-08-17,D4至D5五台山自驾,high,官方小程序完成人车预约及人脸核验；无预约车辆停指定停车场并可乘免费公交；支持动态候补
+wutai-vehicle-service-center-current,official,五台山游客服务中心车辆预约答复,https://www.wtsykfwzx.com/lyxx_show.aspx?id=5209,2024-05-02,2026-08-13,2026-08-18,D4至D5五台山自驾,high,8月13日重新打开游客服务中心答复；车辆预约未成功可换乘免费大巴进入，临时规则与指定停车点仍以官方公众号当天提示为准
 yanmen-current,commercial,携程雁门关景区实时开放与近期游客评价,https://you.ctrip.com/sight/daicounty1446104/75275.html,,2026-08-02,2026-08-16,D3雁门关,medium,页面显示08:00至17:30和电话0350-6100519；近期游客认为北门坡度较缓且核心约2小时；历史感强但复建和商业化预期需降低
 yanmen-reservation-2026,commercial,雁门关2026假日预约提示,https://www.sohu.com/a/1016899544_121123771,2026-04-29,2026-08-02,2026-08-16,D3雁门关预约,medium,转述景区假日最大承载和二维码预约；8月普通日规则须T-1以官方渠道复核
 hotel-daixian-quanzhi,commercial,全智酒店代州古城店指定日期库存与近期评价,https://hotels.ctrip.com/hotels/127374372.html?checkIn=2026-08-17&checkOut=2026-08-18&adult=2&children=1&ages=8&crn=1,,2026-08-05,,D3代县住宿历史备选,medium,8月5日历史快照；评分4.7共635条，同人数房价区域为空故未作主选；不作为当前库存或价格依据
@@ -183,7 +185,7 @@ xhs-jinci-shitouhan-20260728,community,小红书晋祠后石头汉实吃与距�
 xhs-hukou-family-20260809,community,小红书壶口瀑布山西侧亲子自驾打卡,https://www.xiaohongshu.com/explore/6a7757710000000005028212,2026-08-09,2026-08-11,2026-08-24,D8壶口至运城,medium,账号玥瑶；早场体验和旅游公路施工为单次经历；用于优先高速和T-1实时导航而非固定道路结论
 user-hotel-hukou-suanzaoshu-selected-20260811,user,用户指定酸枣树酒店并确认1晚170元,https://mm.ctrip.com/html5/hotel/hoteldetail/112763299.html,,2026-08-11,,D7-D8陕西壶口住宿,high,用户指定8月21日至22日大床房入住，170元无早餐；不记录订单号或支付凭证
 hotel-hukou-suanzaoshu-current-20260811,commercial,携程酸枣树酒店壶口瀑布店实时酒店页,https://mm.ctrip.com/html5/hotel/hoteldetail/112763299.html,,2026-08-11,2026-08-21,D7-D8陕西壶口住宿,high,页面地址为宜川壶口镇政府广场东南侧50米；近期公开住客信息称步行约200米到游客中心；营业停车儿童政策T-1复核
-hukou-cross-province-ticket-202606,official,中国旅游报壶口瀑布晋陕门票互通政策,https://www.ctnews.com.cn/dongtai/m/content/2026-06/03/content_188058.html,2026-06-03,2026-08-11,2026-08-21,D8壶口双侧,high,80元实名票两日内可分别进入晋陕两侧各一次；两侧景交开放和水情仍须T-1分别复核
+hukou-cross-province-ticket-202606,official,中国旅游报壶口瀑布晋陕门票互通政策,https://www.ctnews.com.cn/dongtai/m/content/2026-06/03/content_188058.html,2026-06-03,2026-08-13,2026-08-23,D8壶口双侧,high,8月13日重新打开政策页；80元实名票两日内两侧各入园一次，两侧观光车不互通且分别往返16元；开放和水情仍须T-1分别复核
 user-yungang-ticket-guide-booked-20260811,user,用户确认云冈石窟门票与讲解已预订,https://www.dt.gov.cn/dtszf/bmdt/202604/87ae16347ecf462488743c37ee9c06f0.shtml,,2026-08-11,,D2云冈预约,high,用户确认门票300元与讲解105元已预订；不记录订单号取票码或讲解员联系方式
 xhs-ningbo-gulou-snacks-20260731,community,小红书宁波鼓楼油赞子辣哭饼与糯点实吃,https://www.xiaohongshu.com/explore/6a6c555600000000250066ea,2026-07-31,2026-08-12,2026-08-15,D1宁波鼓楼试吃,medium,账号知味；正文覆盖红糖肉松和海苔甜油赞子、豆角馅不同辣度辣哭饼、灰汁团米馒头麻糍；个体口味不代表固定辣度和出品
 xhs-ningbo-tanggao-20260302,community,小红书宁波鼓楼糖糕实吃与评论,https://www.xiaohongshu.com/explore/69a5545c000000001b01565f,2026-03-02,2026-08-12,2026-08-15,D1宁波鼓楼甜点,medium,账号乐悠L；作者与评论认可香脆和中间口感并认为一个已够多吃易腻；用于3人共享1个

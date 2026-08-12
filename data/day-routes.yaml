@@ -43,7 +43,7 @@ routes:
     stops:
       - {label: 尚客优精选吾悦广场店, detail: "06:15装车出发", url: "https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同"}
       - {label: 恒山游客中心, detail: "08:15到；换官方景交看悬空寺", url: "https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同"}
-      - {label: 应县木塔, detail: "11:45到；午餐后看外观与首层", url: "https://uri.amap.com/search?keyword=应县木塔&city=朔州"}
+      - {label: 应县木塔西停车场, detail: "约65公里 / 1小时20分；午餐后看外观与首层", url: "https://uri.amap.com/search?keyword=应县木塔西停车场&city=朔州"}
       - {label: 代县鑫五鑫精品酒店, detail: "主方案15:15到；加游约17:55到", url: "https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州"}
     segments: ["自驾 · 120公里 · 2小时", "自驾 · 65公里 · 1小时20分", "主线自驾 · 95公里 · 1小时30分"]
     branches:

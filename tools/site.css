@@ -183,13 +183,11 @@ th { color: var(--muted); font-size: .82rem; letter-spacing: .04em; white-space:
 .details-panel > h3 { margin: 1rem; }
 .day-meals {
   margin: 1.6rem 0 .25rem;
-  padding: 1rem;
-  border: 1px solid #d7c6ac;
-  border-radius: .85rem;
-  background: #fffaf0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
 }
-.day-meals > h2 { margin-bottom: 1rem; color: var(--accent-2); font-size: 1.35rem; }
-.day-meals h3 { margin: 1rem 0 .45rem; color: var(--accent); font-size: 1.08rem; }
+.day-meals > h2 { margin-bottom: 1rem; }
+.day-meals h3 { margin: 1rem 0 .45rem; }
 .day-meals ol { margin-top: .35rem; padding-left: 1.35rem; }
 .day-meals li { margin-bottom: .65rem; }
 .empty { color: var(--muted); font-style: italic; }

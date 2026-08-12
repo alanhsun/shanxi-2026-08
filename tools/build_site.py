@@ -283,8 +283,8 @@ def main() -> int:
         if dining_html is None:
             raise ValueError(f"Missing dining guide section for {path.name}")
         day_html += (
-            '<aside class="day-meals" aria-label="当天美食">'
-            '<h2>当天美食</h2>' + dining_html + '</aside>'
+            '<div class="day-meals">'
+            '<h2>当天美食</h2>' + dining_html + '</div>'
         )
         days.append((path.stem, day_html))
     budget_table, budget_low, budget_high, budget_actual = render_budget(tables["budget.csv"])

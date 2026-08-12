@@ -28,15 +28,15 @@ routes:
     segments: ["网约车 · 约25公里 / 40分", "网约车 · 约25公里 / 50分", "步行/短途车 · 约1公里 / 15分", "取车+自驾 · 约25公里 / 1小时10分"]
 
   - day_id: day-03
-    title: D3 悬空寺—应县木塔—雁门关—代县
-    note: 全程顺路向南；雁门关从北门进入，核心游览约2小时。
+    title: D3 悬空寺—应县木塔—代县（雁门关可选）
+    note: 主方案从应县木塔直接到代县；仅在13:45前出发、天气稳定且全员体力良好时加游雁门关。
     stops:
       - {label: 尚客优精选吾悦广场店, detail: "06:15装车出发", url: "https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同"}
       - {label: 恒山游客中心, detail: "换官方景交看悬空寺", url: "https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同"}
       - {label: 应县木塔, detail: "午餐、外观与首层", url: "https://uri.amap.com/search?keyword=应县木塔&city=朔州"}
-      - {label: 雁门关北门, detail: "核心关城约2小时", url: "https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州"}
-      - {label: 代县鑫五鑫精品酒店, detail: "入住、县城晚餐", url: "https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州"}
-    segments: ["自驾 · 约120公里 / 2小时", "景交+自驾 · 约65公里 / 2小时", "自驾 · 约90公里 / 1小时30分", "自驾 · 约45公里 / 50分"]
+      - {label: 雁门关北门（可选）, detail: "决策门槛满足才加游；核心最多1小时45分", url: "https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州"}
+      - {label: 代县鑫五鑫精品酒店, detail: "主方案从木塔直达；入住、县城晚餐", url: "https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州"}
+    segments: ["自驾 · 约120公里 / 2小时", "景交+自驾 · 约65公里 / 2小时", "可选支线 · 约90公里 / 1小时30分", "加游后自驾 · 约45公里 / 50分；不加游则木塔直达酒店约95公里 / 1小时30分"]
 
   - day_id: day-04
     title: D4 代县—五台山北门—核心寺院群

@@ -14,8 +14,9 @@ T15,2026-08-16,华严寺/鼓楼片区,神州租车大同古城服务点,步行�
 T16,2026-08-16,神州租车大同古城服务点,尚客优精选酒店山西大同云冈区吾悦广场店,租车自驾,17:10,17:45,35,10,0,user-shenzhou-datong-ancientcity-20260809,https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同,,confirmed,规划约25公里；取车验车后直接回酒店停车；D3清晨可直接出发；T-1实时导航复核
 T03,2026-08-17,尚客优精选酒店山西大同云冈区吾悦广场店,恒山游客中心,租车自驾,06:15,08:15,120,20,0,xuankong-selfdrive-parking,https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同,,confirmed,规划约120公里；停恒山游客中心后全员换乘官方景交；T-1实时导航复核
 T04,2026-08-17,恒山游客中心,应县木塔,租车自驾,10:25,11:45,80,20,0,route-north-south,https://uri.amap.com/search?keyword=应县木塔&city=朔州,,confirmed,约65公里；含景交返回取车和停车缓冲；T-1实时导航复核
-T05,2026-08-17,应县木塔,雁门关景区北门,租车自驾,13:45,15:15,90,20,0,yanmen-current,https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州,,confirmed,约90公里；优先北门进入减少连续爬坡；T-1按实时导航和景区管制调整
-T21,2026-08-17,雁门关景区北门,代县鑫五鑫精品酒店,租车自驾,17:25,18:15,50,15,0,route-local-amap,https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州,,confirmed,约45公里；住代县县城不住景区；到店后车辆停酒店车位；T-1实时导航复核
+T30,2026-08-17,应县木塔,代县鑫五鑫精品酒店,租车自驾,13:45,15:15,90,20,0,route-local-amap,https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州,,confirmed,轻松主方案；规划约95公里；不绕雁门关；T-1实时导航复核
+T05,2026-08-17,应县木塔,雁门关景区北门,租车自驾可选,13:45,15:15,90,20,0,yanmen-current,https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州,,candidate,可选支线约90公里；仅13:45前出发且天气体力均适合时执行；北门进入减少连续爬坡
+T21,2026-08-17,雁门关景区北门,代县鑫五鑫精品酒店,租车自驾可选,17:05,17:55,50,15,0,route-local-amap,https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州,,candidate,加游雁门关后约45公里到代县酒店；不加游时不执行本段
 T17,2026-08-18,代县鑫五鑫精品酒店,五台山风景区北门,租车自驾,07:15,09:45,150,20,0,wutai-vehicle-20260723,https://uri.amap.com/search?keyword=五台山风景区北门&city=忻州,,confirmed,规划约135公里；从代县取北门方向进山，避免向西门横向绕行；车辆预约和入口管制以官方小程序当天指引为准
 T18,2026-08-18,五台山风景区北门,知见山行民宿（五台山风景区店）,预约车辆自驾或免费公交换乘,09:45,11:15,90,20,0,wutai-vehicle-20260723,https://uri.amap.com/search?keyword=知见山行民宿五台山风景区店&city=忻州,,confirmed,北门核验后规划约30公里；有车约按允许路线入核心区，无车约按指定停车点换免费公交；民宿具体入口以用户订单和T-1导航复核
 T19,2026-08-19,知见山行民宿（五台山风景区店）,颐兰酒店太原晋祠公园向曦门店,电动车自驾或公交换取车后自驾,11:45,16:15,270,30,0,user-hotel-wutai-zhijianshanxing-booked-20260811,https://uri.amap.com/search?keyword=颐兰酒店太原晋祠公园向曦门店&city=太原,,confirmed,约180公里；至少一次直流快充和每90至120分钟正规休息；无车辆预约时先乘免费公交到停车点取车；T-1实时导航复核

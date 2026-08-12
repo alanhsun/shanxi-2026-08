@@ -135,7 +135,7 @@ def render_budget(rows: list[dict[str, str]]) -> tuple[str, float, float, float]
 
 
 def render_route_map(route: dict) -> str:
-    """Render an accessible, not-to-scale SVG diagram for one travel day."""
+    """Render a compact, responsive vertical route flow for one travel day."""
     stops = route.get("stops") or []
     segments = route.get("segments") or []
     if len(stops) < 2 or len(segments) != len(stops) - 1:
@@ -143,103 +143,92 @@ def render_route_map(route: dict) -> str:
             f"{route.get('day_id', 'unknown')}: route stops/segments do not match"
         )
 
-    # A vertical flow keeps long Chinese place names and distance labels legible
-    # on both desktop and mobile.  The previous horizontal layout became crowded
-    # once every segment gained a distance and duration.
-    width = 760
-    step = 142
-    height = max(310, 92 + (len(stops) - 1) * step)
-    points = [(62, 42 + index * step) for index in range(len(stops))]
-    day_id = html.escape(str(route.get("day_id", "route")), quote=True)
-    title = html.escape(str(route.get("title", "当日路线")))
-    marker_id = f"arrow-{day_id}"
-
-    svg_parts = [
-        f'<svg class="route-diagram" viewBox="0 0 {width} {height}" '
-        f'width="{width}" height="{height}" role="img" aria-labelledby="{day_id}-title">',
-        f'<title id="{day_id}-title">{title}，非比例路线示意图</title>',
-        "<defs>",
-        f'<marker id="{marker_id}" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">',
-        '<path d="M0,0 L8,4 L0,8 Z" fill="#b84d2b"/></marker>',
-        "</defs>",
-    ]
-    def wrap_text(value: str, width: int) -> list[str]:
-        return [value[index:index + width] for index in range(0, len(value), width)] or [""]
-
-    for index, segment in enumerate(segments):
-        x1, y1 = points[index]
-        x2, y2 = points[index + 1]
-        svg_parts.append(
-            f'<line x1="{x1}" y1="{y1 + 19}" x2="{x2}" y2="{y2 - 21}" '
-            f'class="route-line" marker-end="url(#{marker_id})"/>'
-        )
-        segment_lines = [part.strip() for part in str(segment).split(" · ") if part.strip()]
-        if not segment_lines:
-            segment_lines = [str(segment)]
-        rendered_lines = []
-        for line in segment_lines:
-            rendered_lines.extend(wrap_text(line, 22))
-        box_height = 18 + len(rendered_lines) * 17
-        # Reserve the top half of each row for the stop name and detail, then
-        # place its travel card beneath it.  This avoids long details touching
-        # the following segment card.
-        box_y = y1 + 60
-        midpoint = box_y + box_height / 2
-        svg_parts.append(
-            f'<rect x="260" y="{box_y:.1f}" width="430" height="{box_height}" '
-            f'ry="8" class="route-segment-box"/>'
-        )
-        text_y = midpoint - ((len(rendered_lines) - 1) * 8)
-        tspans = "".join(
-            f'<tspan x="280" dy="{0 if line_index == 0 else 17}">'
-            f'{html.escape(line)}</tspan>'
-            for line_index, line in enumerate(rendered_lines)
-        )
-        svg_parts.append(
-            f'<text x="280" y="{text_y:.1f}" class="route-segment">{tspans}</text>'
-        )
+    branches_by_stop: dict[int, list[dict]] = {}
+    for branch in route.get("branches") or []:
+        after_stop = int(branch.get("after_stop") or 0)
+        if after_stop < 1 or after_stop >= len(stops):
+            raise ValueError(
+                f"{route.get('day_id', 'unknown')}: invalid branch position"
+            )
+        branches_by_stop.setdefault(after_stop, []).append(branch)
 
     nav_links = []
+    flow_parts = ['<ol class="route-flow">']
     for index, stop in enumerate(stops, start=1):
-        x, y = points[index - 1]
         label = html.escape(str(stop.get("label", "")))
         detail = html.escape(str(stop.get("detail", "")))
-        label_lines = wrap_text(str(stop.get("label", "")), 10)
-        detail_lines = wrap_text(str(stop.get("detail", "")), 11)
-        label_y = y - 8 - (len(label_lines) - 1) * 8
-        label_tspans = "".join(
-            f'<tspan x="96" dy="{0 if line_index == 0 else 16}">'
-            f'{html.escape(line)}</tspan>'
-            for line_index, line in enumerate(label_lines)
+        flow_parts.append(
+            '<li class="route-step">'
+            f'<span class="route-node" aria-hidden="true">{index}</span>'
+            '<div class="route-stop">'
+            f'<strong>{label}</strong><span>{detail}</span>'
+            '</div>'
+            '</li>'
         )
-        detail_y = y + 19 + (len(label_lines) - 1) * 8
-        detail_tspans = "".join(
-            f'<tspan x="96" dy="{0 if line_index == 0 else 14}">'
-            f'{html.escape(line)}</tspan>'
-            for line_index, line in enumerate(detail_lines)
-        )
-        svg_parts.extend([
-            f'<circle cx="{x}" cy="{y}" r="18" class="route-node"/>',
-            f'<text x="{x}" y="{y + 6}" class="route-number" text-anchor="middle">{index}</text>',
-            f'<text x="96" y="{label_y}" class="route-stop">{label_tspans}</text>',
-            f'<text x="96" y="{detail_y}" class="route-detail">{detail_tspans}</text>',
-        ])
         url = str(stop.get("url", ""))
         if urlparse(url).scheme in {"http", "https"}:
             nav_links.append(
                 f'<a href="{html.escape(url, quote=True)}" target="_blank" '
-                f'rel="noopener noreferrer">高德 · {index} {label}</a>'
+                f'rel="noopener noreferrer">{index} · {label}</a>'
             )
-    svg_parts.append("</svg>")
+
+        for branch in branches_by_stop.get(index, []):
+            branch_title = html.escape(str(branch.get("title", "现场决策")))
+            option_parts = []
+            for option in branch.get("options") or []:
+                option_label = html.escape(str(option.get("label", "路线")))
+                option_detail = html.escape(str(option.get("detail", "")))
+                option_class = " optional" if option.get("optional") else ""
+                option_parts.append(
+                    f'<li class="route-choice-option{option_class}">'
+                    f'<strong>{option_label}</strong><span>{option_detail}</span></li>'
+                )
+                option_url = str(option.get("url", ""))
+                if urlparse(option_url).scheme in {"http", "https"}:
+                    nav_links.append(
+                        f'<a href="{html.escape(option_url, quote=True)}" target="_blank" '
+                        f'rel="noopener noreferrer">可选 · {option_label}</a>'
+                    )
+            flow_parts.append(
+                '<li class="route-choice">'
+                f'<strong class="route-choice-title">{branch_title}</strong>'
+                f'<ul>{"".join(option_parts)}</ul></li>'
+            )
+
+        if index <= len(segments):
+            segment = segments[index - 1]
+            segment_text = str(segment.get("text", "")) if isinstance(segment, dict) else str(segment)
+            segment_parts = [part.strip() for part in segment_text.split(" · ") if part.strip()]
+            if not segment_parts:
+                segment_parts = [segment_text]
+            badges = "".join(f"<span>{html.escape(part)}</span>" for part in segment_parts)
+            flow_parts.append(
+                '<li class="route-transfer" aria-label="下一段交通">'
+                f'{badges}</li>'
+            )
+    flow_parts.append("</ol>")
+
     note = html.escape(str(route.get("note", "")))
+    summary = html.escape(str(route.get("summary", f"{len(stops)}站 · 非比例")))
     links_html = "".join(nav_links)
+    reference_html = ""
+    reference_image = str(route.get("reference_image", ""))
+    if reference_image:
+        reference_alt = html.escape(str(route.get("reference_alt", "参考路线图")), quote=True)
+        reference_caption = html.escape(str(route.get("reference_caption", "仅作方向参考")))
+        reference_html = (
+            '<details class="reference-map"><summary>查看参考路线大图</summary>'
+            f'<img src="{html.escape(reference_image, quote=True)}" alt="{reference_alt}" loading="lazy">'
+            f'<p>{reference_caption}</p></details>'
+        )
     return (
         '<details class="route-map">'
-        f'<summary><span>查看当日路线示意图</span><small>{len(stops)}站 · 非比例</small></summary>'
+        f'<summary><span>当日路线</span><small>{summary}</small></summary>'
         '<div class="route-map-body">'
-        f'<div class="route-map-scroll">{"".join(svg_parts)}</div>'
+        f'{"".join(flow_parts)}'
         f'<p class="route-note">{note}</p>'
-        f'<div class="route-nav" aria-label="当日高德导航入口">{links_html}</div>'
+        f'<details class="route-nav"><summary>打开高德导航点</summary><div>{links_html}</div></details>'
+        f'{reference_html}'
         '</div></details>'
     )
 
@@ -275,17 +264,25 @@ def main() -> int:
         route = routes.get(path.stem)
         if route is None:
             raise ValueError(f"Missing route diagram data for {path.stem}")
-        anchor = "<h2>三餐与时间轴</h2>"
+        anchor = "<h2>行程时间轴</h2>"
         if anchor not in day_html:
             raise ValueError(f"Missing timeline heading in {path.name}")
         day_html = day_html.replace(anchor, render_route_map(route) + anchor, 1)
         dining_html = dining_sections.get(path.stem)
         if dining_html is None:
             raise ValueError(f"Missing dining guide section for {path.name}")
-        day_html += (
+        dining_block = (
             '<div class="day-meals">'
             '<h2>当天美食</h2>' + dining_html + '</div>'
         )
+        detail_anchor = "<h2>看点与现场提醒</h2>"
+        reminder_anchor = "<h2>当日提醒</h2>"
+        if detail_anchor in day_html:
+            day_html = day_html.replace(detail_anchor, dining_block + detail_anchor, 1)
+        elif reminder_anchor in day_html:
+            day_html = day_html.replace(reminder_anchor, dining_block + reminder_anchor, 1)
+        else:
+            day_html += dining_block
         days.append((path.stem, day_html))
     budget_table, budget_low, budget_high, budget_actual = render_budget(tables["budget.csv"])
 

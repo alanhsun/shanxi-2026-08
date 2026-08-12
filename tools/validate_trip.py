@@ -368,7 +368,13 @@ def iter_source_files(project: Path):
     excluded = {".git", "dist", ".venv", "__pycache__"}
     allowed = {".md", ".yaml", ".yml", ".csv", ".json", ".html", ".txt"}
     for path in project.rglob("*"):
-        if not path.is_file() or any(part in excluded for part in path.parts):
+        relative = path.relative_to(project)
+        # This repository can hold several independent trip projects.  Validate
+        # only the selected project plus its tracked files; otherwise an
+        # unrelated untracked sibling can block publication with its draft TODOs.
+        if relative.parts and (project / relative.parts[0] / "trip.yaml").is_file():
+            continue
+        if not path.is_file() or any(part in excluded for part in relative.parts):
             continue
         if path.suffix.lower() in allowed:
             yield path

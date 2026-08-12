@@ -152,25 +152,27 @@ def render_route_map(route: dict) -> str:
             )
         branches_by_stop.setdefault(after_stop, []).append(branch)
 
-    nav_links = []
     flow_parts = ['<ol class="route-flow">']
     for index, stop in enumerate(stops, start=1):
         label = html.escape(str(stop.get("label", "")))
         detail = html.escape(str(stop.get("detail", "")))
+        url = str(stop.get("url", ""))
+        nav_html = ""
+        if urlparse(url).scheme in {"http", "https"}:
+            nav_html = (
+                f'<a class="route-stop-nav" href="{html.escape(url, quote=True)}" '
+                f'target="_blank" rel="noopener noreferrer" '
+                f'aria-label="打开{label}的高德导航">高德导航</a>'
+            )
         flow_parts.append(
             '<li class="route-step">'
             f'<span class="route-node" aria-hidden="true">{index}</span>'
             '<div class="route-stop">'
-            f'<strong>{label}</strong><span>{detail}</span>'
+            f'<div class="route-stop-title"><strong>{label}</strong>{nav_html}</div>'
+            f'<span>{detail}</span>'
             '</div>'
             '</li>'
         )
-        url = str(stop.get("url", ""))
-        if urlparse(url).scheme in {"http", "https"}:
-            nav_links.append(
-                f'<a href="{html.escape(url, quote=True)}" target="_blank" '
-                f'rel="noopener noreferrer">{index} · {label}</a>'
-            )
 
         for branch in branches_by_stop.get(index, []):
             branch_title = html.escape(str(branch.get("title", "现场决策")))
@@ -179,16 +181,18 @@ def render_route_map(route: dict) -> str:
                 option_label = html.escape(str(option.get("label", "路线")))
                 option_detail = html.escape(str(option.get("detail", "")))
                 option_class = " optional" if option.get("optional") else ""
+                option_url = str(option.get("url", ""))
+                option_nav = ""
+                if urlparse(option_url).scheme in {"http", "https"}:
+                    option_nav = (
+                        f'<a class="route-stop-nav" href="{html.escape(option_url, quote=True)}" '
+                        f'target="_blank" rel="noopener noreferrer">高德导航</a>'
+                    )
                 option_parts.append(
                     f'<li class="route-choice-option{option_class}">'
-                    f'<strong>{option_label}</strong><span>{option_detail}</span></li>'
+                    f'<div class="route-stop-title"><strong>{option_label}</strong>{option_nav}</div>'
+                    f'<span>{option_detail}</span></li>'
                 )
-                option_url = str(option.get("url", ""))
-                if urlparse(option_url).scheme in {"http", "https"}:
-                    nav_links.append(
-                        f'<a href="{html.escape(option_url, quote=True)}" target="_blank" '
-                        f'rel="noopener noreferrer">可选 · {option_label}</a>'
-                    )
             flow_parts.append(
                 '<li class="route-choice">'
                 f'<strong class="route-choice-title">{branch_title}</strong>'
@@ -210,7 +214,6 @@ def render_route_map(route: dict) -> str:
 
     note = html.escape(str(route.get("note", "")))
     summary = html.escape(str(route.get("summary", f"{len(stops)}站 · 非比例")))
-    links_html = "".join(nav_links)
     reference_html = ""
     reference_image = str(route.get("reference_image", ""))
     if reference_image:
@@ -222,14 +225,13 @@ def render_route_map(route: dict) -> str:
             f'<p>{reference_caption}</p></details>'
         )
     return (
-        '<figure class="route-map" aria-label="当日路线图">'
-        f'<figcaption class="route-map-header"><span>当日路线图</span><small>{summary}</small></figcaption>'
+        '<details class="route-map">'
+        f'<summary class="route-map-header"><span>当日路线图</span><small>{summary}</small></summary>'
         '<div class="route-map-body">'
         f'{"".join(flow_parts)}'
         f'<p class="route-note">{note}</p>'
-        f'<details class="route-nav"><summary>打开高德导航点</summary><div>{links_html}</div></details>'
         f'{reference_html}'
-        '</div></figure>'
+        '</div></details>'
     )
 
 

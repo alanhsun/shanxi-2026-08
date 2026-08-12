@@ -129,11 +129,12 @@ main section > p > img {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  cursor: pointer;
   padding: .85rem 1rem;
-  border-bottom: 1px solid #c8d4cc;
   color: var(--accent-2);
   font-weight: 750;
 }
+.route-map[open] > .route-map-header { border-bottom: 1px solid #c8d4cc; }
 .route-map-header small { color: var(--muted); font-weight: 500; }
 .route-map-body { padding: .9rem 1rem 1rem; }
 .route-flow { margin: 0; padding: 0; list-style: none; }
@@ -157,8 +158,23 @@ main section > p > img {
   font-weight: 800;
 }
 .route-stop { min-width: 0; padding-top: .05rem; }
-.route-stop strong { display: block; line-height: 1.35; }
+.route-stop-title { display: flex; align-items: center; flex-wrap: wrap; gap: .35rem .55rem; }
+.route-stop strong { line-height: 1.35; }
 .route-stop span { display: block; margin-top: .18rem; color: var(--muted); font-size: .88rem; line-height: 1.5; }
+.route-stop-nav {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.55rem;
+  padding: .08rem .48rem;
+  border: 1px solid #a8c2b3;
+  border-radius: 999px;
+  color: #275844;
+  background: #fff;
+  font-size: .72rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+.route-stop-nav::before { margin-right: .2rem; content: "↗"; }
 .route-transfer {
   position: relative;
   display: flex;

@@ -8,7 +8,7 @@ routes:
     reference_alt: 宁波机场至鼓楼月湖南塘老街再返回机场的半日路线图
     reference_caption: 用户提供的方向示意图；14:40进入云霞路站是城市端硬时限，实时地铁与步行导航优先。
     stops:
-      - {label: 东莞住处, detail: "06:00预约送机出发"}
+      - {label: 东莞住处, detail: "06:00预约送机出发", url: "https://uri.amap.com/search?keyword=东莞&city=东莞"}
       - {label: 广州白云机场T3, detail: "07:10到达；直进安检和登机口", url: "https://uri.amap.com/search?keyword=广州白云国际机场T3航站楼&city=广州"}
       - {label: 宁波栎社机场, detail: "10:50落地，行李直挂直接出站", url: "https://uri.amap.com/search?keyword=宁波栎社国际机场&city=宁波"}
       - {label: 鼓楼站, detail: "12:05到；短停、小吃", url: "https://uri.amap.com/search?keyword=宁波地铁鼓楼站&city=宁波"}
@@ -30,7 +30,7 @@ routes:
       - {label: 华严寺, detail: "14:25–15:35核心慢游", url: "https://uri.amap.com/search?keyword=华严寺景区入口&city=大同"}
       - {label: 古城晚餐, detail: "17:35–18:25晋北菜/烧麦", url: "https://uri.amap.com/search?keyword=大同古城鼓楼&city=大同"}
       - {label: 神州租车大同古城服务点, detail: "19:00取车验车", url: "https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同"}
-      - {label: 尚客优精选吾悦广场店, detail: "20:10停车休息"}
+      - {label: 尚客优精选吾悦广场店, detail: "20:10停车休息", url: "https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同"}
     segments: ["网约车 · 25公里 · 40分", "网约车 · 25公里 · 50分", "步行 · 古城短线 · 约1小时45分", "步行/短途车 · 1公里 · 30分", "取车验车+自驾 · 25公里 · 1小时10分"]
 
   - day_id: day-03
@@ -63,7 +63,7 @@ routes:
       - {label: 知见山行民宿, detail: "11:15寄存行李、短休", url: "https://uri.amap.com/search?keyword=知见山行民宿五台山风景区店&city=忻州"}
       - {label: 殊像寺, detail: "13:00–13:50看文殊造像", url: "https://uri.amap.com/search?keyword=五台山殊像寺&city=忻州"}
       - {label: 塔院寺—显通寺, detail: "14:00–15:55白塔与核心寺院", url: "https://uri.amap.com/search?keyword=五台山塔院寺&city=忻州"}
-      - {label: 民宿, detail: "17:40晚餐；20:00前休息"}
+      - {label: 民宿, detail: "17:40晚餐；20:00前休息", url: "https://uri.amap.com/search?keyword=知见山行民宿五台山风景区店&city=忻州"}
     segments: ["自驾 · 135公里 · 2小时30分", "核验/预约车/免费公交 · 30公里 · 1小时30分", "步行/景区公交 · 0.8公里", "步行 · 0.6公里 · 15分", "步行/短途车 · 0.8公里"]
 
   - day_id: day-05
@@ -88,7 +88,7 @@ routes:
       - {label: 双林寺, detail: "彩塑约1小时20分", url: "https://uri.amap.com/search?keyword=双林寺&city=晋中"}
       - {label: 古城停车区/客栈, detail: "16:25停车，进城入住", url: "https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中"}
       - {label: 平遥古城南门, detail: "晚餐、夜景", url: "https://uri.amap.com/search?keyword=平遥古城南门&city=晋中"}
-      - {label: 客栈, detail: "20:45前返回"}
+      - {label: 客栈, detail: "20:45前返回", url: "https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中"}
     segments: ["电动车 · 3公里 · 10分", "电动车 · 4公里 · 10分", "电动车 · 130公里 · 2小时30分", "电动车 · 8公里 · 25分", "步行/行李车 · 1公里 · 40分", "步行 · 1公里 · 15分"]
 
   - day_id: day-07
@@ -100,7 +100,7 @@ routes:
       - {label: 县衙—城墙短段—出城, detail: "07:35–09:15；不增加日升昌", url: "https://uri.amap.com/search?keyword=平遥古县衙&city=晋中"}
       - {label: 王家大院, detail: "11:10到、核心约2小时", url: "https://uri.amap.com/search?keyword=王家大院&city=晋中"}
       - {label: 酸枣树酒店, detail: "19:10入住；陕西游客中心旁", url: "https://uri.amap.com/search?keyword=酸枣树酒店壶口瀑布店&city=延安"}
-      - {label: 酒店/游客中心晚餐, detail: "20:20前休息"}
+      - {label: 酒店/游客中心晚餐, detail: "20:20前休息", url: "https://uri.amap.com/search?keyword=酸枣树酒店壶口瀑布店&city=延安"}
     segments: ["步行/行李车 · 1公里 · 35分", "电动车 · 70公里 · 1小时20分", "电动车+快充 · 300公里 · 5小时25分", "步行/短途车 · 1公里"]
 
   - day_id: day-08
@@ -113,7 +113,7 @@ routes:
       - {label: 陕西壶口主瀑, detail: "07:30–09:25主游", url: "https://uri.amap.com/search?keyword=陕西黄河壶口瀑布&city=延安"}
       - {label: 微源国际酒店/机场片区, detail: "16:15入住休息；17:20晚餐", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
       - {label: 运城机场神州租车服务点, detail: "19:00还车并确认订单结束", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
-      - {label: 微源国际酒店, detail: "19:20返回；20:15前休息"}
+      - {label: 微源国际酒店, detail: "19:20返回；20:15前休息", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
     segments: ["步行/短移车 · 0.2公里 · 10分", "陕西官方景交 · 往返约2小时", "电动车+快充+午餐 · 260–275公里 · 4小时55分起", "电动车/短移 · 0.3–5公里 · 10–20分", "步行/酒店接驳 · 0.3公里 · 20分"]
     branches:
       - after_stop: 3
@@ -130,5 +130,5 @@ routes:
       - {label: 微源国际酒店, detail: "04:50退房步行/接驳", url: "https://uri.amap.com/search?keyword=微源国际酒店运城盐湖国际机场店&city=运城"}
       - {label: 运城盐湖机场, detail: "05:05进航站楼", url: "https://uri.amap.com/search?keyword=运城盐湖国际机场&city=运城"}
       - {label: 广州白云机场, detail: "10:00落地", url: "https://uri.amap.com/search?keyword=广州白云国际机场&city=广州"}
-      - {label: 东莞住处, detail: "约13:30抵达"}
+      - {label: 东莞住处, detail: "约13:30抵达", url: "https://uri.amap.com/search?keyword=东莞&city=东莞"}
     segments: ["步行/酒店短接驳 · 0.3公里 · 15分", "CZ5266 · 2小时40分", "预约车 · 约2小时30分"]

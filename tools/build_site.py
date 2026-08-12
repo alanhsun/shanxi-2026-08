@@ -222,14 +222,14 @@ def render_route_map(route: dict) -> str:
             f'<p>{reference_caption}</p></details>'
         )
     return (
-        '<details class="route-map">'
-        f'<summary><span>当日路线</span><small>{summary}</small></summary>'
+        '<figure class="route-map" aria-label="当日路线图">'
+        f'<figcaption class="route-map-header"><span>当日路线图</span><small>{summary}</small></figcaption>'
         '<div class="route-map-body">'
         f'{"".join(flow_parts)}'
         f'<p class="route-note">{note}</p>'
         f'<details class="route-nav"><summary>打开高德导航点</summary><div>{links_html}</div></details>'
         f'{reference_html}'
-        '</div></details>'
+        '</div></figure>'
     )
 
 

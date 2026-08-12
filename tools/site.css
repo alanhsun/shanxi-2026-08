@@ -124,18 +124,17 @@ main section > p > img {
   border-radius: .85rem;
   background: #f2f7f3;
 }
-.route-map > summary {
+.route-map-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  cursor: pointer;
   padding: .85rem 1rem;
+  border-bottom: 1px solid #c8d4cc;
   color: var(--accent-2);
   font-weight: 750;
 }
-.route-map > summary small { color: var(--muted); font-weight: 500; }
-.route-map[open] > summary { border-bottom: 1px solid #c8d4cc; }
+.route-map-header small { color: var(--muted); font-weight: 500; }
 .route-map-body { padding: .9rem 1rem 1rem; }
 .route-flow { margin: 0; padding: 0; list-style: none; }
 .route-step {
@@ -266,8 +265,8 @@ footer { padding: 2rem 1rem 4rem; color: var(--muted); text-align: center; font-
   section { border-radius: .7rem; }
   .details-panel > summary { padding: .8rem; }
   .day-jump { top: 3.25rem; margin-inline: -.35rem; }
-  .route-map > summary { display: block; padding: .75rem .8rem; }
-  .route-map > summary small { display: block; margin-top: .15rem; }
+  .route-map-header { display: block; padding: .75rem .8rem; }
+  .route-map-header small { display: block; margin-top: .15rem; }
   .route-map-body { padding: .55rem .8rem .8rem; }
   .route-choice { margin-left: 0; }
   .route-transfer { padding-left: 1.3rem; }

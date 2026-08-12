@@ -128,8 +128,8 @@ def render_budget(rows: list[dict[str, str]]) -> tuple[str, float, float, float]
         high += float(row.get("planned_high_cny") or 0)
         actual += float(row.get("actual_cny") or 0)
     labels = {
-        "category": "类别", "item": "项目", "planned_low_cny": "低值",
-        "planned_high_cny": "高值", "actual_cny": "已确认",
+        "category": "类别", "item": "包含内容", "planned_low_cny": "预计低值",
+        "planned_high_cny": "预计高值", "actual_cny": "已确认",
     }
     return render_table(active, labels), low, high, actual
 
@@ -287,6 +287,8 @@ def main() -> int:
             day_html += dining_block
         days.append((path.stem, day_html))
     budget_table, budget_low, budget_high, budget_actual = render_budget(tables["budget.csv"])
+    budget_remaining_low = max(0.0, budget_low - budget_actual)
+    budget_remaining_high = max(0.0, budget_high - budget_actual)
 
     transport_labels = {
         "date": "日期", "from": "起点", "to": "终点", "mode": "方式",
@@ -356,12 +358,14 @@ def main() -> int:
     <section id="actions">
       <h2>预约与预算</h2>
       <details class="details-panel"><summary>展开预约行动清单（{len(active_bookings)}项）</summary>{booking_table}</details>
-      <div class="summary-grid">
-        <div><strong>{money(budget_low)}</strong><span>预算低值</span></div>
-        <div><strong>{money(budget_high)}</strong><span>预算高值</span></div>
-        <div><strong>{money(budget_actual)}</strong><span>已确认支出</span></div>
+      <h3>费用总盘</h3>
+      <div class="summary-grid budget-grid">
+        <div><strong>{money(budget_actual)}</strong><span>已确认 / 已预订</span></div>
+        <div><strong>{money(budget_remaining_low)}–{money(budget_remaining_high)}</strong><span>尚待支出</span></div>
+        <div><strong>{money(budget_low)}–{money(budget_high)}</strong><span>当前总支出预测</span></div>
       </div>
-      <details class="details-panel"><summary>展开预算分类明细</summary>{budget_table}</details>
+      <p class="budget-note">总额按3人、1间房计算；已确认金额是已知订单与送机费用。尚待支出包含其余门票景交、自驾运行、市内接驳、餐饮及¥1,500–¥3,000弹性备用，备用金无需花完。</p>
+      <details class="details-panel" open><summary>预算分类明细</summary>{budget_table}</details>
     </section>
   </main>
   <footer>旅途中以票面、景区公告、天气和实时导航为准；出现冲突时优先保证休息与安全。</footer>

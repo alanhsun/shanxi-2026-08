@@ -10,12 +10,14 @@ T02B,2026-08-15,宁波栎社国际机场,大同云冈国际机场,飞机MU6111,1
 T12,2026-08-15,大同云冈国际机场,尚客优精选酒店山西大同云冈区吾悦广场店,网约车,22:40,23:15,35,15,100,route-local-amap,https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同,,confirmed,D1不深夜取车；到店即休息；规划约25公里，T-1按实际酒店导航复核
 T13,2026-08-16,尚客优精选酒店山西大同云冈区吾悦广场店,云冈石窟游客中心,网约车,09:55,10:35,40,20,110,route-local-amap,https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同,,confirmed,规划约25公里；酒店更靠云冈方向，先打车云冈再单向进古城；现场队列超20分钟即跳看；T-1实时导航复核
 T14,2026-08-16,云冈石窟游客中心,华严寺景区入口,网约车,13:35,14:25,50,15,130,datong-city,https://uri.amap.com/search?keyword=华严寺景区入口&city=大同,,confirmed,不回酒店或服务点，直接进入古城下午游览；华严寺最后入场T-1复核
-T15,2026-08-16,华严寺/鼓楼晚餐片区,神州租车大同古城服务点,步行或短途网约车,18:25,18:50,25,10,30,user-shenzhou-datong-ancientcity-20260809,https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同,,confirmed,古城晚餐后前往服务点；19:00取车；证件驾驶证与儿童增高坐垫需求随身带齐
+T33,2026-08-16,华严寺餐区,善化寺,步行或短途网约车,16:10,16:25,15,5,20,datong-shanhua-hours-guide,https://uri.amap.com/search?keyword=善化寺&city=大同,,confirmed,规划约1.5公里；16:40仍未完成购票则取消善化寺并直接顺向晚餐；T-1按实时导航复核
+T15,2026-08-16,善化寺/顺向晚餐片区,神州租车大同古城服务点,步行或短途网约车,18:15,18:50,35,10,30,user-shenzhou-datong-ancientcity-20260809,https://uri.amap.com/search?keyword=神州租车大同古城服务点&city=大同,,confirmed,善化寺至取车点顺向晚餐后前往服务点；19:00取车；证件驾驶证与儿童增高坐垫需求随身带齐
 T16,2026-08-16,神州租车大同古城服务点,尚客优精选酒店山西大同云冈区吾悦广场店,租车自驾,19:35,20:10,35,10,0,user-shenzhou-datong-ancientcity-20260809,https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同,,confirmed,19:00取车验车；规划约25公里；取车后直接回酒店停车；D3清晨可直接出发；T-1实时导航复核
 T03,2026-08-17,尚客优精选酒店山西大同云冈区吾悦广场店,恒山游客中心,租车自驾,06:15,08:15,120,20,0,xuankong-selfdrive-parking,https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同,,confirmed,规划约120公里；停恒山游客中心后全员换乘官方景交；T-1实时导航复核
 T04,2026-08-17,恒山游客中心,应县木塔西停车场,租车自驾,10:25,11:45,80,20,0,route-north-south,https://uri.amap.com/search?keyword=应县木塔西停车场&city=朔州,,confirmed,约65公里；8月12日单次实游显示西停车场较顺畅，现场满位时仍跟官方引导；含景交返回取车和停车缓冲；T-1实时导航复核
-T30,2026-08-17,应县木塔,代县鑫五鑫精品酒店,租车自驾,13:45,15:15,90,20,0,route-local-amap,https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州,,confirmed,轻松主方案；规划约95公里；不绕雁门关；T-1实时导航复核
-T05,2026-08-17,应县木塔,雁门关景区北门,租车自驾可选,13:45,15:15,90,20,0,yanmen-current,https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州,,candidate,可选支线约90公里；仅13:45前出发且天气体力均适合时执行；北门进入减少连续爬坡
+T34,2026-08-17,应县木塔,应县净土寺,步行,13:40,13:50,10,5,0,xhs-datong-slow-discovery-20260804,https://uri.amap.com/search?keyword=应县净土寺&city=朔州,,confirmed,轻松主线步行约0.8公里；车辆继续停木塔西停车场；净土寺临时关闭或14:10仍未入内就返回取车
+T30,2026-08-17,应县净土寺,代县鑫五鑫精品酒店,租车自驾,14:30,16:00,90,20,0,route-local-amap,https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州,,confirmed,轻松主方案；返回木塔西停车场取车后规划约95公里；不绕雁门关；T-1实时导航复核
+T05,2026-08-17,应县木塔,雁门关景区北门,租车自驾可选,13:40,15:10,90,20,0,yanmen-current,https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州,,candidate,可选支线约90公里；仅13:40前出发且天气体力均适合时执行；选择此支线即取消净土寺和代州古城
 T21,2026-08-17,雁门关景区北门,代县鑫五鑫精品酒店,租车自驾可选,17:05,17:55,50,15,0,route-local-amap,https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州,,candidate,加游雁门关后约45公里到代县酒店；不加游时不执行本段
 T17,2026-08-18,代县鑫五鑫精品酒店,五台山风景区北门,租车自驾,07:15,09:45,150,20,0,wutai-vehicle-20260723,https://uri.amap.com/search?keyword=五台山风景区北门&city=忻州,,confirmed,规划约135公里；从代县取北门方向进山，避免向西门横向绕行；车辆预约和入口管制以官方小程序当天指引为准
 T18,2026-08-18,五台山风景区北门,知见山行民宿（五台山风景区店）,预约车辆自驾或免费公交换乘,09:45,11:15,90,20,0,wutai-vehicle-20260723,https://uri.amap.com/search?keyword=知见山行民宿五台山风景区店&city=忻州,,confirmed,北门核验后规划约30公里；有车约按允许路线入核心区，无车约按指定停车点换免费公交；民宿具体入口以用户订单和T-1导航复核

@@ -251,6 +251,14 @@ def main() -> int:
         )
     }
     overview = markdown_html(project / "content" / "overview.md")
+    pdf_links = "".join(
+        f'<a href="pdf/day-{day:02d}-2026-08-{14 + day:02d}.pdf">D{day} · 8/{14 + day}</a>'
+        for day in range(1, 10)
+    )
+    overview = overview.replace(
+        "<p>DAILY_PDF_LINKS</p>",
+        f'<div class="pdf-downloads" aria-label="每日离线PDF下载">{pdf_links}</div>',
+    )
     dining_sections = dining_by_day(project / "content" / "dining-guide.md")
     route_data = yaml.safe_load(
         (project / "data" / "day-routes.yaml").read_text(encoding="utf-8")
@@ -385,6 +393,9 @@ def main() -> int:
     media = project / "media"
     if media.is_dir():
         shutil.copytree(media, output / "media")
+    daily_pdfs = project / "output" / "pdf"
+    if daily_pdfs.is_dir():
+        shutil.copytree(daily_pdfs, output / "pdf")
     (output / ".nojekyll").write_text("", encoding="utf-8")
     print(f"Built site: {output / 'index.html'}")
     return 0

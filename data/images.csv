@@ -11,8 +11,6 @@ media/pingyao-oldtown.jpg,https://commons.wikimedia.org/wiki/File:Pingyao-oldtow
 media/wang-family-detail.jpg,https://commons.wikimedia.org/wiki/File:山西王家大院鼓形柱础.JPG,CC BY-SA 3.0,Gisling,游客于2008年实拍；展示鼓形柱础细节；未做内容改动
 media/hukou-waterfall.jpg,https://commons.wikimedia.org/wiki/File:Hukou_Waterfall.jpg,CC BY-SA 3.0,Leruswing,游客于2008年实拍黄河主瀑；缩放为网页展示尺寸；未做其他改动
 media/ningbo-half-day-route.png,user-provided://ningbo-half-day-route,user-provided,用户提供,用户提供的宁波转机半日游路线示意图；获用户授权用于本公开行程网页
-media/shanxi-route-overview-20260814.png,user-provided://shanxi-route-overview-20260814,user-provided,用户提供,2026年8月14日用户提供的北进南出自驾主路线图；替换旧主图并获授权用于本公开行程网页；图中距离为概览值
-media/d3-hengshan-yingxian-yanmen-route.png,user-provided://d3-hengshan-yingxian-yanmen-route,user-provided,用户提供,用户提供的D3恒山悬空寺—应县木塔—雁门关—代县路线示意图；获用户授权用于本公开行程网页
 media/jinci-user-photo.jpg,user-provided://jinci-photo,user-provided,用户提供（保留原作者水印）,用户提供的晋祠游客实拍拼图；按原图公开展示；未裁切或移除水印
 media/shuxiang-temple-user-photo.jpg,user-provided://shuxiang-temple-photo,user-provided,用户提供（保留原作者水印）,用户提供的殊像寺游客实拍；按原图公开展示；未裁切或移除水印
 media/tayuan-temple-user-photo.jpg,user-provided://tayuan-temple-photo,user-provided,用户提供（保留原作者水印）,用户提供的塔院寺游客实拍；按原图公开展示；未裁切或移除水印
@@ -23,9 +21,10 @@ media/yingxian-pagoda-user-photo.jpg,user-provided://yingxian-pagoda-photo,user-
 media/huayan-temple-user-photo.jpg,user-provided://huayan-temple-photo,user-provided,用户提供（保留原作者水印）,用户提供的华严寺游客实拍；按原图展示；未裁切或移除水印
 media/wang-family-courtyard-user-photo.jpg,user-provided://wang-family-courtyard-photo,user-provided,用户提供（保留原作者水印）,用户提供的王家大院游客实拍；按原图展示；未裁切或移除水印
 media/d2-route-reference-20260814.png,user-provided://d2-route-reference-20260814,user-provided,用户提供,用户提供的D2大同路线参考大图；按原图展示
-media/d3-route-reference-20260814.png,user-provided://d3-route-reference-20260814,user-provided,用户提供,用户提供的D3代县路线参考大图；图中净土寺为已取消旧标注，正文明确不执行
 media/d4-route-reference-20260814.png,user-provided://d4-route-reference-20260814,user-provided,用户提供,用户提供的D4五台山路线参考大图；按原图展示
 media/d5-route-reference-20260814.png,user-provided://d5-route-reference-20260814,user-provided,用户提供,用户提供的D5太原路线参考大图；按原图展示
 media/d6-route-reference-20260814.png,user-provided://d6-route-reference-20260814,user-provided,用户提供,用户提供的D6太原至平遥路线参考大图；按原图展示
 media/d7-route-reference-20260814.png,user-provided://d7-route-reference-20260814,user-provided,用户提供,用户提供的D7平遥至陕西壶口路线参考大图；按原图展示
 media/d8-route-reference-20260814.png,user-provided://d8-route-reference-20260814,user-provided,用户提供,用户提供的D8陕西壶口至运城路线参考大图；按原图展示
+media/shanxi-route-overview-final.svg,project-generated://shanxi-route-overview-final,project-generated,行程项目生成,最终北进南出主路线图；仅保留当前执行路线，雁门关为唯一可选支线
+media/d3-route-final.svg,project-generated://d3-route-final,project-generated,行程项目生成,D3最终执行路线图；应县木塔后默认直达代县，雁门关为互斥可选支线

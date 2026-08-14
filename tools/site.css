@@ -29,7 +29,7 @@ a { color: var(--accent-2); text-underline-offset: .2em; }
   padding: 4.5rem 1.25rem 3.5rem;
 }
 .hero-inner { width: min(1100px, 100%); margin: 0 auto; }
-.hero h1 { max-width: 22ch; margin: .2rem 0; font-size: clamp(2.4rem, 6vw, 4.6rem); line-height: 1.08; }
+.hero h1 { max-width: none; margin: .2rem 0; font-size: clamp(2.4rem, 5.5vw, 4.25rem); line-height: 1.08; }
 .eyebrow { letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
 .trip-meta { margin: 1rem 0 0; font-weight: 650; }
 .verified { margin-top: 1.2rem; opacity: .78; font-size: .92rem; }
@@ -60,6 +60,34 @@ section {
 }
 h1, h2, h3 { line-height: 1.25; }
 h2 { margin-top: 0; font-size: clamp(1.55rem, 4vw, 2.2rem); }
+blockquote {
+  margin: 0 0 1.2rem;
+  padding: .8rem 1rem;
+  border: 1px solid #dfb99f;
+  border-left: .3rem solid var(--accent);
+  border-radius: .65rem;
+  color: #633821;
+  background: #fff5ea;
+}
+blockquote p { margin: 0; }
+.pdf-downloads {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .65rem;
+  margin: 1rem 0 .25rem;
+}
+.pdf-downloads a {
+  display: block;
+  padding: .75rem .9rem;
+  border: 1px solid #b7c9bf;
+  border-radius: .7rem;
+  color: #fff;
+  background: var(--accent-2);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 750;
+}
+.pdf-downloads a::after { margin-left: .4rem; content: "PDF"; opacity: .72; font-size: .72rem; }
 .day {
   scroll-margin-top: 7.5rem;
   max-width: 100%;
@@ -281,6 +309,7 @@ footer { padding: 2rem 1rem 4rem; color: var(--muted); text-align: center; font-
   .hero { padding-top: 3.2rem; }
   .hero h1 { max-width: none; font-size: clamp(1.9rem, 8.5vw, 2.2rem); }
   .summary-grid { grid-template-columns: 1fr; }
+  .pdf-downloads { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .budget-grid strong { white-space: normal; }
   section { border-radius: .7rem; }
   .details-panel > summary { padding: .8rem; }

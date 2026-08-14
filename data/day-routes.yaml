@@ -41,9 +41,9 @@ routes:
     title: D3 悬空寺—应县木塔—代县（雁门关可选）
     summary: 主线280公里/4小时50分 · 加游320公里/5小时40分
     note: 轻松主线在应县木塔后直接去代县酒店长休，傍晚体力允许才短看代州古城；仅在13:40前出发、天气稳定且全员体力良好时改走雁门关。
-    reference_image: media/d3-route-reference-20260814.png
-    reference_alt: 大同经悬空寺应县木塔雁门关到代县的路线图
-    reference_caption: 用户提供的D3方向示意图；图中的净土寺是已取消的旧标注，不执行。轻松主线从应县木塔直接前往代县酒店，雁门关仅为现场可选支线。
+    reference_image: media/d3-route-final.svg
+    reference_alt: 大同经悬空寺和应县木塔直达代县的最终路线图，雁门关为可选支线
+    reference_caption: 最终执行图：应县木塔后默认直达代县酒店；雁门关仅在13:40前离开木塔、天气稳定且全员状态良好时加游，选择雁门关即取消代州古城。
     stops:
       - {label: 尚客优精选吾悦广场店, detail: "06:15装车出发", url: "https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同"}
       - {label: 恒山游客中心, detail: "08:15到；换官方景交看悬空寺", url: "https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同"}

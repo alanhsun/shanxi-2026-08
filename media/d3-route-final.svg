@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1450" viewBox="0 0 1100 1450" role="img" aria-labelledby="title desc">
+  <title id="title">D3悬空寺应县木塔代县最终路线图</title>
+  <desc id="desc">从大同酒店经悬空寺和应县木塔直达代县酒店，代州古城和雁门关为互斥备选。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fffdf7"/><stop offset="1" stop-color="#efe2c9"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#a84324"/></marker>
+    <style>
+      text{font-family:'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#35261d}.title{font-size:52px;font-weight:800}.sub{font-size:24px;fill:#705443}.num{font-size:23px;font-weight:800;fill:#fff}.place{font-size:31px;font-weight:800}.detail{font-size:20px;fill:#6f5747}.seg{font-size:22px;font-weight:700;fill:#8c3e24}.boxh{font-size:24px;font-weight:800}.small{font-size:19px;fill:#665044}.opt{font-size:21px;font-weight:800;fill:#245a6d}
+    </style>
+  </defs>
+  <rect width="1100" height="1450" fill="url(#bg)"/>
+  <text x="550" y="80" text-anchor="middle" class="title">D3 · 悬空寺 - 应县木塔 - 代县</text>
+  <text x="550" y="122" text-anchor="middle" class="sub">8月17日 · 轻松主线280公里 / 驾驶约4小时50分</text>
+  <rect x="95" y="155" width="910" height="72" rx="18" fill="#6a3322"/>
+  <text x="550" y="200" text-anchor="middle" font-size="25" font-weight="700" fill="#fff">默认主线：大同酒店 → 悬空寺 → 应县木塔 → 代县酒店</text>
+
+  <path d="M285 300 C285 430 415 435 415 565 C415 690 570 700 570 845 C570 980 720 1010 720 1130" fill="none" stroke="#a84324" stroke-width="12" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <g transform="translate(285 295)"><circle r="32" fill="#a84324"/><text y="8" text-anchor="middle" class="num">1</text><text x="60" y="-6" class="place">尚客优精选吾悦广场店</text><text x="60" y="28" class="detail">06:15装车出发 · 车辆电量≥90%</text></g>
+  <text x="335" y="405" class="seg">自驾120公里 / 约2小时</text>
+  <g transform="translate(415 560)"><circle r="32" fill="#a84324"/><text y="8" text-anchor="middle" class="num">2</text><text x="60" y="-6" class="place">恒山游客中心 / 悬空寺</text><text x="60" y="28" class="detail">08:15到 · 官方换乘 · 寺下观景保底</text><text x="60" y="61" class="detail">登临票可得且身体舒适时再登临</text></g>
+  <text x="475" y="685" class="seg">自驾65公里 / 约1小时20分</text>
+  <g transform="translate(570 840)"><circle r="32" fill="#a84324"/><text y="8" text-anchor="middle" class="num">3</text><text x="60" y="-6" class="place">应县木塔</text><text x="60" y="28" class="detail">午餐 + 木塔外观与首层 · 13:40决策</text></g>
+  <text x="625" y="970" class="seg">主线自驾95公里 / 约1小时30分</text>
+  <g transform="translate(720 1125)"><circle r="32" fill="#a84324"/><text y="8" text-anchor="middle" class="num">4</text><text x="60" y="-6" class="place">代县鑫五鑫精品酒店</text><text x="60" y="28" class="detail">主线约15:10到店 · 长休</text><text x="60" y="61" class="detail">体力允许才短看代州古城</text></g>
+
+  <path d="M570 840 C360 870 250 970 225 1085" fill="none" stroke="#245a6d" stroke-width="8" stroke-dasharray="16 12" marker-end="url(#arrow)"/>
+  <rect x="70" y="1090" width="465" height="230" rx="22" fill="#edf6f8" stroke="#245a6d" stroke-width="2"/>
+  <text x="100" y="1135" class="opt">可选：雁门关北门</text>
+  <text x="100" y="1176" class="small">仅13:40前离开木塔、天气稳定、全员体力良好</text>
+  <text x="100" y="1213" class="small">木塔→北门90公里 / 约1小时30分</text>
+  <text x="100" y="1250" class="small">核心游约1小时45分；再至酒店45公里 / 50分</text>
+  <text x="100" y="1287" class="small">一旦选择雁门关，当晚取消代州古城</text>
+
+  <rect x="605" y="1270" width="425" height="112" rx="20" fill="#fff8eb" stroke="#c58b52" stroke-width="2"/>
+  <text x="635" y="1312" class="boxh">止损规则</text>
+  <text x="635" y="1348" class="small">13:40未离木塔 / 风雨 / 疲劳：立即走主线</text>
+  <text x="1030" y="1415" text-anchor="end" class="small">最终执行图 · 2026-08-14 · 不含已取消景点</text>
+</svg>

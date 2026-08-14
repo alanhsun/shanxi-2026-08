@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">山西九日家庭自驾最终路线图</title>
+  <desc id="desc">广州经宁波飞大同，山西北进南出，大同至运城自驾，雁门关为唯一可选支线。</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fffaf0"/><stop offset="1" stop-color="#f1e3c7"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#6d4a29" flood-opacity=".18"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#a84324"/></marker>
+    <style>
+      text{font-family:'Microsoft YaHei','Noto Sans SC',sans-serif;fill:#35261d}
+      .title{font-size:56px;font-weight:800;letter-spacing:3px}.sub{font-size:24px;fill:#705443}.day{font-size:24px;font-weight:800;fill:#fff}.place{font-size:30px;font-weight:800}.detail{font-size:20px;fill:#705443}.km{font-size:20px;font-weight:700;fill:#8d3e23}.small{font-size:18px;fill:#705443}.label{font-size:21px;font-weight:700}.optional{font-size:19px;font-weight:700;fill:#285d72}
+    </style>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#paper)"/>
+  <path d="M55 122 Q250 40 430 110 T790 85 T1140 130" fill="none" stroke="#d9c19a" stroke-width="3" opacity=".7"/>
+  <path d="M35 1390 Q250 1300 470 1380 T900 1360 T1160 1415" fill="none" stroke="#d9c19a" stroke-width="3" opacity=".7"/>
+  <text x="600" y="82" text-anchor="middle" class="title">山西九日家庭自驾 · 最终路线</text>
+  <text x="600" y="124" text-anchor="middle" class="sub">2026.08.15-08.23 · 2成人 + 1名8岁儿童 · 北进南出</text>
+
+  <g filter="url(#shadow)">
+    <rect x="75" y="165" width="1050" height="118" rx="24" fill="#fffdf8" stroke="#d5b98e"/>
+    <text x="110" y="205" class="label">D1 · 航空与宁波转机</text>
+    <text x="110" y="246" class="place">东莞 → 广州 → 宁波半日游 → 大同</text>
+    <text x="1090" y="222" text-anchor="end" class="detail">无自驾 · 22:15抵达大同</text>
+  </g>
+
+  <path d="M330 334 C330 470 305 515 330 650 C350 760 470 820 470 930 C470 1060 590 1090 620 1200 C640 1280 720 1310 805 1350" fill="none" stroke="#a84324" stroke-width="13" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <g transform="translate(330 345)"><circle r="34" fill="#a84324"/><text y="9" text-anchor="middle" class="day">D2</text><text x="65" y="-4" class="place">大同</text><text x="65" y="28" class="detail">云冈石窟 · 华严寺 · 善化寺</text><text x="65" y="59" class="km">打车约50公里 + 自驾约25公里</text></g>
+  <g transform="translate(325 535)"><circle r="34" fill="#a84324"/><text y="9" text-anchor="middle" class="day">D3</text><text x="65" y="-4" class="place">浑源 · 应县 · 代县</text><text x="65" y="28" class="detail">悬空寺 · 应县木塔 · 代县休息</text><text x="65" y="59" class="km">主线280公里 / 驾驶约4小时50分</text></g>
+  <g transform="translate(470 745)"><circle r="34" fill="#a84324"/><text y="9" text-anchor="middle" class="day">D4</text><text x="65" y="-4" class="place">五台山</text><text x="65" y="28" class="detail">北门进山 · 殊像寺 · 塔院寺 · 显通寺</text><text x="65" y="59" class="km">约165公里 / 驾驶约4小时</text></g>
+  <g transform="translate(470 930)"><circle r="34" fill="#a84324"/><text y="9" text-anchor="middle" class="day">D5</text><text x="65" y="-4" class="place">太原晋祠片区</text><text x="65" y="28" class="detail">上午休整 · 午后南下 · 到店补能</text><text x="65" y="59" class="km">约180公里 / 驾驶约4小时30分</text></g>
+  <g transform="translate(600 1090)"><circle r="34" fill="#a84324"/><text y="9" text-anchor="middle" class="day">D6</text><text x="65" y="-4" class="place">晋祠 · 双林寺 · 平遥</text><text x="65" y="28" class="detail">古城外停车 · 夜游南大街</text><text x="65" y="59" class="km">约145公里 / 驾驶约3小时15分</text></g>
+  <g transform="translate(685 1225)"><circle r="34" fill="#a84324"/><text y="9" text-anchor="middle" class="day">D7</text><text x="65" y="-4" class="place">王家大院 · 陕西壶口</text><text x="65" y="28" class="detail">平遥清晨游后一路南下宜川</text><text x="65" y="59" class="km">约370公里 / 驾驶约6小时45分</text></g>
+  <g transform="translate(805 1360)"><circle r="34" fill="#a84324"/><text y="9" text-anchor="middle" class="day">D8</text><text x="65" y="-4" class="place">陕西壶口 → 运城</text><text x="65" y="28" class="detail">山西侧仅条件加游 · 19:00机场还车</text><text x="65" y="59" class="km">主线约260公里</text></g>
+
+  <path d="M325 535 C165 545 135 615 170 690" fill="none" stroke="#285d72" stroke-width="8" stroke-dasharray="16 12" marker-end="url(#arrow)"/>
+  <rect x="52" y="704" width="350" height="116" rx="20" fill="#edf6f8" stroke="#285d72" stroke-width="2"/>
+  <text x="82" y="743" class="optional">D3 可选支线 · 雁门关</text>
+  <text x="82" y="777" class="small">仅13:40前离开木塔、天气与体力均良好</text>
+  <text x="82" y="806" class="small">选择雁门关即取消代州古城</text>
+
+  <g filter="url(#shadow)">
+    <rect x="75" y="1325" width="540" height="105" rx="22" fill="#fffdf8" stroke="#d5b98e"/>
+    <text x="105" y="1366" class="label">D9 · 返程</text>
+    <text x="105" y="1407" class="place">运城 → 广州 → 东莞</text>
+  </g>
+  <text x="1120" y="1460" text-anchor="end" class="small">最终执行版 · 2026-08-14 · 实际路况以高德导航为准</text>
+</svg>

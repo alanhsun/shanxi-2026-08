@@ -24,6 +24,9 @@ routes:
     title: D2 云冈石窟与大同古城
     summary: 打车约50公里 · 自驾25公里 · 19:00取车
     note: 约10:00打车至云冈，下午单向串联华严寺—善化寺；在善化寺至取车点的顺向线上晚餐，19:00取车回酒店。
+    reference_image: media/d2-route-reference-20260814.png
+    reference_alt: 大同酒店经云冈石窟华严寺善化寺取车再回酒店的D2路线图
+    reference_caption: 用户提供的D2方向示意图；实际上下车点、步行距离和19:00取车入口以当天导航及门店指引为准。
     stops:
       - {label: 尚客优精选吾悦广场店, detail: "09:55打车出发", url: "https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同"}
       - {label: 云冈石窟, detail: "11:05入园；5、6、20窟优先，排队跳看", url: "https://uri.amap.com/search?keyword=云冈石窟游客中心&city=大同"}
@@ -37,29 +40,31 @@ routes:
   - day_id: day-03
     title: D3 悬空寺—应县木塔—代县（雁门关可选）
     summary: 主线280公里/4小时50分 · 加游320公里/5小时40分
-    note: 轻松主线在应县木塔后步行补看净土寺，再去代县酒店休息并视体力短看代州古城；仅在13:40前出发、天气稳定且全员体力良好时改走雁门关。
-    reference_image: media/d3-hengshan-yingxian-yanmen-route.png
+    note: 轻松主线在应县木塔后直接去代县酒店长休，傍晚体力允许才短看代州古城；仅在13:40前出发、天气稳定且全员体力良好时改走雁门关。
+    reference_image: media/d3-route-reference-20260814.png
     reference_alt: 大同经悬空寺应县木塔雁门关到代县的路线图
-    reference_caption: 用户提供的方向示意图；图中雁门关现为可选支线，轻松主线在应县木塔后步行补看净土寺，再前往代县。
+    reference_caption: 用户提供的D3方向示意图；图中的净土寺是已取消的旧标注，不执行。轻松主线从应县木塔直接前往代县酒店，雁门关仅为现场可选支线。
     stops:
       - {label: 尚客优精选吾悦广场店, detail: "06:15装车出发", url: "https://uri.amap.com/search?keyword=尚客优精选山西大同云冈区吾悦广场店&city=大同"}
       - {label: 恒山游客中心, detail: "08:15到；换官方景交看悬空寺", url: "https://uri.amap.com/search?keyword=恒山景区游客中心&city=大同"}
       - {label: 应县木塔西停车场, detail: "约65公里 / 1小时20分；午餐后看外观与首层", url: "https://uri.amap.com/search?keyword=应县木塔西停车场&city=朔州"}
-      - {label: 应县净土寺, detail: "轻松主线13:50–14:30；木塔步行约0.8公里", url: "https://uri.amap.com/search?keyword=应县净土寺&city=朔州"}
-      - {label: 代县鑫五鑫精品酒店, detail: "轻松主线16:00到；加游约17:55到", url: "https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州"}
+      - {label: 代县鑫五鑫精品酒店, detail: "主线15:10到；加游约17:55到", url: "https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州"}
       - {label: 代州古城边靖楼, detail: "轻松主线休息后选做；单程≤10分钟才去", url: "https://uri.amap.com/search?keyword=代州古城边靖楼&city=忻州"}
-    segments: ["自驾 · 120公里 · 2小时", "自驾 · 65公里 · 1小时20分", "步行 · 0.8公里 · 10分", "主线自驾 · 95公里 · 1小时30分", "步行/短途车 · 以当天导航为准"]
+    segments: ["自驾 · 120公里 · 2小时", "自驾 · 65公里 · 1小时20分", "主线自驾 · 95公里 · 1小时30分", "步行/短途车 · 以当天导航为准"]
     branches:
       - after_stop: 3
         title: 13:40 应县木塔现场二选一
         options:
-          - {label: 轻松主线｜净土寺—代县, detail: "步行0.8公里＋净土寺40分＋自驾95公里/1小时30分；休息后短看代州古城"}
-          - {label: 可选｜雁门关北门, detail: "取消净土寺、代州古城；90公里 / 1小时30分＋核心游1小时45分＋至酒店45公里 / 50分", optional: true, url: "https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州"}
+          - {label: 轻松主线｜直达代县, detail: "自驾95公里/1小时30分；到店长休，体力允许再短看代州古城"}
+          - {label: 可选｜雁门关北门, detail: "取消代州古城；90公里 / 1小时30分＋核心游1小时45分＋至酒店45公里 / 50分", optional: true, url: "https://uri.amap.com/search?keyword=雁门关景区北门&city=忻州"}
 
   - day_id: day-04
     title: D4 代县—五台山北门—核心寺院群
     summary: 自驾约165公里/4小时 · 核心三寺慢游
     note: 从代县向北门主线进山；有车约按官方允许路线进入，无车约停指定停车场换免费公交；西门仅在官方当天指引要求时启用，午后只走三座核心寺院。
+    reference_image: media/d4-route-reference-20260814.png
+    reference_alt: 代县经五台山北门至台怀核心寺院群和民宿的D4路线图
+    reference_caption: 用户提供的D4方向示意图；车辆能否进入核心区以五台山当天预约和入口管制为准。
     stops:
       - {label: 代县鑫五鑫精品酒店, detail: "07:15出发", url: "https://uri.amap.com/search?keyword=代县鑫五鑫精品酒店&city=忻州"}
       - {label: 五台山风景区北门, detail: "09:45到；人车核验或停车换乘", url: "https://uri.amap.com/search?keyword=五台山风景区北门&city=忻州"}
@@ -73,6 +78,9 @@ routes:
     title: D5 五台山休整—太原晋祠公园
     summary: 自驾约180公里/4小时30分 · 至少一次快充
     note: 早餐后休整、午餐，随后直接南下太原；途中按电量安排快充。
+    reference_image: media/d5-route-reference-20260814.png
+    reference_alt: 五台山民宿经台怀镇南下太原晋祠酒店的D5路线图
+    reference_caption: 用户提供的D5方向示意图；快充站以日产N7实时电量、占用情况和当天导航为准。
     stops:
       - {label: 知见山行民宿, detail: "早餐、整理行李", url: "https://uri.amap.com/search?keyword=知见山行民宿五台山风景区店&city=忻州"}
       - {label: 台怀镇, detail: "10:45午餐；11:45离山", url: "https://uri.amap.com/search?keyword=台怀镇&city=忻州"}
@@ -84,6 +92,9 @@ routes:
     title: D6 晋祠—双林寺—平遥夜游
     summary: 自驾约145公里/3小时15分 · 古城外停车
     note: 上午走晋祠核心古建线；出园向南约4公里午餐，之后经双林寺南下平遥，车辆停古城外。
+    reference_image: media/d6-route-reference-20260814.png
+    reference_alt: 太原晋祠经双林寺到平遥古城客栈的D6路线图
+    reference_caption: 用户提供的D6方向示意图；平遥车辆停城外，最终停车点及行李车入口以客栈当天通知为准。
     stops:
       - {label: 颐兰酒店, detail: "08:40出发", url: "https://uri.amap.com/search?keyword=颐兰酒店太原晋祠公园向曦门店&city=太原"}
       - {label: 晋祠博物馆, detail: "08:50–11:10核心古建线；入口拥挤即压缩", url: "https://uri.amap.com/search?keyword=晋祠博物馆&city=太原"}
@@ -98,6 +109,9 @@ routes:
     title: D7 平遥早游—王家大院—陕西壶口
     summary: 自驾约370公里/6小时45分 · 至少一次快充
     note: 平遥清晨完成核心线；09:50取车后一路向南到宜川壶口，不先绕山西侧。
+    reference_image: media/d7-route-reference-20260814.png
+    reference_alt: 平遥古城经王家大院南下陕西壶口酒店的D7路线图
+    reference_caption: 用户提供的D7方向示意图；长途段按实时导航选择高速与顺向快充，不先绕山西壶口侧。
     stops:
       - {label: 在别处度假客栈, detail: "古城内步行早游", url: "https://uri.amap.com/search?keyword=平遥在别处度假客栈明清街县衙店&city=晋中"}
       - {label: 县衙—城墙短段—出城, detail: "07:35–09:15；不增加日升昌", url: "https://uri.amap.com/search?keyword=平遥古县衙&city=晋中"}
@@ -109,7 +123,10 @@ routes:
   - day_id: day-08
     title: D8 陕西壶口—可选山西侧—运城机场
     summary: 主线约260公里 · 加游总约275–290公里 · 19:00还车
-    note: 陕西侧为主游；09:35门槛满足才跨河加游山西侧，最晚11:20离场；先入住晚餐，再于19:00还车。
+    note: 陕西侧为主游；09:35门槛满足才跨河加游山西侧，最晚11:20离场；正常到达后先入住晚餐再于19:00还车，只有14:30前抵达且状态良好才短游舜帝陵。
+    reference_image: media/d8-route-reference-20260814.png
+    reference_alt: 陕西壶口经可选山西侧前往运城机场酒店和还车点的D8路线图
+    reference_caption: 用户提供的D8主线路线图；图中未绘制的舜帝陵只在14:30前抵达运城、未游山西侧且不影响19:00还车时选做。
     stops:
       - {label: 酸枣树酒店, detail: "07:20退房带行李出发", url: "https://uri.amap.com/search?keyword=酸枣树酒店壶口瀑布店&city=延安"}
       - {label: 陕西游客中心, detail: "步行约200米；换官方景交", url: "https://uri.amap.com/search?keyword=陕西黄河壶口瀑布游客中心&city=延安"}
@@ -124,6 +141,11 @@ routes:
         options:
           - {label: 主线｜直接去运城机场, detail: "取消跨河；午餐与充电更从容"}
           - {label: 可选｜山西壶口核心视角, detail: "跨河约15公里 / 30分；11:20硬离场后直达运城", optional: true, url: "https://uri.amap.com/search?keyword=黄河壶口瀑布山西侧游客中心&city=临汾"}
+      - after_stop: 4
+        title: 14:30 运城到达时间门槛
+        options:
+          - {label: 主线｜酒店休息、晚餐、还车, detail: "14:30后到达或任何一人疲劳均执行；不再增加景点"}
+          - {label: 可选｜舜帝陵核心短游, detail: "仅未游山西侧且14:30前到达；约60分钟，16:20前离开", optional: true, url: "https://uri.amap.com/search?keyword=舜帝陵&city=运城"}
 
   - day_id: day-09
     title: D9 运城—广州—东莞
